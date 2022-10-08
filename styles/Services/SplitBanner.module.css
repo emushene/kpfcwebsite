@@ -1,0 +1,64 @@
+/* Create a flex container */
+.hero {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  flex-flow: row nowrap; /* make the two divs side by side */
+  font-size: 1em;
+  color: white;
+    position: relative;
+  margin-top: 5px;
+  margin-bottom: 45px;
+}
+
+/* apply basic styles to the divs */
+.hero div {
+  display: flex;
+  position: relative;
+  padding: 50px;
+}
+
+.hero_1 {
+  background-color: #f57200;
+  width: 70%;
+  padding: 0%;
+  
+}
+.hero_2 {
+  background-color: rgb(6, 6, 114);
+  width: 30%;
+  
+}
+.hero_2 h2 {
+    color: #f57200;
+    cursor: pointer;
+}
+/* + 100px for :after and :before to fit
+ + 10px for the space we really want to see between diagonal */
+.hero div:first-child {
+  margin-right: 10px;
+}
+
+.hero_1:after,
+.hero_2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  background-color: o#f57200;
+  
+}
+
+/* Add a triangle at the end and starts of both divs to simulate diagonal */
+.hero_1:after {
+  left: 100%;
+  border-top: 100px solid #f57200;
+  border-right: 100px solid transparent;
+}
+.hero_2:before {
+  right: 100%;
+  border-bottom: 100px solid rgb(25, 5, 117);
+  border-left: 100px solid transparent;
+  
+}

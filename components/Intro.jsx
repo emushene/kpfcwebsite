@@ -12,22 +12,9 @@ const Intro = () => {
     <div >
       <div className={styles.container}>
         <Corousel />
-      {/* <Carousel infiniteLoop autoPlay showThumbs={false} showStatus={false}>
-        <div className={styles.carouselDiv}>
-          <img src="/Images/construction.JPG" />
-          <p className="legend"> Lagend 1</p>
          </div>
-        <div>
-          <img src="/Images/_DSC1169.JPG" />
-          <p className="legend"> Lagend 1</p>
-        </div>
-        <div>
-          <img src="Images/_DSC1240.JPG" />
-          <p className="legend"> Lagend 1</p>
-        </div>
-       </Carousel> */}
-       </div>
        <div className={styles.reachOut}>
+        
         <div className={styles.salesTeam}> <h2>Want To reach our Sales Team Today?</h2> </div>
         <div className={styles.appointment}> <h2>Book Appointment </h2></div>
        </div>

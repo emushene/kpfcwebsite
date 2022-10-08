@@ -1,4 +1,6 @@
 import Head from "next/head"
+import Carousel from "../components/Investiment/Carousel";
+
 const Investiment = () => {
     return (
 
@@ -8,7 +10,9 @@ const Investiment = () => {
         <meta name="description" content="Shop best cheapest quality Hardware plumbing kenya" />
       
       </Head>
-            This Investiment page
+        <Carousel />
+         
+
         </div>
     )
 }

@@ -1,0 +1,5 @@
+.mainContainer {
+
+    border: 3px solid rgb(240, 163, 163);
+    height: calc(100vh - 150px);
+}

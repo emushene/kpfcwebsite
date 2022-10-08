@@ -1,0 +1,13 @@
+.posts {
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.postsContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}

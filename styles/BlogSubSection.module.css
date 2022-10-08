@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+  background-color: rgba(29, 14, 247, 0.8);
+}
+
+.textDiv {
+  margin-left: 40px;
+  flex: 4;
+}
+.textDiv h3 {
+  color: orange;
+  padding: 20px;
+}
+
+.textDiv p {
+  color: white;
+}
+
+.divButton {
+  margin-right: 40px;
+  flex: 2;
+  align-items: center;
+  padding-left: 80px;
+}

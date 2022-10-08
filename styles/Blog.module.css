@@ -1,0 +1,12 @@
+.single {
+    display: flex;
+    flex-direction: row;
+}
+
+.login{
+    flex: 9;
+    width: 80%;
+}
+.sidebar{
+    flex:2;
+}

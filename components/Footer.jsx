@@ -1,27 +1,25 @@
 import styles from "../styles/Footer.module.css";
 import Link from "next/link";
-import Image from "next/image";
+
 import * as React from "react";
 import { LocationOn, PhoneCallback, ContactMail } from "@mui/icons-material";
-import { color } from "@mui/system";
+
 
 const Footer = () => {
   return (
     <>
       <div className={styles.inviteBar}>
         <div className={styles.viewShop}>
-          {" "}
           <h2>VIEW SHOP</h2>
         </div>
         <div className={styles.bookAppointment}>
-          {" "}
           <h2>BOOK AN APPOINTMENT</h2>
         </div>
       </div>
       <div className={styles.container}>
         <div className={styles.bottomFour}>
           <div className={styles.officeContact}>
-            <div style={{ color: "#f57200"  }}>
+            <div style={{ color: "#f57200" }}>
               <h5> OFFICE CONTACT</h5>
             </div>
 
@@ -57,18 +55,33 @@ const Footer = () => {
               <div style={{ color: "#f57200" }}>
                 <h5>SERVICES AREA</h5>
               </div>
-              <p><br /><br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                debitis dignissimos. Tempore, voluptas. Corporis, consectetur
-                quod ab recusandae eius quasi numquam debitis temporibus
-                voluptatum perspiciatis aliquam in maxime delectus incidunt?
-              </p>
+              <ul className={styles.list}>
+                <li className={styles.listItem}>
+                  <Link href={"/"}>Project Management</Link>
+                </li>
+                <li className={styles.listItem}>
+                  <Link href={"/About"}>Fitting & Refublishing</Link>
+                </li>
+                <li className={styles.listItem}>
+                  <Link href={"/Services"}>Architectual Design</Link>
+                </li>
+                <li className={styles.listItem}>
+                  <Link href={"/Blog"}>Tailor Made Delivery</Link>
+                </li>
+                <li className={styles.listItem}>
+                  <Link href={"/Investiment"}>Consultancy Services</Link>
+                </li>
+                <li className={styles.listItem}>
+                  <Link href={"/Contactus"}> Tools and Equipment Hire</Link>
+                </li>
+              </ul>
             </div>
           </div>
           <div className={styles.usefulPages}>
             <div style={{ color: "#f57200" }}>
               <h5>USEFUL PAGES </h5>
-            </div><br />
+            </div>
+            <br />
             <div>
               <ul className={styles.list}>
                 <li className={styles.listItem}>
@@ -81,7 +94,7 @@ const Footer = () => {
                   <Link href={"/Services"}>Services</Link>
                 </li>
                 <li className={styles.listItem}>
-                  <Link href={"/Shop"}>Shop</Link>
+                  <Link href={"/Blog"}>Blog</Link>
                 </li>
                 <li className={styles.listItem}>
                   <Link href={"/Investiment"}>Investiment</Link>
@@ -95,7 +108,8 @@ const Footer = () => {
           <div className={styles.newsLetter}>
             <div style={{ color: "#f57200" }}>
               <h5>NEWS LETTERS</h5>
-            </div> <br />
+            </div>{" "}
+            <br />
             <div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -138,7 +152,7 @@ const Footer = () => {
         <div className={styles.allRights}>
           <div>
             All Rights Reserved
-            <allRights />
+          
           </div>
           <div>Designed By</div>
         </div>

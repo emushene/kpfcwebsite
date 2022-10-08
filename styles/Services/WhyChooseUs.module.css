@@ -1,0 +1,120 @@
+.container{
+  
+    height: 48vh;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container h2 {
+    margin-top: 5px;
+   
+    
+}
+.topContainer{
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    
+}
+.topContainer h2{
+ 
+   text-align: center;
+   color: rgb(6, 6, 134);
+   
+
+     
+}
+.topContainer img{
+    position: absolute;
+    height: 450px;
+    left: 40%;
+   
+    z-index:-1;
+}
+
+.centerLeftDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 35%;
+    
+
+}
+
+.centerLeftDiv h4{
+    color: rgb(6, 6, 134);
+}
+.centerLeft1{
+    display: flex;
+    flex-direction: row;
+ 
+    gap: 10px;
+    
+}   
+.centerLeft2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+}  
+.centerLeft3{
+    display: flex;
+    flex-direction: row;
+  
+    gap: 10px;
+}  
+
+.centerLeftBox{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    padding: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.centerLeftText{}
+
+
+
+
+.centerRightDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 35%;
+
+}
+.centerRightDiv p {
+    color: rgb(70, 70, 129);
+}
+.centerRightDiv h4 {
+    color: rgb(6, 6, 134);
+}
+
+.centerLeftDiv p {
+    color: rgb(70, 70, 129);
+}
+.centerRight1{
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+.centerRight2{
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+.centerRight3{
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+.centerRightBox{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.centerRightText{}

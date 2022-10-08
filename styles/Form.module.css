@@ -1,0 +1,92 @@
+
+  .container {
+  
+   
+   display: flex;
+   background-color: rgb(6, 6, 110);
+   color: rgb(245, 162, 9);
+ 
+
+  }
+  
+ 
+  
+  .flexOuter,
+  .flexInner {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .flexOuter {
+   gap: 1px;
+   margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+    
+  }
+  
+  .flexOuter li,
+  .flexInner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+  }
+  
+  .flexInner {
+    padding: 0 8px;
+    justify-content: space-between;  
+  }
+  
+  .flexOuter > li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .flexOuter li label,
+  .flexOuter li p {
+    padding: 2px;
+    font-weight: 100px;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+  }
+  
+  .flexOuter > li > label,
+  .flexOuter li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+  }
+  
+  .flexOuter > li > label + *,
+  .flexInner {
+    flex: 1 0 220px;
+  }
+  
+  .flex-outer li p {
+    margin: 0;
+  }
+  
+  .flexOuter li input:not([type='checkbox']),
+  .flexOuter li textarea {
+    padding: 15px;
+    border: none;
+  }
+  
+  .flexOuter li button {
+    margin-left: auto;
+    padding: 4px 16px;
+    border: none;
+    background: rgb(255, 175, 2);
+    color: #150669;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 20px;
+    font-size: bold;
+  }
+  
+  .flexInner li {
+    width: 100px;
+  }
+
+  .requestQuote  {
+    margin: 0 28%;
+  }

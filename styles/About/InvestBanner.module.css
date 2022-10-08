@@ -1,0 +1,28 @@
+.mainContainer {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #f57200;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.textDiv{
+    padding: 20px;
+    align-items: stretch;
+    position: relative;
+}
+.textDiv h1 {color: rgb(7, 7, 161); font-size: 40px;}
+.buttonDiv{
+    align-items: flex-end;
+    justify-content: flex-end;
+    left: 98%;
+    top: 50%;
+    position: absolute;
+}
+.textDiv p{color: rgba(9, 9, 187, 0.973); text-align: center;}
+.textDiv h5{color: rgba(9, 9, 187, 0.973);text-align: center;}

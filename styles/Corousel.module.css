@@ -9,10 +9,10 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100vh;
+    height: calc(70vh - 150px);
 }
 .fade-carousel .carousel-inner .item {
-    height: 100vh;
+    height: calc(70vh - 150px);
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -120,7 +120,57 @@ Image credits: unsplash.com
 /********************************/
 @media screen and (min-width: 980px){
     .hero { width: 980px; }    
+
 }
+
+/*  640 */
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+  .hero { width: 200px; 
+    height: 100px;
+    
+    }
+    .hero h1 { font-size: 2em; } 
+
+    .fade-carousel .slides .slide-1, 
+    .fade-carousel .slides .slide-2,
+    .fade-carousel .slides .slide-3 {
+      height: 10vh;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
 }
+
+/* 480 */
+
+@media screen and (max-width: 480px){
+
+  .hero h1 { font-size: 1em; }   
+  .fade-carousel .slides .slide-1, 
+  .fade-carousel .slides .slide-2,
+  .fade-carousel .slides .slide-3 {
+    height: 10vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  
+  .hero { width: 120px; 
+    height: 30px;
+    
+    }
+}
+
+
+
+
+
+      
+
+
+    
+ 
+
+

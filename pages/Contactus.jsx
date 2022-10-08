@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Contact from "../components/Contact/Contact"
 const Contactus = () => {
     return (
 
@@ -8,7 +9,7 @@ const Contactus = () => {
         <meta name="description" content="Contact best cheapest quality Hardware plumbing kenya" />
       
       </Head>
-            This Contact US
+         <Contact />
         </div>
     )
 }

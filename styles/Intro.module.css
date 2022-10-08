@@ -5,9 +5,16 @@
   width: calc(50% - 30px);
   color: white;
   align-items: center;
-  justify-content: center;
+  padding: 30px;
   cursor: pointer;
 }
+.appointment h2{
+  font-size: 24px;
+}
+.salesTeam h2{
+  font-size: 24px;
+}
+
 .salesTeam {
   min-height: 100px;
   background: #f57200;
@@ -15,7 +22,7 @@
   width: calc(50% - 30px);
   color: white;
   align-items: center;
-  justify-content: center;
+  padding: 30px;
   cursor: pointer;
 }
 .salesTeam {
@@ -47,7 +54,45 @@
 
 
 
+@media screen and (max-width: 980px){
+  .container{ width: 980px; }    
 
+}
+
+@media screen and (min-width: 900px){
+  .container{ width: 100%; }    
+
+}
+/*  640 */
+@media screen and (max-width: 640px){
+.container { width: auto; 
+  height: calc(10vh - 150px);
+ 
+  
+  }
+  .reachOut {
+    margin-top: 680px;
+  }
+  
+}
+
+/* 480 */
+
+@media screen and (max-width: 480px){
+
+  .container { width:auto; 
+    height:calc(100vh - 150px);
+    margin-top: 150px;
+    
+    
+    }
+
+    .reachOut {
+      margin-top: 680px;
+    }
+
+
+}
 
 
 

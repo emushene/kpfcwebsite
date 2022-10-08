@@ -11,7 +11,7 @@
   display: flex;
   height: 50px;
   width: 95%;
-  background-color: rgba(29, 14, 247, 0.8);
+  background-color: #399999;
   align-items: center;
   justify-content: space-around;
   font-size: 16px;
@@ -28,7 +28,7 @@
   margin-right: 30px;
   font-size: 16px;
   font-weight: bold;
-  color: #f57200;
+  color: #fcf9f9;
   cursor: pointer;
 }
 
@@ -41,24 +41,24 @@
 }
 
 .searchTerm {
-  border: 3px solid #00b4cc;
+  border: 3px solid #2704f0;
   border-right: none;
   padding: 5px;
   height: 36px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9dbfaf;
+  color: #83b9a0;
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: black;
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00b4cc;
-  background: #00b4cc;
+  border: 2px solid #043df7;
+  background: #040c80;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;

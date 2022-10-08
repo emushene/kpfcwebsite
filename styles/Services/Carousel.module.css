@@ -1,0 +1,9 @@
+.mainContainer {
+
+    border: 3px solid rgb(243, 151, 151);
+    height: calc(80vh - 150px);
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,118 @@
+.sidebarContainer {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 20px;
+    background-color: #f0d3ad;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round';
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+.sidebarContainer img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.sidebarContainer p {
+    align-items: center;
+    padding: 15px;
+}
+
+.sidebarList {
+    list-style: none;
+    cursor: pointer;
+    gap: 35px;
+}
+.sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.socialContainer {
+    margin: 10px 0;
+ display: flex;
+ gap: 5px;
+ 
+}
+
+.twitter {
+    color: rgba(18, 180, 230, 0.733);
+    align-items: center;
+padding: 2px;
+display: flex;
+flex-direction: column;
+cursor: pointer;
+}
+
+.facebook {
+    color: rgb(14, 102, 235);
+  align-items: center;
+padding: 2px;
+display: flex;
+flex-direction: column;
+cursor: pointer;
+    
+}
+.instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%,
+     #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%,
+      #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%,
+       #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%,
+        #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0,
+         #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, 
+         #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%,
+          #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%,
+           #f77638 70%, #fec66d 100%);
+
+           align-items: center;
+           padding: 2px;
+           display: flex;
+           flex-direction: column;
+           cursor: pointer;
+
+}
+
+.internal {
+   margin: 10px 0;
+   display: flex;
+   list-style: none;
+   width: 100%;
+   padding-left: 20px;
+  
+  
+}
+.internal ul {
+    display: flex;
+   flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 3px;
+    color: #5258cf;
+  
+}
+
+.internal li {
+    list-style-type: none;
+  
+}

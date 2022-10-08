@@ -1,35 +1,79 @@
 import styles from "../styles/ProductCategory.module.css";
-import * as React from 'react';
-import Button from '@mui/material/Button';
-
+import * as React from "react";
+import Button from "@mui/material/Button";
+import Invest from "./Invest";
+import BlogSubSection from "./BlogSubSection";
 
 const ProductCategory = () => {
   return (
     <div>
       <div>
+      <div className={styles.productsHeader}><h2> PRODUCTS BY CATEGOR</h2></div>
         <div className={styles.containerProducts}>
+       
           <div className={styles.categoryFlex}>
+          <h2 style={{color: 'blue'}}> PRODUCTS BY CATEGORY </h2>
             <div className={styles.plumbing}></div>
             <div>
-              <span className={styles.categorySpan}>PLUMBING</span>
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+                  backgroundColor: "transparent",
+                  textTransform: "none",
+                  padding: "14px 30px",
+                }}
+              >
+                PLUMBING
+              </Button>
             </div>
           </div>
           <div className={styles.categoryFlex}>
             <div className={styles.wood}></div>
             <div>
-              <span className={styles.categorySpan}>WOOD</span>{" "}
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+                  backgroundColor: "transparent",
+                  textTransform: "none",
+                  padding: "14px 30px",
+                }}
+              >
+                WOOD
+              </Button>
             </div>
           </div>
           <div className={styles.categoryFlex}>
             <div className={styles.paints}></div>
             <div>
-              <span className={styles.categorySpan}>PAINTS</span>{" "}
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+                  backgroundColor: "transparent",
+                  textTransform: "none",
+                  padding: "14px 30px",
+                }}
+              >
+                PAINTS
+              </Button>
             </div>
           </div>
           <div className={styles.categoryFlex}>
             <div className={styles.general}></div>
             <div>
-              <span className={styles.categorySpan}>GENERAL HARDWARE</span>{" "}
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+                  backgroundColor: "transparent",
+                  textTransform: "none",
+                  padding: "14px 30px",
+                }}
+              >
+                GENERAL HARDWARE
+              </Button>
             </div>
           </div>
         </div>
@@ -42,11 +86,7 @@ const ProductCategory = () => {
         <div className={styles.adverts}>
           <h1>Get Quality Plumbing Materials</h1>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, est
-            incidunt, hic soluta perferendis ipsum omnis expedita maiores
-            doloribus placeat esse repudiandae cum,
-          </p>
+          
         </div>
         <div classname={styles.pictures}>
           <a href="#">
@@ -95,24 +135,33 @@ const ProductCategory = () => {
       </div>
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
-        Free estimates are provided for work that 
-        would be more involved than a service call.
-
-        <h3> Remodeling, Replacing water <br />
-        or sever lines, Repracing Fixtures, etc.
-        </h3>
+          Free estimates are provided for work that would be more involved than
+          a service call.
+          <h3>
+            {" "}
+            Remodeling, Replacing water <br />
+            or sever lines, Repracing Fixtures, etc.
+          </h3>
         </div>
         <div className={styles.ourServicesButton}>
-
-
- <Button variant="contained">OUR SERVICES</Button>
-
-
-  
-         
+          <Button
+            variant="contained"
+            style={{
+              borderRadius: "45%",
+              color: "orange",
+              backgroundColor: " rgba(10, 3, 121, 0.8)",
+              textTransform: "none",
+              padding: "14px 30px",
+              boxShadow:
+                "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+            }}
+          >
+            OUR SERVICES
+          </Button>
         </div>
-
       </div>
+      <Invest />
+      <BlogSubSection />
     </div>
   );
 };
