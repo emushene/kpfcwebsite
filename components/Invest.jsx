@@ -6,16 +6,17 @@ import { color } from "@mui/system";
 const Invest = () => {
   return (
     <div className={styles.container}>
+      <img src="/images/invest.png"></img>
       <div>
         <div className={styles.leftDiv}>
-          <h1 style={{ textAlign: "center", color: "blue", fontWeight: "600" }}>
-            {" "}
+          <h1 className={styles.topHeading}>
+            
             INVEST NA KPFC <br />
           </h1>
-          <h1 style={{ textAlign: "center", color: "orange" }}>
+          <h1 className={styles.midHeading}>
             BUILDERS <br />
           </h1>
-          <h1 style={{ textAlign: "center", color: "blue" }}>HARDWARE</h1>
+          <h1 className={styles.topHeading} >HARDWARE</h1>
           <div className={styles.leftInnerDiv}>
             <div>
               <h1>40+</h1>
@@ -42,10 +43,12 @@ const Invest = () => {
 
               textTransform: "none",
               padding: "14px 10px",
+              width:"180px",
+              borderRadius:"40px",
             }}
           >
             {" "}
-            Learn More
+           <a href="/Investiment">Learn More</a> 
           </Button>
         </div>
       </div>
@@ -55,8 +58,7 @@ const Invest = () => {
             <p>
               powered by: <br />
             </p>
-            <h6 style={{ color: "blue" }}>
-              {" "}
+            <h6 >
               KPIPES & Fittings <br />
               Center LTD
             </h6>

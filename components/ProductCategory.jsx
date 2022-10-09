@@ -3,16 +3,28 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
+import Simple from "./Shop/Simple";
+
 
 const ProductCategory = () => {
   return (
     <div>
-      <div>
-      <div className={styles.productsHeader}><h2> PRODUCTS BY CATEGOR</h2></div>
+      <div className={styles.fullContainer}>
+        <div className={styles.productsHeader}>
+          <h2> PRODUCTS BY CATEGORY</h2>
+                  
+        </div>
+        <div className={styles.categoryCorousel}>
+          <Simple />
+          </div>
         <div className={styles.containerProducts}>
-       
+
+        
+
+          {/* <div className={styles.arrowDivLeft}>
+            <img src="./Images/rightArrow.png" alt="" />
+          </div>
           <div className={styles.categoryFlex}>
-          <h2 style={{color: 'blue'}}> PRODUCTS BY CATEGORY </h2>
             <div className={styles.plumbing}></div>
             <div>
               <Button
@@ -76,19 +88,58 @@ const ProductCategory = () => {
               </Button>
             </div>
           </div>
-        </div>
-        <div></div>
+          <div className={styles.categoryFlex}>
+            <div className={styles.general1}></div>
+            <div>
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+                  backgroundColor: "transparent",
+                  textTransform: "none",
+                  padding: "14px 30px",
+                }}
+              >
+                GENERAL HARDWARE
+              </Button>
+            </div>
+          </div>
+          <div className={styles.categoryFlex}>
+            <div className={styles.general2}></div>
+            <div>
+              <Button
+                variant="contained"
+                style={{
+                  color: "orange",
+
+                  backgroundColor: "white",
+                  border: "none",
+                }}
+              >
+                GENERAL HARDWARE
+              </Button>
+            </div>
+          </div>
+        </div> */}
+        {/* <div className={styles.arrowDivRight}>
+          <img src="./Images/leftArrow.png" alt="" />*/}
+        </div> 
       </div>
       <div className={styles.container}>
         <div className={styles.popularHeading}>
           <h1>MOST POPULAR PRODUCTS </h1>
+          <div className={styles.mostDivLeft}>
+            <img src="./Images/leftArrow.png" alt="" />
+          </div>
+          <div className={styles.mostDivRight}>
+            <img src="./Images/rightArrow.png" alt="" />
+          </div>
         </div>
         <div className={styles.adverts}>
           <h1>Get Quality Plumbing Materials</h1>
-
-          
+          <button className={styles.advertButton}>Shop Now</button>
         </div>
-        <div classname={styles.pictures}>
+        <div className={styles.pictures}>
           <a href="#">
             <img
               src="/Images/doors.webp"
@@ -96,10 +147,10 @@ const ProductCategory = () => {
               width="250"
               height="300"
             />
-            <div className={styles.addCard}>Add to Cart</div>
+            <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div classname={styles.pictures}>
+        <div className={styles.pictures}>
           <a href="#">
             <img
               src="/Images/cement.jpg"
@@ -107,10 +158,10 @@ const ProductCategory = () => {
               width="250"
               height="300"
             />
-            <div className={styles.addCard}>Add to Cart</div>
+            <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div classname={styles.pictures}>
+        <div className={styles.pictures}>
           <a href="#">
             <img
               src="/Images/electrical.webp"
@@ -118,10 +169,10 @@ const ProductCategory = () => {
               width="250"
               height="300"
             />
-            <div className={styles.addCard}>Add to Cart</div>
+            <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div classname={styles.pictures}>
+        <div className={styles.pictures}>
           <a href="#">
             <img
               src="/Images/duracoat.png"
@@ -129,14 +180,16 @@ const ProductCategory = () => {
               width="250"
               height="300"
             />
-            <div className={styles.addCard}>Add to Cart</div>
           </a>
+          <button className={styles.addCard}>Add to Cart</button>
         </div>
       </div>
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
-          Free estimates are provided for work that would be more involved than
-          a service call.
+          <p>
+            Free estimates are provided for work that would be more involved
+            than a service call.
+          </p>
           <h3>
             {" "}
             Remodeling, Replacing water <br />
@@ -147,16 +200,18 @@ const ProductCategory = () => {
           <Button
             variant="contained"
             style={{
-              borderRadius: "45%",
+              borderRadius: "40px",
+              width: "250px",
+              border: "none",
               color: "orange",
-              backgroundColor: " rgba(10, 3, 121, 0.8)",
+              backgroundColor: "rgb(5, 81, 196)",
               textTransform: "none",
               padding: "14px 30px",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
           >
-            OUR SERVICES
+            <a href="/Services">OUR SERVICES</a>
           </Button>
         </div>
       </div>

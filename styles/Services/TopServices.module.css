@@ -12,7 +12,7 @@
 .topDiv h2 {
   font-size: 25px;
   text-align: center;
-  color: blue;
+  color:  rgb(5, 81, 196);
 }
 .topDiv p {
   text-align: center;
@@ -48,7 +48,7 @@
 }
 
 .getQuote {
-  background-color: rgb(6, 6, 146);
+  background-color:  rgb(5, 81, 196);
   width: 65%;
   height: 10%;
   border-radius: 40px;

@@ -24,7 +24,7 @@ const BlogSubSection = () => {
         <Button
           variant="contained"
           style={{
-            color: "orange",
+            color: "rgb(5, 81, 196)",
 
             textTransform: "none",
             padding: "10px 30px",

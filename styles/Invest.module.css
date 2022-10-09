@@ -1,31 +1,67 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,700;1,900&family=Varela+Round&display=swap'); */
+
 .container{
-  background-image: url("../public/Images/invest.jpg");
-  background-size: cover;
    height: auto;
-   width: 100%;
    display: flex;
    border-top:5px;
    gap: 25px;
    padding: 10px;
-   font-weight: bold;
+   font-size: 40px;
+   font-weight: 900px;
+   position: relative;
    
    
+   
+}
+.container img {
+    height: 550px;
+    width: auto;
+    position: absolute;
+    right: 2%;
+    bottom: -15%;
+    z-index: -1;
 }
 
 .leftDiv{
 display: flex;
    flex-direction: column;
-   margin-left: 40px;
+   margin-left: 150px;
    margin-top: 20px;
-   gap: 15px;
+   gap: 2px;
     font-weight: bold;
 }
+.topHeading {
+    color: rgb(5, 81, 196);
+    text-align: center;
+}
 
+.midHeading {
+    color: orange;
+    text-align: center;
+    font-weight:900px;
+    font-size: 100px;
+}
+
+
+.leftDiv h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.leftDiv Button {
+
+    background-color: rgb(5, 81, 196);
+    left: 200px;
+}
 .leftInnerDiv{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: rgb(5, 81, 196);;
     flex: 2;
     gap: 25px;
    
@@ -36,26 +72,39 @@ display: flex;
     display: flex;
     margin-right: 40px;
     flex: 1;
+    position: relative;
 }
 
 .textDiv{
     background-color: orange;
     padding: 15px;
+    text-align: center;
+    color:rgb(5, 81, 196) ;
+    
+    
 }
 
 .rightDivText{
-   margin-left: 75%;
+  
    background-color: orange;
-   padding: 15px;
-   height: 90px;
+   padding: 5px;
+   height: 60px;
    width: 250px;
-   margin-top: 50px;
    text-align:start;
    font-weight: bold;
+   position: absolute;
+   top: 0;
+   right: -15%;
 }
 .rightDivText p {
-    font-size: 10px;
+    font-size: 8px;
+    color: rgb(5, 81, 196);
+
 }
 .rightDivText h6 {
-    font-size: 15px;
+    font-size: 10px;
+    color: rgb(5, 81, 196);
+}
+.rightDivText h6 {
+    font-weight: bold;
 }

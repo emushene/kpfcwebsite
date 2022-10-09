@@ -9,9 +9,9 @@
   padding-top: 100px;
   color: white;
   background: #c04848; /* fallback for old browsers */
-  background: linear-gradient(rgba(10, 3, 121, 0.8), rgba(15, 2, 129, 0.8)),
+  background: linear-gradient(rgba(51, 38, 240, 0.8), rgba(49, 27, 245, 0.8)),
     url('https://thumbs.dreamstime.com/z/workers-construction-site-hard-work-building-along-ngong-road-nairobi-kenya-61385013.jpg'); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgba(2, 25, 100, 0.8), rgba(12, 2, 146, 0.8)),
+  background: linear-gradient(rgba(24, 76, 245, 0.8), rgba(44, 30, 247, 0.8)),
     url('https://thumbs.dreamstime.com/z/workers-construction-site-hard-work-building-along-ngong-road-nairobi-kenya-61385013.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@
   align-self: center;
   padding: 15px;
   text-align: center;
-  color: rgb(4, 4, 133);
+  color: rgb(5, 81, 196);
   font-weight: 100px;
  cursor: pointer;
   
@@ -190,7 +190,7 @@
   color: rgb(78, 78, 78);
   text-shadow: 1px 1px 3px #fff;
   font-weight: bold;
-  box-shadow: inset 0 1px 1px rgba(13, 35, 240, 0.6);
+  box-shadow: inset 0 1px 1px rgba(36, 56, 243, 0.6);
   background-image: linear-gradient(
     #f57200,
     #f57200

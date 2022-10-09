@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {
-  background-color: #f57200;
+  background-color: #f0770e;
   position: relative;
   
 
@@ -11,7 +11,7 @@
   display: flex;
   height: 50px;
   width: 95%;
-  background-color: #399999;
+  background-color:  rgb(5, 81, 196) ;
   align-items: center;
   justify-content: space-around;
   font-size: 16px;
@@ -27,7 +27,7 @@
   display: inline-flex;
   margin-right: 30px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: ;
   color: #fcf9f9;
   cursor: pointer;
 }
@@ -41,7 +41,7 @@
 }
 
 .searchTerm {
-  border: 3px solid #2704f0;
+  border: 3px solid #3f67e9;
   border-right: none;
   padding: 5px;
   height: 36px;
@@ -57,8 +57,8 @@
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 2px solid #043df7;
-  background: #040c80;
+  border: 2px solid #3f67e9;
+  background: #1221ee;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;

@@ -22,7 +22,7 @@
 .topContainer h2{
  
    text-align: center;
-   color: rgb(6, 6, 134);
+   color:  rgb(5, 81, 196);
    
 
      
@@ -45,7 +45,7 @@
 }
 
 .centerLeftDiv h4{
-    color: rgb(6, 6, 134);
+    color:  rgb(5, 81, 196);
 }
 .centerLeft1{
     display: flex;
@@ -87,14 +87,14 @@
 
 }
 .centerRightDiv p {
-    color: rgb(70, 70, 129);
+    color:  rgb(5, 81, 196);
 }
 .centerRightDiv h4 {
-    color: rgb(6, 6, 134);
+    color: rgb rgb(5, 81, 196);
 }
 
 .centerLeftDiv p {
-    color: rgb(70, 70, 129);
+    color:  rgb(5, 81, 196);
 }
 .centerRight1{
     display: flex;

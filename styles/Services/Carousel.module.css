@@ -1,9 +1,37 @@
 .mainContainer {
 
-    border: 3px solid rgb(243, 151, 151);
+   
     height: calc(80vh - 150px);
     text-align: center;
     font-size: 30px;
     align-items: center;
     justify-content: center;
+    background-image: url("../../public/Images/Service\ Page.jpg");
+    object-fit: cover;
+    position: relative;
 }
+
+.mainContainer img {
+    object-fit: cover;
+}
+
+.overlay{
+    position:absolute;
+    width: 100%;
+   height: calc(80vh - 150px);
+    align-items: center;
+    text-align: justify;
+    top: 0px;
+    
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    
+    }
+
+    .overlay h1 {
+        color: orange;
+    }
+
+    .overlay p{
+        color: white;
+    }

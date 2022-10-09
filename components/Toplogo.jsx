@@ -20,7 +20,7 @@ const Toplogo = () => {
           <li className={styles.listItem}>
          <Link href={"/Blog"}>Blog</Link>
           </li>
-          <li className={styles.listItem}>
+          <li className={styles.listItem} style={{display: "none"}}>
           <Link href={"/Investiment"}>Investiment</Link>
           </li>
           <li className={styles.listItem}>

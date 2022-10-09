@@ -3,7 +3,7 @@ const WhyChooseUs = () => {
   return (
     <div className={styles.topContainer}>
          <h2>WHY CHOOSE US</h2>
-         <img src="https://media.gettyimages.com/photos/construction-worker-picture-id171584278?s=612x612" alt="" />
+         <img src="./Images/Staff-Image-1.png" alt="" />
    <div className={styles.container}>
       
      

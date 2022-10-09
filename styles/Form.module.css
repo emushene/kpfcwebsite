@@ -3,8 +3,11 @@
   
    
    display: flex;
-   background-color: rgb(6, 6, 110);
+   background-color: rgb(5, 81, 196);
    color: rgb(245, 162, 9);
+   border-radius: 10px;
+   top: 0%;
+   padding: 10px;
  
 
   }
@@ -76,7 +79,7 @@
     padding: 4px 16px;
     border: none;
     background: rgb(255, 175, 2);
-    color: #150669;
+    color: rgb(5, 81, 196);
     text-transform: uppercase;
     letter-spacing: .09em;
     border-radius: 20px;
