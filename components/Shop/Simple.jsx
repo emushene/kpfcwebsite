@@ -43,7 +43,8 @@ const Simple = ({ deviceType }) => {
             width: "150px",
             cursor:"pointer",
             gap: "3px,", 
-            color: "blue",
+            color: "white",
+            backgroundColor:"blue"
           }}
         >
           <img src="./Images/Plumbing.png" alt="" style={{ height: "120px" }} />{" "}
@@ -67,9 +68,9 @@ const Simple = ({ deviceType }) => {
           <img
             src="./Images/Building_Materials.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "120px",  }}
           />{" "}
-          <h4>Building Materia</h4>
+          <h4>Building <br/>Materia</h4>
         </div>
         <div
           style={{
@@ -91,7 +92,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />{" "}
-          <h4>Garden Equipment</h4>
+          <h4>Garden <br/>Equipment</h4>
         </div>
         <div
           style={{
@@ -113,7 +114,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />{" "}
-         <h4>Hardware Tools</h4> {" "}
+         <h4>Hardware<br/> Tools</h4> {" "}
         </div>
         <div
           style={{
@@ -135,7 +136,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />
-          <h4>Iron Sheets</h4>{" "}
+          <h4>Iron <br/>Sheets</h4>{" "}
         </div>
         <div
           style={{
@@ -157,7 +158,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />
-         <h4>Lighting & Electrical</h4>{" "}
+         <h4>Lighting &<br/> Electrical</h4>{" "}
         </div>
         <div
           style={{
@@ -180,7 +181,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />
-          <h4>Locks & Hinges</h4>{" "}
+          <h4>Locks & <br/>Hinges</h4>{" "}
         </div>
         <div
           style={{
@@ -202,7 +203,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />
-         <h4>MDF Boards</h4> {" "}
+         <h4>MDF<br/> Boards</h4> {" "}
         </div>
         <div
           style={{
@@ -241,7 +242,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "120px" }}
           />{" "}
-         <h4> Water Tanks</h4>
+         <h4> Water <br/>Tanks</h4>
         </div>
 
       </Carousel>
