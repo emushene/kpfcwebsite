@@ -411,6 +411,7 @@
     top: 10%;
     right: 15%;
     left: 90%;
+   
 
 
   }
@@ -420,9 +421,25 @@
     height: 3px;
     background-color: white;
   }
-  .menuItem{
+  .menu{
     position: fixed;
-  }
+    height: calc(50vh - 150px);
+    width: 40vw;
+    background-color: rgb(5, 81, 196);
+    top: 27%;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    z-index: 999;
+    transition: all 1s ease;
+
+  }    
+  
   .navIcons {
    
     display: none;

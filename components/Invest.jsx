@@ -36,6 +36,7 @@ const Invest = () => {
               Deformed Bars, Square Tubes <br></br> & other Building Materials
             </p>
           </div>
+          <div className={styles.textDivButton}>
           <Button
             variant="contained"
             style={{
@@ -45,11 +46,13 @@ const Invest = () => {
               padding: "14px 10px",
               width:"180px",
               borderRadius:"40px",
+              
             }}
           >
             {" "}
            <a href="/Investiment">Learn More</a> 
           </Button>
+          </div>
         </div>
       </div>
       <div className={styles.rightDiv}>
@@ -66,6 +69,28 @@ const Invest = () => {
         </div>
         <div></div>
       </div>
+      <div className={styles.textDivMobile}>
+            <p>
+              Join the KPFC Builders investiment program with <br></br>selected
+              products such as <b />
+              Deformed Bars, Square Tubes <br></br> & other Building Materials
+            </p>
+            <Button
+            variant="contained"
+            style={{
+              color: "orange",
+
+              textTransform: "none",
+              padding: "14px 10px",
+              width:"180px",
+              borderRadius:"40px",
+            }}
+          >
+            {" "}
+           <a href="/Investiment">Learn More</a> 
+          </Button>
+          </div>
+     
     </div>
   );
 };

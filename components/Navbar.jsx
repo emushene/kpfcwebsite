@@ -2,10 +2,15 @@ import styles from "../styles/Navbar.module.css";
 import Toplogo from "./Toplogo";
 import * as React from 'react';
 import Link from "next/link";
+import {useState} from 'react'
 import { Phone, EventRepeatRounded, ContactMail } from "@mui/icons-material";
 
 
 const Navbar = () => {
+
+  const [open, setOpen]  = useState(false)
+
+
   return (
     <nav className={styles.navContainer}>
       <div className={styles.innerContainer}>
@@ -38,11 +43,11 @@ const Navbar = () => {
       </div>
       <Toplogo />
 
-      <div className={styles.hambuger}>
+      <div className={styles.hambuger} onClick={()=>setOpen(!open)}>
         <div className={styles.hamLines}/>
         <div className={styles.hamLines}/>
         <div className={styles.hamLines}/>
-      <ul className={styles.menu}>
+      <ul onClick={()=>setOpen(false)} className={styles.menu} style={{right : open ? "0px" : "-500vw" }}>
       <li className={styles.menuItem}>
          <Link href={"/"}>Home</Link>
           </li>

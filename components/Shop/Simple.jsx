@@ -39,16 +39,16 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
             gap: "3px,", 
             color: "white",
             backgroundColor:"blue"
           }}
         >
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "120px" }} />{" "}
-          <h4> Plumbing</h4>
+          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />{" "}
+          <h6> Plumbing</h6>
         </div>
         <div
           style={{
@@ -57,18 +57,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Building_Materials.png"
             alt=""
-            style={{ height: "120px",  }}
+            style={{ height: "70px",  }}
           />{" "}
           <h4>Building <br/>Materia</h4>
         </div>
@@ -79,18 +81,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Gardening_Tools_Equipment.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />{" "}
           <h4>Garden <br/>Equipment</h4>
         </div>
@@ -101,18 +105,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Hardware_Tools.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />{" "}
          <h4>Hardware<br/> Tools</h4> {" "}
         </div>
@@ -123,18 +129,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Iron_Sheets_Bars.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />
           <h4>Iron <br/>Sheets</h4>{" "}
         </div>
@@ -145,18 +153,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Lighting_Electricals.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />
          <h4>Lighting &<br/> Electrical</h4>{" "}
         </div>
@@ -167,19 +177,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
-            textAlign:"center",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Locks_Hinges.jpg.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />
           <h4>Locks & <br/>Hinges</h4>{" "}
         </div>
@@ -190,37 +201,42 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
+
           }}
         >
           {" "}
           <img
             src="./Images/MDF_Boards.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />
          <h4>MDF<br/> Boards</h4> {" "}
         </div>
         <div
           style={{
-             display: "flex",
+            display: "flex",
             alignItems: "center",
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
+            height: "80px",
+            width: "64px",
             cursor:"pointer",
-            gap: "3px,",
-            color: "blue",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "120px" }} />
+          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />
          <h4>Plumbing</h4> {" "}
         </div>
         <div
@@ -230,17 +246,20 @@ const Simple = ({ deviceType }) => {
             flexDirection: "column",
             borderRadius: "50%",
             boxShadow: `rgba(0, 0, 0, 0.35) 0px 5px 15px`,
-            height: "200px",
-            width: "150px",
-            gap:"3px",
-            color: "blue",
+            height: "80px",
+            width: "64px",
+            cursor:"pointer",
+            gap: "3px,", 
+            color: "white",
+            backgroundColor:"blue",
+            marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
             src="./Images/Water_Tanks.png"
             alt=""
-            style={{ height: "120px" }}
+            style={{ height: "70px" }}
           />{" "}
          <h4> Water <br/>Tanks</h4>
         </div>

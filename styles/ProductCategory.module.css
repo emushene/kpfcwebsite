@@ -4,7 +4,8 @@
 
 
 .containerProducts {
-  display: flex;
+  display: none;
+  /* display: flex;
 
   align-items: center;
   justify-content: center;
@@ -12,17 +13,17 @@
   margin-right: 40px;
   gap: 15px;
   margin-bottom: 20px;
-  position: relative;
+  position: relative; */
 }
 .productsHeader{
 display: flex;
 color: rgb(5, 81, 196);
-margin-left: 35%;
-margin-right: 35%;
 align-items: center;
 justify-content: center;
-
 border-bottom: 1px solid lightgray;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+margin-top: 0px;
 
 
 }
@@ -31,6 +32,7 @@ border-bottom: 1px solid lightgray;
    margin-top: 15px;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 30px;
 }
 
 
@@ -66,16 +68,19 @@ border-bottom: 1px solid lightgray;
 }
 
 .popularHeading {
+ 
   grid-area: 1 / 1 / 2 / 5;
-  color: rgb(5, 81, 196);
+  color:  rgb(5, 81, 196);
   font-size: 18px;
-  font-weight: 100px;
+  font-weight: 400px;
   margin-left: 40px;
   border-top: 1px solid grey;
   display: flex;
   align-items: center;
   gap: 3px;
 }
+
+
 
 .mostDivLeft{
   height: 30px;
@@ -109,8 +114,9 @@ border-bottom: 1px solid lightgray;
   /* color: rgb(252, 134, 0); */
   text-align: center;
   font-weight: 100px;
-  padding-top: 50%;
+  padding-top: 5%;
   position: relative;
+ 
  
 }
 .advertButton{
@@ -143,26 +149,38 @@ border-bottom: 1px solid lightgray;
 
 }
 
-
+.a img {
+  width: 260px;
+  height:300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
 
 .pictures1 {
   grid-area: 2 / 1 / 3 / 2;
   
 }
 
+
+
 .pictures2 {
   grid-area: 2 / 2 / 3 / 3;
   
 }
+
 .pictures3 {
   grid-area: 2 / 3 / 3 / 4;
 
 }
+
 .pictures4 {
   grid-area: 2 / 4 / 3 / 5;
 
 
 }
+
 
 .addCard {
   background-color: rgb(5, 81, 196);
@@ -200,6 +218,9 @@ border-bottom: 1px solid lightgray;
   flex: 2;
 }
 
+.ourServicesButtonMobile{
+  display:none;
+}
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 
@@ -227,5 +248,276 @@ border-bottom: 1px solid lightgray;
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+  .fullContainer {
+    margin-top: -10px;
+    width: 100%;
+  }
+  
+  
+  .containerProducts {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    border-top: 1px solid orange;
+    padding-top: 2px;
+    font-size: 20px;
+    color: rgb(5, 81, 196) ;
+  }
+  .productsHeader{
+  display: flex;
+  color: rgb(5, 81, 196);
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 10px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  
+  
+  }
+
+  .productsHeader h1 {
+    text-align: center;
+  }
+  .categoryCorousel {
+    height: 60px;
+     margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  
+  .categoryFlex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  
+  .mostPolular {
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .container {
+ 
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+     
+  }
+  
+  .popularHeading {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* grid-area: 1 / 1 / 2 / 5;
+    color: rgb(5, 81, 196);
+    font-size: 18px;
+    font-weight: 100px;
+    margin-left: 40px;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    gap: 50px; */
+  }
+  
+  .mostDivLeft{
+   display: none;
+   
+  
+  }
+  .mostDivLeft img{
+    display: none;
+  }
+  .mostDivRight{
+  display: none;
+  }
+  
+  .mostDivRight img {
+   display: none;
+    
+  }
+  
+  .adverts {
+    grid-area: 1 / 1 / 2 / 3;
+    background: url('./../public/Images/quality.webp');
+    background-size: contain;
+    border-radius: 5px;
+    color: white;
+    /* color: rgb(252, 134, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 100px;
+    padding-top: 0%;
+    position: relative;
+    height: 300px;
+    width: 250px;
+    content: "MOST POPULAR PRODUCTS";
+   
+  }
+  .advertButton{
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(5, 81, 196);
+    border: none;
+    color: orange;
+    padding: 10px;
+    border-radius: 40px;
+    bottom: 15px;
+    right: 36%;
+    cursor: pointer;
+  
+   
+  
+  }
+  
+  .advertButton:hover{
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .advertButton:focus{
+        outline: none;
+  
+  
+  }
+  
+  .a img {
+    height: 80px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .pictures1 {
+    grid-area: 2 / 1 / 3 / 2;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 170px;
+    
+    
+  }
+  
+  .pictures2 {
+    grid-area: 2 / 2 / 3 / 2;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    
+    
+  }
+  .pictures3 {
+    grid-area: 3 / 1 / 4 / 2;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    margin-top: -100px;
+    
+  
+  }
+  .pictures4 {
+    grid-area: 3 / 2 / 4/ 3;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    margin-top: -100px;
+    
+  
+  
+  }
+  
+  .addCard {
+    background-color: rgb(5, 81, 196);
+    border: none;
+    width: 80px;
+    border-radius: 40px;
+    padding: 7px;
+    align-items: center;
+    cursor: pointer;
+    color: orange;
+    margin-top: 5%;
+    margin-left: -0px;
+    font-size: 10px;
+  }
+  
+  .ourService {
+   margin-top: -820px;
+    height: 120px;
+    background-color: orange;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 9px;
+    padding: 10px;
+  }
+  
+  .ourServiceText {
+    flex: 4;
+    color: rgb(5, 81, 196);
+    margin-left: 0px;
+    display: flex;
+   
+    gap: 10px;
+  }
+  .ourServiceText p{
+    font-size: 10px;
+    padding: 1px;
+    text-align: start;
+  }
+  
+  .ourServiceText h3{
+    font-size: 10px;
+    padding: 1px;
+    text-align: start;
+  }
+  .ourServicesButton {
+    display: none;
+    
+  }
+
+  .ourServicesButtonMobile{
+    display:flex;
+  }
+  
   
 }

@@ -42,7 +42,9 @@
     background: transparent;
     opacity: 0.5;
   }
-
+  .couDivMobile {
+    display: none;
+  }
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 
@@ -70,5 +72,64 @@
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+
+  
+.container {
+  position: relative;
+  height: calc(90vh - 150px);
+  z-index: -1;
+  
+}
+.couAndIntro {
+  height: 50%;
+}
+
+.couDiv {
+  display: none;
+}
+
+.couDivMobile {
+  display: flex;
+}
+
+.overlayDiv {
+  position: absolute;
+   width: 150px;
+ 
+  padding: 20px 10px 10px 20px;
+  z-index: 1;
+  margin: 10px solid pink;
+  top: 40px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  
+  
+  
+}
+.overlayDiv h1{
+  color: orange;
+  font-size: 10px;
+
+
+  }
+  .overlayDiv p {
+    color: white;
+    font-weight: 90px;
+    font-size: 8px;
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    opacity: 0.5;
+  }
   
 }

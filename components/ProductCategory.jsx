@@ -18,6 +18,7 @@ const ProductCategory = () => {
           <Simple />
           </div>
         <div className={styles.containerProducts}>
+        <h6>MOST POPULAR PRODUCTS </h6>
              
         </div> 
       </div>
@@ -35,46 +36,46 @@ const ProductCategory = () => {
           <h1>Get Quality Plumbing Materials</h1>
           <button className={styles.advertButton}>Shop Now</button>
         </div>
-        <div className={styles.pictures}>
-          <a href="#">
+        <div className={styles.pictures1}>
+          <a className={styles.a} href="#">
             <img
               src="/Images/doors.webp"
               alt="kpfc hardware doors"
-              width="250"
-              height="300"
+              // width="260"
+              // height="300"
             />
             <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div className={styles.pictures}>
-          <a href="#">
+        <div className={styles.pictures2}>
+          <a className={styles.a} href="#">
             <img
               src="/Images/cement.jpg"
               alt="kpfc hardware cement"
-              width="250"
-              height="300"
+              // width="260"
+              // height="300"
             />
             <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div className={styles.pictures}>
-          <a href="#">
+        <div className={styles.pictures3}>
+          <a className={styles.a} href="#">
             <img
               src="/Images/electrical.webp"
               alt="kpfc hardware Electrical"
-              width="250"
-              height="300"
+              // width="260"
+              // height="300"
             />
             <button className={styles.addCard}>Add to Cart</button>
           </a>
         </div>
-        <div className={styles.pictures}>
-          <a href="#">
+        <div className={styles.pictures4}>
+          <a className={styles.a} href="#">
             <img
               src="/Images/duracoat.png"
               alt="ichiran"
-              width="250"
-              height="300"
+              // width="260"
+              // height="300"
             />
           </a>
           <button className={styles.addCard}>Add to Cart</button>
@@ -103,6 +104,24 @@ const ProductCategory = () => {
               backgroundColor: "rgb(5, 81, 196)",
               textTransform: "none",
               padding: "14px 30px",
+              boxShadow:
+                "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+            }}
+          >
+            <a href="/Services">OUR SERVICES</a>
+          </Button>
+        </div>
+        <div className={styles.ourServicesButtonMobile}>
+          <Button
+            variant="contained"
+            style={{
+              borderRadius: "40px",
+              width: "120px",
+              border: "none",
+              color: "orange",
+              backgroundColor: "rgb(5, 81, 196)",
+              textTransform: "none",
+              padding: "2px 8px",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}

@@ -35,7 +35,7 @@ const Skills = () => {
         <div className={styles.rightDiv}>
           <p>OUR PARTNERS</p>
           <h3>WE ARE TRUSTED</h3>
-          <div>
+          <div className={styles.trusted}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid
                 container
@@ -43,9 +43,10 @@ const Skills = () => {
                 columns={{ xs: 4, sm: 8, md: 12 }}
               >
                 {Array.from(Array(6)).map((_, index) => (
-                  <Grid xs={2} sm={4} md={4} key={index}>
+                  <Grid xs={2} sm={2} md={4} key={index}>
                     <Item>
-                      <img src="https://www.industrialization.go.ke/images/east-african-portland-cement-company-eapcc-logo.jpg" alt="" />
+                      <img src="https://www.industrialization.go.ke/images/east-african-portland-cement-company-eapcc-logo.jpg" 
+                      alt="" className={styles.itemImage}/>
                     </Item>
                   </Grid>
                 ))}

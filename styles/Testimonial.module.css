@@ -4,6 +4,10 @@
     border: 2px solid pink;
 }
 
+#mobile {
+    display: none;
+}
+
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 
@@ -31,5 +35,34 @@
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+    
+.container {
+    color: black;
+    border: 2px solid pink;
+}
+
+#desk {
+    display: none;
+}
+
+#mobile {
+    display: flex;
+    flex-direction: column;
+   height: 300px;
+    margin-top:-30px;
+   
+}
+
+#mobile h1 {
+    text-align: center;
+    color: rgb(5, 81, 196);
+
+}
+#mobile h3 {
+    text-align: center;
+    color: rgb(5, 81, 196)
+    
+    
+}
   
 }

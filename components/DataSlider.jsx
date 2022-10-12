@@ -26,16 +26,16 @@ const iOSBoxShadow =
 
 const marks = [
   {
-    value: 0,
+    value: 6063490,
   },
   {
-    value: 20,
+    value: 87620,
   },
   {
-    value: 37,
+    value: 343987,
   },
   {
-    value: 100,
+    value: 123460,
   },
 ];
 
@@ -58,9 +58,9 @@ const IOSSlider = styled(Slider)(({ theme }) => ({
     },
   },
   '& .MuiSlider-valueLabel': {
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: 'normal',
-    top: -6,
+    top: -2,
     backgroundColor: 'unset',
     color: theme.palette.text.primary,
     '&:before': {
