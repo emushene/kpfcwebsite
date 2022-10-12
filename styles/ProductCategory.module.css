@@ -103,7 +103,7 @@ border-bottom: 1px solid lightgray;
 .adverts {
   grid-area: 1 / 5 / 3 / 6;
   background: url('./../public/Images/quality.webp');
-  background-size: cover;
+  background-size: contain;
   border-radius: 5px;
   color: white;
   /* color: rgb(252, 134, 0); */
@@ -111,6 +111,7 @@ border-bottom: 1px solid lightgray;
   font-weight: 100px;
   padding-top: 50%;
   position: relative;
+ 
 }
 .advertButton{
   position: absolute;
@@ -197,4 +198,34 @@ border-bottom: 1px solid lightgray;
 .ourServicesButton {
   
   flex: 2;
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
 }

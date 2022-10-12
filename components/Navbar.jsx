@@ -1,6 +1,7 @@
 import styles from "../styles/Navbar.module.css";
 import Toplogo from "./Toplogo";
 import * as React from 'react';
+import Link from "next/link";
 import { Phone, EventRepeatRounded, ContactMail } from "@mui/icons-material";
 
 
@@ -36,6 +37,33 @@ const Navbar = () => {
         </div>
       </div>
       <Toplogo />
+
+      <div className={styles.hambuger}>
+        <div className={styles.hamLines}/>
+        <div className={styles.hamLines}/>
+        <div className={styles.hamLines}/>
+      <ul className={styles.menu}>
+      <li className={styles.menuItem}>
+         <Link href={"/"}>Home</Link>
+          </li>
+          <li className={styles.menuItem}>
+          <Link href={"/About"}> About Us</Link>
+          </li>
+          <li className={styles.menuItem}>
+          <Link href={"/Services"}>Services</Link>
+          </li>
+          <li className={styles.menuItem}>
+         <Link href={"/Blog"}>Blog</Link>
+          </li>
+          <li className={styles.menuItem} style={{display: "none"}}>
+          <Link href={"/Investiment"}>Investiment</Link>
+          </li>
+          <li className={styles.menuItem}>
+          <Link href={"/Contactus"}> Contact Us</Link>
+          </li>
+
+      </ul>
+      </div>
     </nav>
   );
 };//<a href="https://www.flaticon.com/free-icons/contacts" title="contacts icons">

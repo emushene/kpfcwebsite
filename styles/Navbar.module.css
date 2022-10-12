@@ -64,3 +64,395 @@
   font-size: 16px;
   font-weight: 400px;
 }
+.hambuger {
+  display: none;
+}
+
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navContainer {
+    position: sticky;
+    top: 0;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+   
+   
+  }
+  
+  .companyLogo {
+   
+    width: 295px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/company_logo2.png);
+    background-size: cover;
+   
+    
+  }
+  
+  .navIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    color: rgb(12, 12, 12);
+    margin-right: 20px;
+  }
+  
+  .callus {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .emailus {
+    display: flex;
+    gap: 5px;
+  }
+  .emailadd {
+    cursor: pointer;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .openHrs {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .text{
+    color:black;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+  .navContainer {
+    position: sticky;
+    top: 0;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+   
+   
+  }
+  
+  .companyLogo {
+   
+    width: 295px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/company_logo2.png);
+    background-size: cover;
+   
+    
+  }
+  
+  
+  .navIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    color: rgb(12, 12, 12);
+    margin-right: 20px;
+  }
+  
+  .callus {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .emailus {
+    display: flex;
+    gap: 5px;
+  }
+  .emailadd {
+    cursor: pointer;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .openHrs {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .text{
+    color:black;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+ 
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .navContainer {
+    position: sticky;
+    top: 0;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+   
+   
+  }
+  
+  .companyLogo {
+   
+    width: 295px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/company_logo2.png);
+    background-size: cover;
+   
+    
+  }
+
+ 
+  
+  .navIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    color: rgb(12, 12, 12);
+    margin-right: 20px;
+  }
+  
+  .callus {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .emailus {
+    display: flex;
+    gap: 5px;
+  }
+  .emailadd {
+    cursor: pointer;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .openHrs {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .text{
+    color:black;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .navContainer {
+    position: sticky;
+    top: 0;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+   
+   
+  }
+  
+  .companyLogo {
+   
+    width: 295px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/company_logo2.png);
+    background-size: cover;
+   
+    
+  }
+
+  .navIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    color: rgb(12, 12, 12);
+    margin-right: 20px;
+  }
+  
+  .callus {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .emailus {
+    display: flex;
+    gap: 5px;
+  }
+  .emailadd {
+    cursor: pointer;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .openHrs {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .text{
+    color:black;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .navContainer {
+    position:sticky;
+    top: 0;
+    position: relative;
+  }
+  
+  .innerContainer {
+    display: none;
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+   
+   
+  }
+  
+  .companyLogo {
+   
+    width: 200px;
+    height: 55px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/company_logo2.png);
+    background-size: cover;
+   
+    
+  }
+
+  .hambuger {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    left: 90%;
+
+
+  }
+
+  .hamLines{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+  }
+  .menuItem{
+    position: fixed;
+  }
+  .navIcons {
+   
+    display: none;
+  }
+  
+  .callus {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .emailus {
+    display: flex;
+    gap: 5px;
+  }
+  .emailadd {
+    cursor: pointer;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .openHrs {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .text{
+    color:black;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+  
+}

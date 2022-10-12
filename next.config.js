@@ -5,7 +5,7 @@ const nextConfig = {
 }
 
 module.exports={
-  context: __dirname,
+  // context: __dirname,
   entry: "./app.js",
   output: {
         path: __dirname + "/dist",
