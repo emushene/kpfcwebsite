@@ -80,337 +80,26 @@
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 
-  @import url(https://fonts.googleapis.com/css?family=Open);
-
-.navTopContainer {
-  background-color: #f0770e;
-  position: relative;
-  
+}
 
   
-}
-.container {
-  display: flex;
-  height: 50px;
-  width: 95%;
-  background-color:  rgb(5, 81, 196) ;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  font-weight: 400px;
-  clip-path: polygon(5% 0, 96% 0, 100% 100%, 0% 100%);
-  margin-top: 0px;
-  margin-left: 30px;
-  margin-right: 180px;
-  box-shadow: rgba(16, 119, 236, 0.4) 0px 0px 0px 2px, rgba(188, 211, 236, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-
-}
-.listItem {
-  display: inline-flex;
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: ;
-  color: #fcf9f9;
-  cursor: pointer;
-}
-
-
-
-
-.search {
-  width: 30px;
-  display: flex;
-}
-
-.searchTerm {
-  border: 3px solid #3f67e9;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #83b9a0;
-}
-
-.searchTerm:focus {
-  color: black;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 2px solid #3f67e9;
-  background: #1221ee;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap {
-  position: absolute;
-  width: 30%;
-  left: 88%;
- margin-top: 30px;
-  transform: translate(-50%, -50%);
-}
-
-}
 
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
-  @import url(https://fonts.googleapis.com/css?family=Open);
-
-.navTopContainer {
-  background-color: #f0770e;
-  position: relative;
-  
-
-  
-}
-.container {
-  display: flex;
-  height: 50px;
-  width: 95%;
-  background-color:  rgb(5, 81, 196) ;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  font-weight: 400px;
-  clip-path: polygon(5% 0, 96% 0, 100% 100%, 0% 100%);
-  margin-top: 0px;
-  margin-left: 30px;
-  margin-right: 180px;
-  box-shadow: rgba(16, 119, 236, 0.4) 0px 0px 0px 2px, rgba(188, 211, 236, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-
-}
-.listItem {
-  display: inline-flex;
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: ;
-  color: #fcf9f9;
-  cursor: pointer;
-}
-
-
-
-
-.search {
-  width: 30px;
-  display: flex;
-}
-
-.searchTerm {
-  border: 3px solid #3f67e9;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #83b9a0;
-}
-
-.searchTerm:focus {
-  color: black;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 2px solid #3f67e9;
-  background: #1221ee;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap {
-  position: absolute;
-  width: 30%;
-  left: 88%;
- margin-top: 30px;
-  transform: translate(-50%, -50%);
-}
-
 
 }
 
 /*tablets, ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 1024px){
-  @import url(https://fonts.googleapis.com/css?family=Open);
-
-.navTopContainer {
-  background-color: #f0770e;
-  position: relative;
-  
-
-  
-}
-.container {
-  display: flex;
-  height: 50px;
-  width: 95%;
-  background-color:  rgb(5, 81, 196) ;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  font-weight: 400px;
-  clip-path: polygon(5% 0, 96% 0, 100% 100%, 0% 100%);
-  margin-top: 0px;
-  margin-left: 30px;
-  margin-right: 180px;
-  box-shadow: rgba(16, 119, 236, 0.4) 0px 0px 0px 2px, rgba(188, 211, 236, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
 }
-.listItem {
-  display: inline-flex;
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: ;
-  color: #fcf9f9;
-  cursor: pointer;
-}
-
-
-
-
-.search {
-  width: 30px;
-  display: flex;
-}
-
-.searchTerm {
-  border: 3px solid #3f67e9;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #83b9a0;
-}
-
-.searchTerm:focus {
-  color: black;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 2px solid #3f67e9;
-  background: #1221ee;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap {
-  position: absolute;
-  width: 30%;
-  left: 88%;
- margin-top: 30px;
-  transform: translate(-50%, -50%);
-}
-
-
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  @import url(https://fonts.googleapis.com/css?family=Open);
-
-.navTopContainer {
-  background-color: #f0770e;
-  position: relative;
-  
-
-  
-}
-.container {
-  display: flex;
-  height: 50px;
-  width: 95%;
-  background-color:  rgb(5, 81, 196) ;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 16px;
-  font-weight: 400px;
-  clip-path: polygon(5% 0, 96% 0, 100% 100%, 0% 100%);
-  margin-top: 0px;
-  margin-left: 30px;
-  margin-right: 180px;
-  box-shadow: rgba(16, 119, 236, 0.4) 0px 0px 0px 2px, rgba(188, 211, 236, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-
-}
-.listItem {
-  display: inline-flex;
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: ;
-  color: #fcf9f9;
-  cursor: pointer;
-}
-
-
-
-
-.search {
-  width: 30px;
-  display: flex;
-}
-
-.searchTerm {
-  border: 3px solid #3f67e9;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #83b9a0;
-}
-
-.searchTerm:focus {
-  color: black;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 2px solid #3f67e9;
-  background: #1221ee;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-.wrap {
-  position: absolute;
-  width: 30%;
-  left: 88%;
- margin-top: 30px;
-  transform: translate(-50%, -50%);
-}
-
-
-}
-
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+  
   @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {
-  background-color: #f0770e;
+  background-color: #fa8807;
   position: relative;
   
 
@@ -419,7 +108,7 @@
 .container {
   display: flex;
   height: 50px;
-  width: 95%;
+  width: 85%;
   background-color:  rgb(5, 81, 196) ;
   align-items: center;
   justify-content: space-around;
@@ -433,12 +122,7 @@
 
 }
 .listItem {
-  display: inline-flex;
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: ;
-  color: #fcf9f9;
-  cursor: pointer;
+  display: none;
 }
 
 
@@ -447,13 +131,14 @@
 .search {
   width: 30px;
   display: flex;
+  margin-left: -180px;
 }
 
 .searchTerm {
   border: 3px solid #3f67e9;
   border-right: none;
   padding: 5px;
-  height: 36px;
+  height: 26px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #83b9a0;
@@ -465,7 +150,7 @@
 
 .searchButton {
   width: 40px;
-  height: 36px;
+  height: 26px;
   border: 2px solid #3f67e9;
   background: #1221ee;
   text-align: center;
@@ -484,15 +169,26 @@
   transform: translate(-50%, -50%);
 }
 
-
 }
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  position: absolute;
+  width: 30%;
+  left: 88%;
+ margin-top: 30px;
+  transform: translate(-50%, -50%);
+}
+
+
+
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
   @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {
-  background-color: #f0770e;
+  background-color: #fa8807;
   position: relative;
   
 

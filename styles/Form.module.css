@@ -121,5 +121,110 @@
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+
+  
+  .container {
+  
+   
+    display: flex;
+    background-color: rgb(5, 81, 196);
+    color: rgb(245, 162, 9);
+    border-radius: 10px;
+    top: 0%;
+    padding: 5px;
+    width: 300px;
+    margin-left: -37px;
+    
+ 
+   }
+  
+   
+   .requestQuote {
+    align-items: center;
+    
+    
+   }
+   .requestQuote h4 { font-size: 12px; text-align: center;}
+   
+   .flexOuter,
+   .flexInner {
+     list-style-type: none;
+     padding: 0;
+     font-size: 10px;
+   }
+   
+   .flexOuter {
+    gap: 1px;
+      
+   }
+   
+     .flexOuter li,
+   .flexInner {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2px;
+     align-items: center;
+   }
+   
+   .flexOuter > li > input { border: 1px solid red}
+
+   .flexInner {
+    display: none;
+     /* padding: 0 2px;
+     justify-content: space-between;   */
+   }
+   
+   .flexOuter > li:not(:last-child) {
+     margin-bottom: 10px;
+   }
+   
+   .flexOuter li label,
+   .flexOuter li p {
+     padding: 2px;
+     font-weight: 100px;
+     text-transform: uppercase;
+   }
+   
+   .flexOuter > li > label,
+   .flexOuter li p {
+     flex: 1 0 120px;
+     max-width: 120px;
+   }
+   
+   .flexOuter > li > label + *,
+   .flexInner {
+     flex: 1 0 220px;
+   }
+   
+   .flex-outer li p {
+     margin: 0;
+   }
+   
+   .flexOuter li input:not([type='checkbox']),
+   .flexOuter li textarea {
+     padding: 15px;
+     border: none;
+   }
+   
+   .flexOuter li button {
+     margin-left: auto;
+     padding: 4px 16px;
+     border: none;
+     background: rgb(255, 175, 2);
+     color: rgb(5, 81, 196);
+     text-transform: uppercase;
+     letter-spacing: .09em;
+     border-radius: 20px;
+     font-size: bold;
+   }
+   
+   .flexInner li {
+     width: 70px;
+   }
+ 
+   .requestQuote  {
+     margin: 0 28%;
+   }
+ 
   
 }

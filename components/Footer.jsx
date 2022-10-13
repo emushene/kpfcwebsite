@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
 
             <div className={styles.locationFooter}>
-              <div>
+              <div className={styles.phoneIcon}>
                 <LocationOn sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
               <div>
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.phoneFooter}>
-              <div>
+              <div  className={styles.phoneIcon}>
                 <PhoneCallback sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
               <div>
@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
             <div className={styles.emailFooter}>
-              <div>
+              <div className={styles.phoneIcon}>
                 <ContactMail sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
               <div>

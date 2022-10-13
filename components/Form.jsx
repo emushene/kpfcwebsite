@@ -24,12 +24,13 @@ const Form = () => {
             <div className={style.requestQuote}>
               <h4>Request a Quote</h4>
             </div>
-            <li>
-              <label for="first-name">First Name</label>
-              <input
+            <li >
+              <label for="first-name" >First Name</label>
+              <input className={style.inputLabel}
                 type="text"
                 id="first-name"
                 placeholder="Enter your first name here"
+                
               />
               <ValidationError
                 prefix="Message"
