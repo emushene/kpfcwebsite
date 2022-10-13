@@ -63,12 +63,12 @@ const Testimonial = ({ deviceType }) => {
                 min: 0,
               },
               items: 1,
-              partialVisibilityGutter: 30,
+              partialVisibilityGutter: 10,
             },
             tablet: {
               breakpoint: {
                 max: 1024,
-                min: 464,
+                min: 465,
               },
               items: 2,
               partialVisibilityGutter: 30,
@@ -372,8 +372,9 @@ const Testimonial = ({ deviceType }) => {
             style={{
               height: "100px",
               position: "relative",
-              marginLeft: "50px",
-              marginTop:"70px",
+              marginLeft: "15px",
+              marginTop:"-10px",
+              marginBottom: "70px",
             }}
           >
             <div
@@ -448,22 +449,24 @@ const Testimonial = ({ deviceType }) => {
               </p>
             </div>
           </div>
+
+
+
+
+
+
+
+
+                <div style={{position: "relative",  left: "120px",}}>
           <div
-            style={{
-              height: "100px",
-              position: "relative",
-              marginLeft: "50px",
-            }}
-          >
-            <div
               style={{
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "30px",
                 height: "40px",
-                zIndex: "2",
-                top: "50px",
-                left: "-20px",
+                zIndex: "3",
+                top: "40px",
+                left: "-125px",
                 backgroundColor: "white",
               }}
             >
@@ -486,7 +489,8 @@ const Testimonial = ({ deviceType }) => {
                 width: "200px",
                 height: "100px",
                 zIndex: "1",
-                top: "30px",
+                top: "20px",
+                left:"-105px",
               }}
             >
               <p
@@ -510,9 +514,9 @@ const Testimonial = ({ deviceType }) => {
                 position: "absolute",
                 width: "180px",
                 height: "100px",
-                zIndex: "-2",
-                top: "50px",
-                left: "30px",
+                zIndex: "-1",
+                top: "40px",
+                left: "-70px",
               }}
             >
               <p
@@ -526,82 +530,62 @@ const Testimonial = ({ deviceType }) => {
                 <h6>Morgan Mwariri - Facebook</h6>
               </p>
             </div>
-          </div>
-          <div
-            style={{
-              height: "400px",
-              position: "relative",
-              marginLeft: "-150px",
-            }}
-          >
-            <div
-              style={{
-                border: `1px solid orange`,
-                position: "absolute",
-                width: "90px",
-                height: "90px",
-                zIndex: "2",
-                top: "50px",
-                left: "-50px",
-                backgroundColor: "white",
-              }}
-            >
-              <img
-                src="./Images/morgan1.jpg"
-                alt=""
-                style={{
-                  objectFit: "cover",
-                  height: "85px",
-                  alignContent: "center",
-                }}
-              />
             </div>
+        
+         
 
-            <div
-              style={{
-                border: `1px solid orange`,
-                backgroundColor: "white",
-                position: "absolute",
-                width: "450px",
-                height: "290px",
-                zIndex: "1",
-                top: "30px",
-              }}
-            >
-              <p
-                style={{
-                  padding: "15px",
-                  textAlign: "justify",
-                  marginTop: "80px",
-                  paddingLeft: "45px",
-                }}
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
-              </p>
-            </div>
-            <div
-              style={{
-                backgroundColor: "orange",
-                position: "absolute",
-                width: "450px",
-                height: "230px",
-                zIndex: "-2",
-                top: "130px",
-                left: "30px",
-              }}
-            >
-              <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Morgan Mwariri - Facebook</h4>
-              </p>
-            </div>
-          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+           
+          
         </Carousel>
       </div>
     </div>

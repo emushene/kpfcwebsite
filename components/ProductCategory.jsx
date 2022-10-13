@@ -80,6 +80,28 @@ const ProductCategory = () => {
           </a>
           <button className={styles.addCard}>Add to Cart</button>
         </div>
+        <div className={styles.pictures5}>
+          <a className={styles.a} href="#">
+            <img
+              src="/Images/d16.webp"
+              alt="ichiran"
+              // width="260"
+              // height="300"
+            />
+          </a>
+          <button className={styles.addCard}>Add to Cart</button>
+        </div>
+        <div className={styles.pictures6}>
+          <a className={styles.a} href="#">
+            <img
+              src="/Images/tools.webp"
+              alt="ichiran"
+              // width="260"
+              // height="300"
+            />
+          </a>
+          <button className={styles.addCard}>Add to Cart</button>
+        </div>
       </div>
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>

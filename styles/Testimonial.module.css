@@ -30,8 +30,41 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+        
+.container {
+    color: black;
+    border: 2px solid pink;
+}
+
+#desk {
+    display: none;
+}
+
+#mobile {
+    display: flex;
+    flex-direction: column;
+   height: 300px;
+    margin-top:5px;
+    margin-bottom: -120px;
+    margin-bottom: 1px solid grey;
+   
+}
+
+#mobile h1 {
+    text-align: center;
+    color: rgb(5, 81, 196);
 
 }
+#mobile h3 {
+    text-align: center;
+    color: rgb(5, 81, 196)
+    
+    
+}
+  
+}
+
+
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {

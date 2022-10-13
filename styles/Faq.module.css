@@ -56,6 +56,45 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+        margin: 50px 10px 0px 50px;
+        
+    }
+    .faqContainer {
+        
+        padding: 15px;
+      
+       
+        
+    
+    }
+    .faqContainer h3 {
+         
+        color: rgb(5, 81, 196);
+        font-size: 10px;
+    
+    }
+    .faqContainer p1 {
+         
+        color: rgb(243, 188, 7);
+        font-size: 10px;
+    
+    }
+
+    .faqList{
+        display: none;
+    }
+    .faqListMobile{
+        display: block;
+    }
+    .quoteForm {
+        flex: 2;
+    }
 
 }
 
