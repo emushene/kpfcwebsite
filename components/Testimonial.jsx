@@ -372,7 +372,7 @@ const Testimonial = ({ deviceType }) => {
             style={{
               height: "100px",
               position: "relative",
-              marginLeft: "15px",
+              marginLeft: "75px",
               marginTop:"-10px",
               marginBottom: "70px",
             }}
@@ -457,7 +457,7 @@ const Testimonial = ({ deviceType }) => {
 
 
 
-                <div style={{position: "relative",  left: "120px",}}>
+                <div style={{position: "relative",  left: "180px",}}>
           <div
               style={{
                 border: `1px solid orange`,

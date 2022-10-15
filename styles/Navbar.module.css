@@ -329,12 +329,55 @@
 
   .companyLogo {
 
-    width: 195px;
-    height: 50px;
+    width: 217px;
+    height: 45px;
     align-items: center;
     margin-bottom: 15px;
     background-image: url(../public/Images/kpfc_Builders_kpipes_hardware.png);
     background-size: cover;
+
+
+  }
+
+  .hambuger {
+    width: 10px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 65%;
+    left: 90%;
+    margin-left: 2px;
+    color: white;
+
+
+
+  }
+
+  .hamLines {
+    width: 40px;
+    height: 3px;
+    background-color: white;
+  }
+
+  .menu {
+    position: fixed;
+    height: calc(50vh - 150px);
+    width: 50vw;
+    background-color: rgb(5, 81, 196);
+    top: 150px;
+    color: white;
+    font-weight: 500;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    z-index: 999;
+    transition: all 1s ease;
 
 
   }
@@ -351,6 +394,7 @@
   .callus {
     display: flex;
     gap: 5px;
+    font-size: 20px;
   }
 
   .emailus {
@@ -407,18 +451,20 @@
 
   .companyLogo {
 
-    width: 210px;
-    height: 49px;
+    width: 95px;
+    height: 13px;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     background-image: url(../public/Images/kpfc_Builders_kpipes_hardware.png);
     background-size: cover;
+    position: absolute;
+    left: 46%;
 
   }
 
   .hambuger {
-    width: 25px;
-    height: 20px;
+    width: 10px;
+    height: 35px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -426,20 +472,22 @@
     position: absolute;
     top: 10%;
     left: 90%;
+    margin-left: -10px;
+    color: white;
 
 
 
   }
 
   .hamLines {
-    width: 100px;
+    width: 40px;
     height: 3px;
     background-color: white;
   }
 
   .menu {
     position: fixed;
-    height: calc(90vh - 150px);
+    height: calc(60vh - 150px);
     width: 50vw;
     background-color: rgb(5, 81, 196);
     top: 100px;
@@ -459,32 +507,37 @@
 
   .navIcons {
 
-    display: none;
+    
   }
 
   .callus {
     display: flex;
     gap: 5px;
+    position: absolute;
+    left: 0;
+    color: blue;
   }
 
   .emailus {
-    display: flex;
+    display: none;
     gap: 5px;
   }
 
   .emailadd {
+    display: none;
     cursor: pointer;
     gap: 5px;
     font-size: 16px;
   }
 
   .openHrs {
-    display: flex;
+    display: none;
+  
     gap: 5px;
   }
 
   .text {
-    color: black;
+    color: white;
     font-size: 16px;
     font-weight: 400px;
   }

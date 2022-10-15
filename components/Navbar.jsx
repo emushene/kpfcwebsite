@@ -29,7 +29,7 @@ const Navbar = () => {
           <Phone sx={{ fontSize: 30 }}/>
             <div>
               <div style={{fontWeight: 'bold'}}> Call Us</div>
-              <div className={styles.text}> +254 7499999</div>
+              <div className={styles.text}> <h4>+254 7499999</h4></div>
             </div>
           </div>
           <div className={styles.emailus}>
@@ -44,9 +44,11 @@ const Navbar = () => {
       <Toplogo />
 
       <div className={styles.hambuger} onClick={()=>setOpen(!open)}>
+        <h6>MENU</h6> 
         <div className={styles.hamLines}/>
         <div className={styles.hamLines}/>
         <div className={styles.hamLines}/>
+        
       <ul onClick={()=>setOpen(false)} className={styles.menu} style={{right : open ? "0px" : "-500vw" }}>
       <li className={styles.menuItem}>
          <Link href={"/"}>Home</Link>

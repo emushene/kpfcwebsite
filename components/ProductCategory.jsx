@@ -8,7 +8,7 @@ import Simple from "./Shop/Simple";
 
 const ProductCategory = () => {
   return (
-    <div>
+    <div className={styles.prodDiv}>
       <div className={styles.fullContainer}>
         <div className={styles.productsHeader}>
           <h2> PRODUCTS BY CATEGORY</h2>

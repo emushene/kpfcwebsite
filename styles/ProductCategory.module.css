@@ -573,9 +573,13 @@ margin-top: 0px;
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+  .prodDiv {
+    position: relative;
+  }
+  
   .fullContainer {
-    margin-top: -10px;
     width: 100%;
+    margin-top: -270px;
   }
   
   

@@ -127,6 +127,14 @@
     padding: 5px;
     width: 400px;
     margin-left: -37px;
+    background: linear-gradient(rgba(51, 38, 240, 0.8), rgba(49, 27, 245, 0.8)),
+    url('../public/Images/d10_d12_d8_deformed_bars.webp'); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgba(24, 76, 245, 0.8), rgba(44, 30, 247, 0.8)),
+    url('../public/Images/d10_d12_d8_deformed_bars.webp'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    /* d10_d12_d8_deformed_bars */
     
  
    }
@@ -219,7 +227,7 @@
      margin: 0 28%;
    }
 
-}
+
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {

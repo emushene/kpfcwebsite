@@ -184,7 +184,7 @@
 
 
 /*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 480px) {
   @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {
