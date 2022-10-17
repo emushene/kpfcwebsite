@@ -55,8 +55,9 @@ const TopServices = () => {
             <h5>GET A QUOTE</h5>
           </div>
         </div>
+        
       </div>
-      <div>
+      <div className={styles.banner}>
         <BannerHappy />
       </div>
     </div>

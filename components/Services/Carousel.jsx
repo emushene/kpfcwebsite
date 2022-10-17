@@ -3,6 +3,7 @@ import styles from "../../styles/Services/Carousel.module.css";
 const Carousel = () => {
   return (
     <div className={styles.mainContainer}>
+      <img src="./Images/ServicePage.jpg" alt="" />
       <div className={styles.corouselDiv}></div>
       <div className={styles.overlay}>
         <h1>Services Overview</h1>

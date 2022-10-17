@@ -1,19 +1,5 @@
-.container{
-  
-    max-height: 48vh;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.container h2 {
-    margin-top: 5px;
-   
-    
-}
-.topContainer{
+.topContainer { 
+    margin-top: -200px;
     margin-left: 40px;
     margin-right: 40px;
     position: relative;
@@ -31,9 +17,32 @@
     position: absolute;
     max-height: 450px;
     left: 40%;
+    top: 0;
    
     z-index:-1;
 }
+
+
+
+
+
+
+
+.container{
+   
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container h2 {
+    margin-top: 5px;
+   
+    
+}
+
 
 .centerLeftDiv{
     display: flex;
@@ -74,8 +83,13 @@
     padding: 15px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.centerLeftText{}
+.centerLeftText{
 
+}
+
+.centerLeftDiv p {
+    color:  rgb(5, 81, 196);
+}
 
 
 
@@ -90,34 +104,37 @@
     color:  rgb(5, 81, 196);
 }
 .centerRightDiv h4 {
-    color: rgb rgb(5, 81, 196);
+    color: rgb(5, 81, 196);
 }
 
-.centerLeftDiv p {
-    color:  rgb(5, 81, 196);
-}
-.centerRight1{
+
+.centerRight{
     display: flex;
+    align-items: right;
+    justify-content: right;
     text-align: right;
+    padding-left: 10px;
     gap: 10px;
-}
-.centerRight2{
-    display: flex;
-    text-align: right;
-    gap: 10px;
-}
-.centerRight3{
-    display: flex;
-    text-align: right;
-    gap: 10px;
-}
+    
+    max-width: 400px ;
+    
+    }
+
+    
+.centerRight h4{
+    color: rgb(5, 81, 196);
+    
+    }
+
 .centerRightBox{
     max-height: 30px;
     min-width: 30px;
     background-color: orange;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.centerRightText{}
+.centerRightText{
+    text-align: right;
+}
 
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {

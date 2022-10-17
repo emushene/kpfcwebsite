@@ -6,14 +6,18 @@
     font-size: 30px;
     align-items: center;
     justify-content: center;
-    background-image: url("../../public/Images/Service\ Page.jpg");
+    /* background-image: url("../../public/Images/Service\ Page.jpg"); */
     object-fit: cover;
     position: relative;
 }
 
 .mainContainer img {
     object-fit: cover;
-}
+   
+        width: 100%;
+
+    }
+
 
 .overlay{
     position:absolute;
@@ -117,12 +121,15 @@
         align-items: center;
         justify-content: center;
         background-image: url("../../public/Images/Service\ Page.jpg");
-        object-fit: cover;
+        object-fit:cover;
+        background-repeat: no-repeat;
+        
         position: relative;
     }
     
     .mainContainer img {
-        object-fit: cover;
+        width: 100%;
+
     }
     
     .overlay{
