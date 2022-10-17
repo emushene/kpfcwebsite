@@ -1,6 +1,6 @@
 .container{
   
-    height: 48vh;
+    max-height: 48vh;
     margin-top: 5px;
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
 }
 .topContainer img{
     position: absolute;
-    height: 450px;
+    max-height: 450px;
     left: 40%;
    
     z-index:-1;
@@ -68,8 +68,8 @@
 }  
 
 .centerLeftBox{
-    height: 30px;
-    width: 30px;
+    max-height: 30px;
+    min-width: 30px;
     background-color: orange;
     padding: 15px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -83,7 +83,7 @@
     display: flex;
     flex-direction: column;
     gap: 45px;
-    width: 35%;
+    min-width: 35%;
 
 }
 .centerRightDiv p {
@@ -112,8 +112,8 @@
     gap: 10px;
 }
 .centerRightBox{
-    height: 30px;
-    width: 30px;
+    max-height: 30px;
+    min-width: 30px;
     background-color: orange;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }

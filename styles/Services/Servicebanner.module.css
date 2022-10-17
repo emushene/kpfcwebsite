@@ -91,4 +91,70 @@ justify-content: center;
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
   
+
+    .container  {
+        display: flex;
+        max-height: 20vh;
+        flex-direction: column;
+    }
+    
+    .quality{
+        background-color: rgb(14, 14, 150);
+         flex: 2;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+    
+    }
+    .quality h2{
+    
+        color: orange;
+    }
+    .quality p{
+    
+        color: white;
+        text-align:center;
+        margin-top: 5px;
+    }
+    
+    .sustainability{
+    background-color: rgb(252, 122, 1);
+    flex: 2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .sustainability h2 {
+        color: rgb(14, 14, 150);
+    }
+    .sustainability p{
+        text-align: center;
+        margin-top: 5px;
+    
+    }
+    
+    .innovation {
+    background-color: rgb(14, 14, 150);
+    flex: 2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .innovation h2{
+    
+        color: orange;
+    }
+    .innovation p{
+    
+        color: white;
+        text-align:center;
+        margin-top: 5px;
+    }
 }

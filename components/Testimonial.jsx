@@ -85,7 +85,7 @@ const Testimonial = ({ deviceType }) => {
         >
           <div
             style={{
-              height: "330px",
+              minHeight: "330px",
               position: "relative",
               marginLeft: "90px",
             }}
@@ -95,7 +95,7 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "90px",
-                height: "90px",
+                minHeight: "90px",
                 zIndex: "2",
                 top: "50px",
                 left: "-50px",
@@ -107,7 +107,7 @@ const Testimonial = ({ deviceType }) => {
                 alt=""
                 style={{
                   objectFit: "cover",
-                  height: "85px",
+                  maxHeight: "85px",
                   alignContent: "center",
                 }}
               />
@@ -119,7 +119,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
                 position: "absolute",
                 width: "450px",
-                height: "290px",
+                minHeight: "290px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -147,7 +147,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "orange",
                 position: "absolute",
                 width: "450px",
-                height: "230px",
+                minHeight: "230px",
                 zIndex: "-2",
                 top: "130px",
                 left: "30px",
@@ -161,7 +161,7 @@ const Testimonial = ({ deviceType }) => {
           <div>to be </div>
           <div
             style={{
-              height: "400px",
+              minHeight: "400px",
               position: "relative",
               marginLeft: "-150px",
             }}
@@ -171,7 +171,7 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "90px",
-                height: "90px",
+                minHeight: "90px",
                 zIndex: "2",
                 top: "50px",
                 left: "-50px",
@@ -183,7 +183,7 @@ const Testimonial = ({ deviceType }) => {
                 alt=""
                 style={{
                   objectFit: "cover",
-                  height: "85px",
+                  maxHeight: "85px",
                   alignContent: "center",
                 }}
               />
@@ -195,7 +195,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
                 position: "absolute",
                 width: "450px",
-                height: "290px",
+                minHeight: "290px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -223,7 +223,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "orange",
                 position: "absolute",
                 width: "450px",
-                height: "230px",
+                minHeight: "230px",
                 zIndex: "-2",
                 top: "130px",
                 left: "30px",
@@ -236,7 +236,7 @@ const Testimonial = ({ deviceType }) => {
           </div>
           <div
             style={{
-              height: "400px",
+              minHeight: "400px",
               position: "relative",
               marginLeft: "200px",
             }}
@@ -246,7 +246,7 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "90px",
-                height: "90px",
+                minHeight: "90px",
                 zIndex: "2",
                 top: "50px",
                 left: "-50px",
@@ -258,7 +258,7 @@ const Testimonial = ({ deviceType }) => {
                 alt=""
                 style={{
                   objectFit: "cover",
-                  height: "85px",
+                  maxHeight: "85px",
                   alignContent: "center",
                 }}
               />
@@ -270,7 +270,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
                 position: "absolute",
                 width: "450px",
-                height: "290px",
+                minHeight: "290px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -298,7 +298,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "orange",
                 position: "absolute",
                 width: "450px",
-                height: "230px",
+                minHeight: "230px",
                 zIndex: "-2",
                 top: "130px",
                 left: "30px",
@@ -370,7 +370,7 @@ const Testimonial = ({ deviceType }) => {
         >
           <div
             style={{
-              height: "100px",
+              minHeight: "100px",
               position: "relative",
               marginLeft: "75px",
               marginTop:"-10px",
@@ -382,7 +382,7 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "30px",
-                height: "40px",
+                minHeight: "40px",
                 zIndex: "2",
                 top: "50px",
                 left: "-20px",
@@ -394,7 +394,7 @@ const Testimonial = ({ deviceType }) => {
                 alt=""
                 style={{
                   objectFit: "cover",
-                  height: "35px",
+                  maxHeight: "35px",
                   alignContent: "center",
                 }}
               />
@@ -406,7 +406,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
                 position: "absolute",
                 width: "200px",
-                height: "100px",
+                minHeight: "100px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -430,8 +430,8 @@ const Testimonial = ({ deviceType }) => {
               style={{
                 backgroundColor: "orange",
                 position: "absolute",
-                width: "180px",
-                height: "100px",
+                minWidth: "180px",
+                maxHeight: "100px",
                 zIndex: "-2",
                 top: "50px",
                 left: "30px",
@@ -463,7 +463,7 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 position: "absolute",
                 width: "30px",
-                height: "40px",
+                minHeight: "40px",
                 zIndex: "3",
                 top: "40px",
                 left: "-125px",
@@ -475,7 +475,7 @@ const Testimonial = ({ deviceType }) => {
                 alt=""
                 style={{
                   objectFit: "cover",
-                  height: "35px",
+                  maxHeight: "35px",
                   alignContent: "center",
                 }}
               />
@@ -487,7 +487,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
                 position: "absolute",
                 width: "200px",
-                height: "100px",
+                minHeight: "100px",
                 zIndex: "1",
                 top: "20px",
                 left:"-105px",
@@ -513,7 +513,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "orange",
                 position: "absolute",
                 width: "180px",
-                height: "100px",
+                minHeight: "100px",
                 zIndex: "-1",
                 top: "40px",
                 left: "-70px",

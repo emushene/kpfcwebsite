@@ -11,7 +11,7 @@ const Invest = () => {
         <div className={styles.leftDiv}>
           <h1 className={styles.topHeading}>
             
-            INVEST NA KPFC <br />
+          #InvestNaKPFC Builders Today! <br />
           </h1>
           <h1 className={styles.midHeading}>
             BUILDERS <br />
@@ -31,9 +31,8 @@ const Invest = () => {
           </div>
           <div className={styles.textDiv}>
             <p>
-              Join the KPFC Builders investiment program with <br></br>selected
-              products such as <b />
-              Deformed Bars, Square Tubes <br></br> & other Building Materials
+            Join the KPFC Builders investment program with selected 
+            products such as Deformed Bars, Square Tubes & other Building Materials.
             </p>
           </div>
           <div className={styles.textDivButton}>

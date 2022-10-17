@@ -329,12 +329,14 @@
 
   .companyLogo {
 
-    width: 217px;
-    height: 45px;
+    max-width: 160px;
+    max-height: 30px;
     align-items: center;
-    margin-bottom: 15px;
     background-image: url(../public/Images/kpfc_Builders_kpipes_hardware.png);
     background-size: cover;
+    margin-left: 40%;
+    margin-top: 0;
+
 
 
   }
@@ -347,7 +349,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 65%;
+    top: 5%;
     left: 90%;
     margin-left: 2px;
     color: white;
@@ -395,6 +397,10 @@
     display: flex;
     gap: 5px;
     font-size: 20px;
+    position: absolute;
+    top: 12px;
+    margin: 0;
+    left: 10px;
   }
 
   .emailus {

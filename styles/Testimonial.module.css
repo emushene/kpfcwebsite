@@ -82,7 +82,7 @@
 #mobile {
     display: flex;
     flex-direction: column;
-   height: 300px;
+    min-height: 300px;
     margin-top:-30px;
     margin-bottom: -120px;
     margin-bottom: 1px solid grey;

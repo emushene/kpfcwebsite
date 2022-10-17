@@ -12,9 +12,9 @@ const WhyChooseUs = () => {
         <div className={styles.centerLeftBox}></div>
         <div className={styles.centerLeftText}>
             <h4>Best in the Industry</h4>
-            <p>Lorem ipsum dolor sit, 
-                James <br/> adipisicing elit. 
-                 Incidunt, hic? Soluta, eius unde?</p>
+            <p>:  We are the leading building & plumbing hardware 
+              Wholesale & Retail Company in Kenya, supplying both construction & plumbing
+               hardware materials to commercial and residential property owners.</p>
         </div>
       </div>
       <div className={styles.centerLeft2}>
@@ -30,9 +30,9 @@ const WhyChooseUs = () => {
         <div className={styles.centerLeftBox}></div>
         <div className={styles.centerLeftText}>
         <h4>Happy Clients</h4>
-            <p>Lorem ipsum dolor sit, 
-                amet consectetur <br/> adipisicing elit. 
-                 Incidunt, hic? Soluta, eius unde?</p>
+            <p>We pride ourselves in providing a tangible level of loyalty and satisfaction 
+              amongst our clients, a resonating customer 
+              experience after engaging with the KPFC team</p>
         </div>
       </div>
       </div>
@@ -40,18 +40,19 @@ const WhyChooseUs = () => {
         <div className={styles.centerRight1}>
           <div className={styles.centerRightText}>
           <h4>Proffesional Staff</h4>
-            <p>Lorem ipsum dolor sit, 
-                amet consectetur <br/>adipisicing elit. 
-                 Incidunt, hic? Soluta, eius unde?</p>
+            <p>Our qualified pool of employees across the departments 
+              provides our customers with leadership, management, and/or program direction 
+              in collaboration with executive administration, faculty, and classified staff</p>
           </div>
           <div className={styles.centerRightBox}></div>
         </div>
         <div className={styles.centerRight2}>
           <div className={styles.centerRightText}>
           <h4>24/7 Support</h4>
-            <p>Lorem ipsum dolor sit, 
-                amet consectetur <br/>adipisicing elit. 
-                 Incidunt, hic? Soluta, eius unde?</p>
+            <p>We offer dependable, on-demand support options
+               including 24/7 technical and remote 
+              support and where required, next-business-day
+               on-site support countrywide.</p>
           </div>
           <div className={styles.centerRightBox}></div>
         </div>
@@ -63,6 +64,19 @@ const WhyChooseUs = () => {
                  Incidunt, hic? Soluta, eius unde?</p>
           </div>
           <div className={styles.centerRightBox}></div>
+        </div>
+
+        <div className={styles.centerRight4}>
+
+
+          <div className={styles.centerRightText}>
+            <h4>Quality Assurance: </h4>
+            <p>
+            Our quality inspection cycle involves establishing 
+            organizational responsibilities, supplier relations, levels of inspection, and on-site quality control. 
+            The importance of knowledgeable personnel and documentation is noted.
+            </p>
+          </div>
         </div>
       </div>
       

@@ -23,10 +23,8 @@ const Skills = () => {
           <h5>OUR SKILLS</h5>
           <h4>The KPIPES Resume</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nemo
-            dolorem nam! Sequi quos provident asperiores nam porro doloremque
-            sed tempora ducimus natus explicabo eaque laudantium, reprehenderit
-            veritatis mollitia neque?
+          We specialize in distributing home construction and renovation
+           plumbing products, building materials, hardware, and tools.
           </p>
           <div className={styles.dataSlider}>
             <DataSlider />
@@ -35,6 +33,7 @@ const Skills = () => {
         <div className={styles.rightDiv}>
           <p>OUR PARTNERS</p>
           <h3>WE ARE TRUSTED</h3>
+          We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry
           <div className={styles.trusted}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid

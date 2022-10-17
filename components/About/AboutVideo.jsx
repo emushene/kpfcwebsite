@@ -21,68 +21,40 @@ const AboutVideo = () => {
           </div>
         </div>
         <div className={styles.textDiv}>
-          <h6>THE BUILDING STORY</h6>
+          <h6>About KPFC Builders</h6>
           <h4>Karibu KPFC Builders</h4>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
-            laborum nihil? Aperiam laudantium nam eos fugit ipsam iste corrupti
-            asperiores, voluptatum quisquam, unde, omnis facilis maxime cumque
-            voluptas impedit autem? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Distinctio assumenda ratione voluptas enim nostrum
-            vitae, voluptates sint dolore architecto cupiditate numquam
-            asperiores, doloremque quis, harum error quas est deleniti aliquid?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consectetur qui deleniti doloremque repudiandae delectus temporibus
-            provident laudantium odio excepturi impedit nisi dicta eum, non
-            voluptatem veritatis sed repellat et blanditiis! Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Molestiae explicabo fugiat
-            sunt sit odio quaerat, nihil, eos dicta possimus blanditiis
-            asperiores dignissimos, nemo accusantium dolorum eligendi quasi
-            ipsum optio facere! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Enim, eum quidem necessitatibus repudiandae vero
-            illum labore sequi cumque asperiores corrupti mollitia at commodi
-            corporis iusto hic consectetur reprehenderit tempore sit. Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
-            nesciunt accusantium nihil voluptate similique praesentium cumque
-            ducimus amet veniam, incidunt ullam facere est cupiditate doloremque
-            quia, fugit quisquam quas quod. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quos sequi in, enim neque, at placeat
-            quam non deserunt vitae, quibusdam nobis necessitatibus velit
-            doloribus id iste consequuntur illum repellendus ratione!
+          As a leading industry player, we pride ourselves in the ability to
+                   contribute crucial components and be integral parts of successful
+                    construction & plumbing projects.   Our tradition of always doing what 
+                    we think is right. Our commitment is to move forward, together and to 
+                    do everything in the best interests of our customers, their goals, and
+                     their ultimate success. KPFC Builders is a leading wholesale & retail
+                      business in the building & construction industry, headquartered 
+                      in the town of Kikuyu in Kiambu County, Kenya.   Our founders' 
+                      beliefs guide us: When you bring together skilled and knowledgeable 
+                      people from different origins, you can achieve great things. The people
+                       of KPFC Builders achieve this every day by steadfastly adhering to our 
+                       values and principles.
           </p>
         </div>
       </div>
       <BannerHappy />
       <div className={styles.portifolio}>
         <div className={styles.experience}>
-           <h6> ABOUT KPIPES & FITTING CENTER LTD</h6> 
+           <h6> About Kpipes & Fittings</h6> 
            <h3>10 Years Experience</h3>
            <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
-            laborum nihil? Aperiam laudantium nam eos fugit ipsam iste corrupti
-            asperiores, voluptatum quisquam, unde, omnis facilis maxime cumque
-            voluptas impedit autem? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Distinctio assumenda ratione voluptas enim nostrum
-            vitae, voluptates sint dolore architecto cupiditate numquam
-            asperiores, doloremque quis, harum error quas est deleniti aliquid?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consectetur qui deleniti doloremque repudiandae delectus temporibus
-            provident laudantium odio excepturi impedit nisi dicta eum, non
-            voluptatem veritatis sed repellat et blanditiis! Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Molestiae explicabo fugiat
-            sunt sit odio quaerat, nihil, eos dicta possimus blanditiis
-            asperiores dignissimos, nemo accusantium dolorum eligendi quasi
-            ipsum optio facere! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Enim, eum quidem necessitatibus repudiandae vero
-            illum labore sequi cumque asperiores corrupti mollitia at commodi
-            corporis iusto hic consectetur reprehenderit tempore sit. Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
-            nesciunt accusantium nihil voluptate similique praesentium cumque
-            ducimus amet veniam, incidunt ullam facere est cupiditate doloremque
-            quia, fugit quisquam quas quod. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quos sequi in, enim neque, at placeat
-            quam non deserunt vitae, quibusdam nobis necessitatibus velit
-            doloribus id iste consequuntur illum repellendus ratione!
+           K.Pipes and Fittings Centre, has been servicing contractors, 
+           municipalities, schools, etc. in the business of installation and repair 
+           of commercial and residential plumbing since 1996.   K.Pipes has grown
+            to have 40+ Branches in over 10 counties to covering the entire Kenya to 
+            provide our customers with the highest level of service possible.
+          Our headquarters is at Kikuyu Next to Lexo Petrol Station and we have branches in;
+          Kikuyu - near stage, Shop1 - along the bypass, Nanyuki, Nyahururu, Gilgil, Nakuru, 
+          Molo, Naivasha, Eldoret, Bungoma, Kisii, Narok, Ruaka, Kiserian, Nyeri, Molo, Rongai, 
+          Bomet, Thika, Ruthigiti, Muranga, Mai Mahiu, Ukunda, Mtwapa, Gataka, Kisii and more
+
           </p>
             
            

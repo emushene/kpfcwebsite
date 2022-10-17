@@ -2,7 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,700;1,900&family=Varela+Round&display=swap'); */
 
 .container{
-   height: auto;
+   min-height: auto;
    display: flex;
    border-top:5px;
    gap: 25px;
@@ -15,8 +15,8 @@
    
 }
 .container img {
-    height: 550px;
-    width: auto;
+    max-height: 550px;
+    min-width: auto;
     position: absolute;
     right: 2%;
     bottom: -15%;
@@ -88,8 +88,8 @@ display: flex;
   
    background-color: orange;
    padding: 5px;
-   height: 60px;
-   width: 250px;
+   min-height: 60px;
+   min-width: 250px;
    text-align:start;
    font-weight: bold;
    position: absolute;
@@ -137,7 +137,7 @@ display: flex;
 @media (min-width: 481px) and (max-width: 767px) {
        
 .container{
-    height: 380px;
+    min-height: 380px;
     display: flex;
     border-top:5px;
     gap: 25px;
@@ -151,7 +151,7 @@ display: flex;
     
  }
  .container img {
-     height: 250px;
+     min-height: 250px;
      width: auto;
      position: absolute;
      right: 4%;
