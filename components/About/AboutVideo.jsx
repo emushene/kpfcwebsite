@@ -9,7 +9,7 @@ const AboutVideo = () => {
     <div className={styles.mainContainer}>
       <div className={styles.container}>
         <div className={styles.vidDiv}>
-          <div>
+          <div >
             <ReactPlayer
               url="https://www.youtube.com/watch?v=MOV-fIsqCrg"
               className="react-player"
@@ -39,7 +39,7 @@ const AboutVideo = () => {
           </p>
         </div>
       </div>
-      <BannerHappy />
+      <div className={styles.banner}><BannerHappy /></div>
       <div className={styles.portifolio}>
         <div className={styles.experience}>
            <h6> About Kpipes & Fittings</h6> 

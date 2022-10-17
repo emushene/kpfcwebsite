@@ -1,10 +1,35 @@
   .container {
-    height: 90vh -150px;
+    display: flex;
+    flex-direction: column;
+    height: calc(90vh - 150px);
     width: 100%;
-    border: 2px solid pink;
-    background-color: yellow;
+    background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    background-blend-mode:soft-light;
   }
 
+  .glide{
+    height: calc(90vh - 150px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+
+  }
+
+.glide h1 {
+  font-size: 6em;
+}
+
+.text {
+  height: 400px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+
+}
   /*desktops - higher resolution*/
 @media (min-width: 1281px) {
 
@@ -27,10 +52,74 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: calc(55vh - 150px);
+    width: 100%;
+    background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    background-blend-mode:soft-light;
+  }
+
+  .glide{
+    height: calc(55vh - 150px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+
+  }
+
+.glide h1 {
+  font-size: 6em;
+}
+
+.text {
+  height: 400px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+
+}
+
 
 }
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: calc(55vh - 150px);
+    width: 100%;
+    background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    background-blend-mode:soft-light;
+  }
+
+  .glide{
+    height: calc(55vh - 150px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+
+  }
+
+.glide h1 {
+  font-size: 6em;
+}
+
+.text {
+  height: 400px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+
+}
 }

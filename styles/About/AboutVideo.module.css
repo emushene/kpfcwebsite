@@ -4,7 +4,8 @@
 
 
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,15 +16,17 @@
     margin-left: 20px;
     margin-top: 60px;
     margin-bottom: 10px;
-   
-  
+
+
 }
-.vidDiv{
+
+.vidDiv {
     flex: 2;
-    max-width: 500px;;
+    max-width: 500px;
+    ;
     margin-left: 40px;
 
- 
+
 }
 
 .textDiv {
@@ -31,50 +34,52 @@
     padding: 15px;
     text-align: justify;
     margin-right: 150px;
-  
+
 }
 
 .textDiv h6 {
-    color:  #f57200;
+    color: #f57200;
     font-size: 13PX;
     font-weight: bold;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 15px;
 }
+
 .textDiv h4 {
     color: rgb(5, 5, 131);
     font-weight: bold;
     font-size: 24px;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+
     padding: 15px;
 
 }
+
 .textDiv p {
     color: black;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 15px;
-   
+
 }
 
 
 
-.portifolio{
+.portifolio {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-     margin-left: 40px;
+    margin-left: 40px;
     margin-right: 50px;
     gap: 20px;
 }
 
-.experience{
- 
+.experience {
+
     flex: 2;
     height: 150px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -82,55 +87,318 @@
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.experience h6 { color: #f57200; font-size: 12px; margin-top: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 5px;}
-.experience h3{color: blue; font-size: 24px; margin-top: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; padding: 5px;}
-.experience p { color: black; text-align: justify; margin-top: 15px;}
 
-.addDiv{
-  
+.experience h6 {
+    color: #f57200;
+    font-size: 12px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+
+.experience h3 {
+    color: blue;
+    font-size: 24px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+
+.experience p {
+    color: black;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.addDiv {
+
     flex: 2;
     height: 180px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: auto;
     padding: 20px;
-    
+
 }
 
-.addDiv img{
-width: 100%;
-height: 300px;
-object-fit: cover;
-border-radius: 10px;
+.addDiv img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 /*desktops - higher resolution*/
-@media (min-width: 1281px) {
-
-}
+@media (min-width: 1281px) {}
 
 /*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-}
+@media (min-width: 1025px) and (max-width: 1280px) {}
 
 /*tablets, ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
+@media (min-width: 768px) and (max-width: 1024px) {}
 
 /*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+
+
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: ;
+        height: auto;
+        gap: 15px;
+        width: 100%;
+        flex-direction: row;
+
+
+    }
+
+    .vidDiv {
+   
+        max-width: 500px;
+        
+        
+
+
+    }
+
+    .textDiv {
+        padding: 15px;
+        text-align: justify;
+      
+
+    }
+
+    .textDiv h6 {
+        color: #f57200;
+        font-size: 13PX;
+        font-weight: bold;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+    }
+
+    .textDiv h4 {
+        color: rgb(5, 5, 131);
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        padding: 15px;
+
+    }
+
+    .textDiv p {
+        color: black;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+
+    }
+
+
+
+    .portifolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 50px;
+        gap: 20px;
+    }
+
+    .experience {
+
+        flex: 2;
+        height: 150px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .experience h6 {
+        color: #f57200;
+        font-size: 12px;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5px;
+    }
+
+    .experience h3 {
+        color: blue;
+        font-size: 24px;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5px;
+    }
+
+    .experience p {
+        color: black;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .addDiv {
+
+        flex: 2;
+        height: 180px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: auto;
+        padding: 20px;
+
+    }
+
+    .addDiv img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
 
 }
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        width: 100%;
+
+
+
+    }
+
+    .vidDiv {
+        margin-left: -30px;
+        max-width: 100%;
+        border: 3px solid red;
+
+
+    }
+
+    .textDiv {
+        width: 100%;
+        padding: 15px;
+        text-align: justify;
+        height: fit-content;
+        margin-left: 120px;
+        margin-bottom: 0px;
+
+    }
+
+    .textDiv h6 {
+        color: #f57200;
+        font-size: 1em;
+
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+    }
+
+    .textDiv h4 {
+        color: rgb(5, 5, 131);
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        padding: 15px;
+
+    }
+
+    .textDiv p {
+        color: black;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+
+    }
+
+        .banner {
+            height: 20px;
+            width: 100%;
+        }
+
+
+    .portifolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+
+    }
+
+    .experience {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px;
+       width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .experience h6 {
+        color: #f57200;
+        font-size: 1em;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5px;
+    }
+
+    .experience h3 {
+        color: blue;
+        font-size: 24px;
+        margin-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5px;
+    }
+
+    .experience p {
+        color: black;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .addDiv {
+
+       
+        height: 180px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: auto;
+        padding: 20px;
+
+    }
+
+    .addDiv img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
 }

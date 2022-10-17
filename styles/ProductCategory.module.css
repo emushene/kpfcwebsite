@@ -90,7 +90,7 @@ margin-top: 0px;
 
 }
 .mostDivLeft img{
-  max-height: 20px;
+  min-height: 20px;
   object-fit: cover;
 }
 .mostDivRight{
@@ -100,7 +100,7 @@ margin-top: 0px;
 }
 
 .mostDivRight img {
-  max-height: 20px;
+  min-height: 20px;
   max-width: 30px;
   object-fit: cover;
   
@@ -573,7 +573,7 @@ margin-top: 0px;
 
 
 /*smartphones mobiles (portrait)*/
-@media (min-width: 220px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .prodDiv {
     position: relative;
   }
@@ -601,7 +601,7 @@ margin-top: 0px;
     color: rgb(5, 81, 196) ;
   }
   .productsHeader{
-  margin-top: 50px;
+  margin-top: 150px;
   display: flex;
   color: rgb(5, 81, 196);
   align-items: center;

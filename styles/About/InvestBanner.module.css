@@ -24,6 +24,10 @@
     top: 50%;
     position: absolute;
 }
+.mobileButton {
+    display: none;
+}
+
 .textDiv p{color: rgba(9, 9, 187, 0.973); text-align: center;}
 .textDiv h5{color: rgba(9, 9, 187, 0.973);text-align: center;}
 
@@ -50,10 +54,84 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+    .mainContainer {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f57200;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: fit-content;
+    
+    }
+    
+    .textDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+    }
+    .textDiv h1 {color: rgb(7, 7, 161); font-size: 2em;}
+    .buttonDiv{
+      display: none;
+        
+     
+    }
+    .mobileButton {
+        display: block;
+        padding: 2px;
+        color: white;
+        background-color: #eca86c;
+        border: none;
+    }
+    .textDiv p{color: rgba(9, 9, 187, 0.973); text-align: start; }
+    .textDiv h5{color: white;text-align: center;}
+    
 
 }
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+    .mainContainer {
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f57200;
+        margin-top: 150px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: fit-content;
+    
+    }
+    
+    .textDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        position: relative;
+    }
+    .textDiv h1 {color: rgb(7, 7, 161); font-size: 1em;}
+    .buttonDiv{
+      display: none;
+      
+    
+    }
+
+    .mobileButton {
+        display: block;
+        border: none;
+        padding: 5px;
+        background-color: #eca86c;
+        cursor: pointer;
+        color: white;
+    }
+    .textDiv p{color: rgba(9, 9, 187, 0.973); text-align: center; font-size: 0.8em; text-align: justify; padding: 5px;}
+    .textDiv h5{color: rgba(247, 247, 247, 0.973);text-align: start; padding: 5px; }
+    
   
 }

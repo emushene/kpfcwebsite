@@ -20,10 +20,14 @@ const InvestBanner = () => {
                       beliefs guide us: When you bring together skilled and knowledgeable 
                       people from different origins, you can achieve great things. The people
                        of KPFC Builders achieve this every day by steadfastly adhering to our 
-                       values and principles.
+                       values and principles. <br>
+                       </br>
+
+                       <button className={styles.mobileButton}>Learn More</button>
 
                 </p>
                 <div className={styles.buttonDiv}>
+               
             <Button
                 variant="contained"
                 style={{
