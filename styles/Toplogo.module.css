@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {
-  background-color: #f0770e;
+  background-color: #fa8807;
   position: relative;
   
 
@@ -184,7 +184,7 @@
 
 
 /*smartphones mobiles (portrait)*/
-@media (min-width: 220px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   @import url(https://fonts.googleapis.com/css?family=Open);
 
 .navTopContainer {

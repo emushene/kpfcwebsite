@@ -90,11 +90,11 @@ margin-top: 0px;
 
 }
 .mostDivLeft img{
-  min-height: 20px;
+  max-height: 20px;
   object-fit: cover;
 }
 .mostDivRight{
-  min-height: 30px;
+  max-height: 20px;
   max-width: 30px;
   background-color: orange;
 }
@@ -283,14 +283,13 @@ margin-top: 0px;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
- 
-  
     gap: 15px;
     position: relative;
     border-top: 1px solid lightgrey;
     padding-top: 2px;
-    font-size: 20px;
+    font-size: 1.5em;
     color: rgb(5, 81, 196) ;
+    width: 100%;
   }
   .productsHeader{
   margin-top: 450px;
@@ -299,7 +298,7 @@ margin-top: 0px;
   align-items: center;
   justify-content: center;
   
-  font-size: 10px;
+  font-size: 0.7em;
   max-width: 100%;
   border-bottom: 1px solid lightgray;
   
@@ -346,7 +345,7 @@ margin-top: 0px;
       grid-column-gap: 10px;
       grid-row-gap: 10px;
       margin-top: 5px;
-      margin-bottom: 800px;
+      margin-bottom: 514px;
       margin-left: 30px;
       max-width: 100%;
       min-height: 62vh;
@@ -391,11 +390,12 @@ margin-top: 0px;
     justify-content: center;
     text-align: center;
     font-weight: 100px;
-    padding-top: 0%;
+   
     position: relative;
-    min-height: 450px;
-    max-width: 250px;
+    min-height: 420px;
+    min-width: 250px;
     margin-top: 2px;
+    margin-bottom: 0.8em;
     
    
   }
@@ -446,7 +446,8 @@ margin-top: 0px;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    min-height: 140px;
+    max-height: 120px;
+    min-width: 90px;
     
   }
   
@@ -458,7 +459,8 @@ margin-top: 0px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 140px;
+    max-height: 120px;
+    min-width: 90px;
     
     
   }
@@ -469,8 +471,8 @@ margin-top: 0px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 115px;
-    min-height: 140px;
+    max-height: 120px;
+    min-width: 90px;
     
   
   }
@@ -481,8 +483,8 @@ margin-top: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 115px;
-    min-height: 140px;
+    max-height: 120px;
+    min-width: 90px;
     
   
   
@@ -494,9 +496,8 @@ margin-top: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 115px;
-    min-height: 140px;
-    
+    max-height: 120px;
+    min-width: 90px;
   
   
   }
@@ -507,9 +508,8 @@ margin-top: 0px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 115px;
-    min-height: 140px;
-    
+    max-height: 120px;
+    min-width: 90px;
   
   
   }
@@ -524,7 +524,7 @@ margin-top: 0px;
     color: orange;
     margin-top: 5%;
     margin-left: -0px;
-    font-size: 10px;
+    font-size: 0.5em;
   }
   
   .ourService {
@@ -536,7 +536,7 @@ margin-top: 0px;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    font-size: 9px;
+    font-size: 0.8em;
     padding: 10px;
   }
   
@@ -549,13 +549,13 @@ margin-top: 0px;
     gap: 10px;
   }
   .ourServiceText p{
-    font-size: 10px;
+    font-size: 1em;
     padding: 1px;
     text-align: start;
   }
   
   .ourServiceText h3{
-    font-size: 10px;
+    font-size: 1em;
     padding: 1px;
     text-align: start;
   }
@@ -580,7 +580,7 @@ margin-top: 0px;
   
   .fullContainer {
     max-width: 100%;
-    margin-top: -500px;
+    margin-top: -200px;
     margin-bottom: 200px;
   }
   
@@ -597,7 +597,7 @@ margin-top: 0px;
     position: relative;
     border-top: 1px solid orange;
     padding-top: 2px;
-    font-size: 20px;
+    font-size: 1em;
     color: rgb(5, 81, 196) ;
   }
   .productsHeader{
@@ -607,7 +607,7 @@ margin-top: 0px;
   align-items: center;
   justify-content: center;
   
-  font-size: 10px;
+  font-size: 0.5em;
   max-width: 100%;
   border-bottom: 1px solid lightgray;
   
@@ -655,7 +655,7 @@ margin-top: 0px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     margin-top: -190px;
-    margin-bottom: 540px;
+    margin-bottom: 590px;
     margin-left: 30px;
     max-width: 100%;
     min-height: 62vh;
@@ -702,7 +702,7 @@ display: none;
   font-weight: 100px;
   padding-top: 0%;
   position: relative;
-  min-height: 450px;
+  max-height: 400px;
   max-width: 250px;
   margin-top: 2px;
   
@@ -755,7 +755,7 @@ display: none;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  min-height: 140px;
+  max-height: 120px;
   
 }
 
@@ -767,7 +767,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 140px;
+  max-height: 120px;
   
   
 }
@@ -778,8 +778,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 115px;
-  min-height: 140px;
+  max-height: 120px;
   
 
 }
@@ -790,8 +789,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 115px;
-  min-height: 140px;
+  max-height: 120px;
   
 
 
@@ -803,8 +801,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 115px;
-  min-height: 140px;
+  max-height: 120px;
   
 
 
@@ -816,8 +813,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 115px;
-  min-height: 140px;
+  max-height: 120px;
   
 
 
@@ -833,7 +829,7 @@ display: none;
   color: orange;
   margin-top: 5%;
   margin-left: -0px;
-  font-size: 10px;
+  font-size: 0.4em;
 }
   
   .ourService {
@@ -845,7 +841,7 @@ display: none;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    font-size: 9px;
+    font-size: 0.2em;
     padding: 10px;
   }
   
@@ -858,13 +854,13 @@ display: none;
     gap: 10px;
   }
   .ourServiceText p{
-    font-size: 10px;
+    font-size: 3em;
     padding: 1px;
     text-align: start;
   }
   
   .ourServiceText h3{
-    font-size: 10px;
+    font-size: 3em;
     padding: 1px;
     text-align: start;
   }
@@ -875,6 +871,7 @@ display: none;
 
   .ourServicesButtonMobile{
     display:flex;
+    font-size: 2em;
   }
   
   

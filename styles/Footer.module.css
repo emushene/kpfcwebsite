@@ -319,17 +319,12 @@
   flex-direction: column;
   align-items: center;
   gap: 2PX;
-  font-size: 14px;
+  font-size: 0.7em;
   margin-top: -90px;
-  border-bottom: 1px solid grey;
+width: 100%;
   
 
   
-}
-.serviceArea h5 {
-  font-size: 10px;
- 
-
 }
 
 .serviceArea ul{
@@ -351,19 +346,19 @@
   list-style-type: none;
   text-align: justify;
   gap: 5px;
-  font-size: 12px;
+  
 }
 
 .listItem {
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 0.7em;
 }
 
 .newsLetter {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  font-size: 14px;
+  font-size: 0.8em;
   text-align: center;
   margin-top: -90px;
   margin-bottom: 10px;
@@ -375,7 +370,7 @@
 
 
 .newsLetter p {
-  font-size: 10px;
+  font-size: 0.6em;
   text-align: justify;
 }
 
@@ -493,7 +488,7 @@ margin-left: 0px;
     display: flex;
     flex-direction: column;
   
-    height: 85vh;
+    height: 121vh;
     width: 100%;
    
     padding-top: 100px;
@@ -670,11 +665,11 @@ margin-left: 0px;
     display: flex;
     width: 100%;
  margin-left: 0px;
-    gap: 1px;
-    font-size: 9px;
+    gap: 0.7em;
+    font-size: 0.6em;
    
-    margin-top: 150px;
-    margin-bottom: 1px;
+    margin-top: 25em;
+    margin-bottom: 1em;
     cursor: pointer;
   }
   
@@ -682,9 +677,9 @@ margin-left: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 0.6em;
     
-    margin-top: 10px;
+    margin-top: 1em;
     margin-bottom: 1px;
   }
   
