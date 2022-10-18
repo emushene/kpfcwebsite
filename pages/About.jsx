@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Corousal from "../components/About/corousal";
+import Corousal from "../components/About/Corousal";
 import AboutVideo from "../components/About/AboutVideo";
 import InvestBanner  from "../components/About/InvestBanner";
 import Skills from "../components/Skills";

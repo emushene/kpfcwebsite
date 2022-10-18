@@ -1,6 +1,6 @@
 import styles from "../../styles/About/Carousal.module.css";
 
-const corousal = () => {
+const Corousal = () => {
   return (
     <div className={styles.container}>
       <div className={styles.glide}>
@@ -14,4 +14,4 @@ const corousal = () => {
   );
 };
 
-export default corousal;
+export default Corousal;
