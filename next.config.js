@@ -1,10 +1,28 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    loader:'akamai',
+    path: "",
+    domains: ["lh3.googleusercontent.com", ],
+  }
+
+}
 
 module.exports = {
+
+  images: {
+    unoptimized: true
+},
+
+
   webpack(config, { isServer, dev }) {
     config.experiments = {
       asyncWebAssembly: true,
       layers: true,
     };
+
 
     if (!dev && isServer) {
       config.output.webassemblyModuleFilename = "chunks/[id].wasm";
