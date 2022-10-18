@@ -6,14 +6,16 @@ const nextConfig = {
     loader:'akamai',
     path: "",
     domains: ["lh3.googleusercontent.com", ],
-  }
+  },
+  basePath: "/nextjs-pages",
+  assetPrefix: "/nextjs-pages",
 
 }
 
 module.exports = {
 
   images: {
-    unoptimized: true
+    unoptimized: false
 },
 
 
