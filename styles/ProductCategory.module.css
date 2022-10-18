@@ -273,10 +273,10 @@ margin-top: 0px;
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
   .fullContainer {
-    
-    max-width: 100%;
+        max-width: 100%;
+        margin-top: -50em;
   }
-  
+ 
   
   .containerProducts {
     display: flex;
