@@ -7,8 +7,7 @@ const nextConfig = {
     path: "",
     domains: ["lh3.googleusercontent.com", ],
   },
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages",
+  
 
 }
 
@@ -18,6 +17,8 @@ module.exports = {
     unoptimized: true,
 },
 
+basePath: "/kpfcwebsite",
+  assetPrefix: "/kpfcwebsite",
 
   webpack(config, { isServer, dev }) {
     config.experiments = {
