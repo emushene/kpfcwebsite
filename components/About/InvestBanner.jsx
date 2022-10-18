@@ -16,7 +16,7 @@ const InvestBanner = () => {
                     do everything in the best interests of our customers, their goals, and
                      their ultimate success. KPFC Builders is a leading wholesale & retail
                       business in the building & construction industry, headquartered 
-                      in the town of Kikuyu in Kiambu County, Kenya.   Our founders' 
+                      in the town of Kikuyu in Kiambu County, Kenya.   Our founders 
                       beliefs guide us: When you bring together skilled and knowledgeable 
                       people from different origins, you can achieve great things. The people
                        of KPFC Builders achieve this every day by steadfastly adhering to our 

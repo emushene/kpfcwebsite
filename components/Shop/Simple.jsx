@@ -1,6 +1,18 @@
+import styles from "../../styles/Shop/Simple.module.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Image } from "semantic-ui-react";
+import pl from "../../public/Images/Plumbing.png"
+import plumbing from "../../public/Images/Plumbing.png"
+import building from "../../public/Images/Building_Materials.png"
+import lighting from "../../public/Images/Lighting_Electricals.png"
+import hardware from "../../public/Images/Hardware_Tools.png"
+import iron from "../../public/Images/Iron_Sheets_Bars.png"
+import locks from "../../public/Images/Locks_Hinges.jpg.png"
+import mdf from "../../public/Images/MDF_Boards.png"
+import tanks from "../../public/Images/Water_Tanks.png"
+import gardening from "../../public/Images/Gardening_Tools_Equipment.png"
+
 
 const responsive = {
   desktop: {
@@ -47,7 +59,10 @@ const Simple = ({ deviceType }) => {
             backgroundColor:"blue"
           }}
         >
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />{" "}
+          <Image src={pl} alt="" layout="fill" 
+          objectFit="cover" height={400}
+          
+          />{" "}
           <h6> Plumbing</h6>
         </div>
         <div
@@ -67,9 +82,12 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Building_Materials.png"
+          <Image
+            src={building}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
+
             style={{ height: "70px",  }}
           />{" "}
           <h4>Building <br/>Materia</h4>
@@ -91,9 +109,11 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Gardening_Tools_Equipment.png"
+          <Image
+            src={gardening}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />{" "}
           <h4>Garden <br/>Equipment</h4>
@@ -115,9 +135,11 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Hardware_Tools.png"
+          <Image
+            src={hardware}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />{" "}
          <h4>Hardware<br/> Tools</h4> {" "}
@@ -139,9 +161,11 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Iron_Sheets_Bars.png"
+          <Image
+            src={iron}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
           <h4>Iron <br/>Sheets</h4>{" "}
@@ -163,9 +187,12 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Lighting_Electricals.png"
+          <div></div>
+          <Image
+            src={lighting}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
          <h4>Lighting &<br/> Electrical</h4>{" "}
@@ -187,9 +214,11 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/Locks_Hinges.jpg.png"
+          <Image
+            src={locks}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
           <h4>Locks & <br/>Hinges</h4>{" "}
@@ -212,9 +241,11 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img
-            src="./Images/MDF_Boards.png"
+          <Image
+            src={mdf}
             alt=""
+            layout="fill" 
+          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
          <h4>MDF<br/> Boards</h4> {" "}
@@ -236,7 +267,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />
+          <Image src={plumbing} alt=""
+          layout="fill" 
+          objectFit="cover" height={400} style={{ height: "70px" }} />
          <h4>Plumbing</h4> {" "}
         </div>
         <div
@@ -255,12 +288,15 @@ const Simple = ({ deviceType }) => {
             marginLeft: "-90px", 
           }}
         >
-          {" "}
-          <img
-            src="./Images/Water_Tanks.png"
+          <div className={styles.imageDiv}>
+          <Image
+            src={tanks}
             alt=""
-            style={{ height: "70px" }}
+            layout="fill" 
+           objectFit="cover" 
+            height={300}
           />{" "}
+          </div>
          <h4> Water <br/>Tanks</h4>
         </div>
 

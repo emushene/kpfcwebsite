@@ -18,6 +18,11 @@
 
 }
 
+.imageDiv{
+    max-height: 300px;
+    width: 100%;
+}
+
 .blogText {
     position: absolute;
     top: 20%;

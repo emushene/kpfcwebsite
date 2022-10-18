@@ -3,6 +3,8 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/Testimonial.module.css";
+import Image from "next/image";
+import Morgan from "../public/Images/morgan1.jpg"
 
 const responsive = {
   desktop: {
@@ -102,14 +104,12 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <img
-                src="./Images/morgan1.jpg"
+              <Image
+                src={Morgan}
                 alt=""
-                style={{
-                  objectFit: "cover",
-                  maxHeight: "85px",
-                  alignContent: "center",
-                }}
+                layout="fill"
+                objectFit="contain"
+               
               />
             </div>
 
@@ -178,14 +178,13 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <img
-                src="./Images/morgan1.jpg"
+              <Image
+                src={Morgan}
                 alt=""
-                style={{
-                  objectFit: "cover",
-                  maxHeight: "85px",
-                  alignContent: "center",
-                }}
+                layout="fill"
+                objectFit="contain"
+                
+               
               />
             </div>
 
@@ -253,14 +252,12 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <img
-                src="./Images/morgan1.jpg"
+              <Image
+                src={Morgan}
                 alt=""
-                style={{
-                  objectFit: "cover",
-                  maxHeight: "85px",
-                  alignContent: "center",
-                }}
+                layout="fill"
+                objectFit="contain"
+                
               />
             </div>
 
@@ -389,14 +386,12 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <img
-                src="./Images/morgan1.jpg"
+              <Image
+                src={Morgan}
                 alt=""
-                style={{
-                  objectFit: "cover",
-                  maxHeight: "35px",
-                  alignContent: "center",
-                }}
+                layout="fill"
+                objectFit="contain"
+                
               />
             </div>
 
@@ -470,14 +465,13 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <img
-                src="./Images/morgan1.jpg"
+              <Image
+                src={Morgan}
                 alt=""
-                style={{
-                  objectFit: "cover",
-                  maxHeight: "35px",
-                  alignContent: "center",
-                }}
+                layout="fill"
+                objectFit="contain"
+                
+                
               />
             </div>
 

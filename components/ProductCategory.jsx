@@ -4,6 +4,17 @@ import Button from "@mui/material/Button";
 import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
 import Simple from "./Shop/Simple";
+import Image from "next/image";
+import doors from "../public/Images/doors.webp"
+import cement from "../public/Images/cement.jpg"
+import electrical from "../public/Images/electrical.webp"
+import duracoat from "../public/Images/duracoat.png"
+import d16 from "../public/Images/d16.webp"
+import tools from "../public/Images/tools.webp"
+import leftArrow from "../public/Images/leftArrow.png"
+import rightArrow from "../public/Images/rightArrow.png"
+import Link from "next/link";
+
 
 
 const ProductCategory = () => {
@@ -26,10 +37,10 @@ const ProductCategory = () => {
         <div className={styles.popularHeading}>
           <h1>MOST POPULAR PRODUCTS </h1>
           <div className={styles.mostDivLeft}>
-            <img src="./Images/leftArrow.png" alt="" />
+            <Image src={leftArrow} alt="" />
           </div>
           <div className={styles.mostDivRight}>
-            <img src="./Images/rightArrow.png" alt="" />
+            <Image src={rightArrow} alt="" />
           </div>
         </div>
         <div className={styles.adverts}>
@@ -38,9 +49,10 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures1}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/doors.webp"
+            <Image
+              src={doors}
               alt="kpfc hardware doors"
+              height={10}
               // width="260"
               // height="300"
             />
@@ -49,8 +61,8 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures2}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/cement.jpg"
+            <Image
+              src={cement}
               alt="kpfc hardware cement"
               // width="260"
               // height="300"
@@ -60,8 +72,8 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures3}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/electrical.webp"
+            <Image
+              src={electrical}
               alt="kpfc hardware Electrical"
               // width="260"
               // height="300"
@@ -71,8 +83,8 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures4}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/duracoat.png"
+            <Image
+              src={duracoat}
               alt="ichiran"
               // width="260"
               // height="300"
@@ -82,8 +94,8 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures5}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/d16.webp"
+            <Image
+              src={d16}
               alt="ichiran"
               // width="260"
               // height="300"
@@ -93,8 +105,8 @@ const ProductCategory = () => {
         </div>
         <div className={styles.pictures6}>
           <a className={styles.a} href="#">
-            <img
-              src="/Images/tools.webp"
+            <Image
+              src={tools}
               alt="ichiran"
               // width="260"
               // height="300"
@@ -130,7 +142,7 @@ const ProductCategory = () => {
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
           >
-            <a href="/Services">OUR SERVICES</a>
+            <Link href="/Services">OUR SERVICES</Link>
           </Button>
         </div>
         <div className={styles.ourServicesButtonMobile}>
@@ -148,7 +160,7 @@ const ProductCategory = () => {
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
           >
-            <a href="/Services">OUR SERVICES</a>
+            <Link href="/Services">OUR SERVICES</Link>
           </Button>
         </div>
       </div>

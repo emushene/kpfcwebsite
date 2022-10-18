@@ -1,12 +1,27 @@
 import styles from "../styles/Invest.module.css";
 import * as React from "react";
 import Button from "@mui/material/Button";
-import { color } from "@mui/system";
+import Link from "next/link"
+import Image from "next/image"
+import investpic from "../public/Images/invest.png"
+import { margin } from "@mui/system";
+
+
 
 const Invest = () => {
   return (
     <div className={styles.container}>
-      <img src="/images/invest.png"></img>
+      {/* <img src="/images/invest.png"></img> */}
+     <div className={styles.imageDiv}>
+      <Image src={investpic} layout="fill"
+      objectFit="contain"
+      objectPosition={225}
+      alt=""
+      
+      />
+
+      </div>
+      
       <div>
         <div className={styles.leftDiv}>
           <h1 className={styles.topHeading}>
@@ -49,7 +64,7 @@ const Invest = () => {
             }}
           >
             {" "}
-           <a href="/Investiment">Learn More</a> 
+           <Link href="/Investiment">Learn More</Link> 
           </Button>
           </div>
         </div>
@@ -86,7 +101,7 @@ const Invest = () => {
             }}
           >
             {" "}
-           <a href="/Investiment">Learn More</a> 
+           <Link href="/Investiment">Learn More</Link> 
           </Button>
           </div>
      

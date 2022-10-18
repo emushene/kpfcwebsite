@@ -1,9 +1,18 @@
 import styles from "../../styles/Services/WhyChooseUs.module.css";
+import staff from "../../public/Images/Staff-Image-1.png"
+import Image from "next/image";
+
+
+
 const WhyChooseUs = () => {
   return (
     <div className={styles.topContainer}>
       <h2>WHY CHOOSE US</h2>
-      <img src="./Images/Staff-Image-1.png" alt="" />
+      <div className={styles.Image}>
+      <Image src={staff} alt="" layout="fill"
+      objectFit="contain" 
+      />
+      </div>
       <div className={styles.container}>
         <div className={styles.centerLeftDiv}>
           <div className={styles.centerLeft1}>

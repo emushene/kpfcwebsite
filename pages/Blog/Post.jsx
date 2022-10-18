@@ -1,9 +1,12 @@
 import styles from "../../styles/Blog/Post.module.css";
+import blogheadimage from "../../public/Images/blogheadimage.jpg"
+import Image from "next/image";
+
 const Post = () => {
     return (
         <div className={styles.postContainer}>
-            <img className={styles.postImg}      
-               src="https://media.istockphoto.com/photos/electrical-tools-and-cables-used-in-electrical-installations-picture-id612248188?s=612x612" alt="" />
+            <Image className={styles.postImg}      
+               src={blogheadimage} alt="" objectFit="cover"/>
                <div className={styles.postInfo}>
                 <div className={styles.postCats}>
                     <spam className={styles.postcat}>Building Materials</spam>

@@ -6,13 +6,17 @@ import BlogPage from "./BlogPage"
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import companyLogo from "../../public/Images/company_logo.png"
+import Image from "next/image";
+
+
 
 const Sidebar = () => {
   return (
     <div className={styles.sidebarContainer}>
       <div className={styles.sidebarItem}>
         <span className={styles.sidebarTitle}>ABOUT US</span>
-        <img src="./Images/company_logo.png" alt="" />
+        <Image src={companyLogo} alt="" />
         <p>
           {" "}
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam

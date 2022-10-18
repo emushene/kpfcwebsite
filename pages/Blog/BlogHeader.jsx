@@ -1,4 +1,7 @@
 import styles from "../../styles/Blog/BlogHeader.module.css"
+import Image from "next/image";
+import blogheadimage from "../../public/Images/blogheadimage.jpg"
+
 
 
 const BlogHeader = () => {
@@ -13,7 +16,17 @@ const BlogHeader = () => {
 
             
             </div>
-            <img className={styles.headerImg} src="https://lh3.googleusercontent.com/y1YkkBjbX52GicACMjPZ1ypZIe2-95mjK7gVrauPBHWdu5K16lJJuTEHXDZA3NXmz390mL14K20RXDxdFA1VKxVJQwCA=s750" alt="" />
+            {/* <div className={styles.imageDiv}> */}
+            <Image className={styles.headerImg} src={blogheadimage} 
+            alt=""
+            layout="responsive"
+            objectFit="cover" 
+            height={10}
+            width={20}
+            z-tabIndex={-1}
+            
+            />
+            {/* </div> */}
         </div>
     );
 }
