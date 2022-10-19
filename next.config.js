@@ -17,8 +17,8 @@ module.exports = {
     unoptimized: true,
 },
 
-basePath: "/kpfcwebsite",
-  assetPrefix: "/kpfcwebsite",
+// basePath: "/kpfcwebsite",
+  // assetPrefix: "/kpfcwebsite",
 
   webpack(config, { isServer, dev }) {
     config.experiments = {

@@ -23,8 +23,8 @@
 
 .companyLogo {
 
-  width: 295px;
-  height: 70px;
+  width: 305px;
+  height: 60px;
   align-items: center;
   margin-bottom: 15px;
   background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
@@ -38,7 +38,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  color: rgb(12, 12, 12);
+  color: rgb(15, 10, 10);
   margin-right: 20px;
 }
 

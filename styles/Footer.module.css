@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
 
-  height: 69vh;
+  height: 49vh;
   width: 100%;
  
   padding-top: 100px;
@@ -46,12 +46,12 @@
 }
 
 .bottomFour {
-  height: 50vh;
+  height: 40vh;
   display: flex;
-  align-items: auto;
-  justify-content: space-between;
+    justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: -4em;
   font-size: 22px;
   font-weight: 100px;
   color: whitesmoke;
@@ -139,35 +139,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 1.4em;
   font-size: 14px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
+  margin-left: 5em;
+  margin-right:5em;
+  margin-top: -2em;
   margin-bottom: 30px;
   cursor: pointer;
+  border-bottom: 0.1em solid grey;
+  border-top: 0.1em solid grey;
 }
 
 .allRights {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  max-height: 1em;
+  font-size: 1em;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
+
 }
 
-.line1 {
-  border-bottom: 10px solid #fffafa;
-  padding-bottom: 5px;
-  
-}
 
-.horizontalLine {
-    margin: 1px 100px;
-}
+
 .subscription * {
   margin: 0;
   padding: 0;
@@ -283,13 +280,14 @@
 }
 
 .bookAppointment h2{
-  font-size: 10px;
+  font-size: 2em;
 }
 
 .bottomFour {
-  height: 90vh;
+  
   display: flex;
  flex-direction: row;
+ margin-top: 0.1em;
   justify-content: space-between;
   color: whitesmoke;
   gap: 20px;
