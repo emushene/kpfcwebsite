@@ -2,10 +2,11 @@
 .mainContainer {
 
     display: flex;
-    margin-top: 30px;
+    margin-top: 10em;
     margin-bottom: 30px;
     padding: 15px;
     gap: 10px;
+    height: calc(90vh - 100px);
 }
 
 .allBranchesList {
