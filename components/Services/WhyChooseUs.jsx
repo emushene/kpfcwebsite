@@ -1,5 +1,5 @@
 import styles from "../../styles/Services/WhyChooseUs.module.css";
-import staff from "../../public/Images/Staff-Image-1.png"
+import staff from "../../public/Images/Staff-Image-1.webp"
 import Image from "next/image";
 
 

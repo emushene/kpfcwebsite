@@ -3,8 +3,8 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import Image from "next/image";
-import investpic from "../public/Images/invest.png";
-import { margin } from "@mui/system";
+import investpic from "../public/Images/invest.webp";
+
 
 const Invest = () => {
   return (
