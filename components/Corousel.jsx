@@ -15,10 +15,10 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    imgPath: "./Images/Home Page Slider 1.jpg",
+    imgPath: "./Images/Home Page Slider 1.webp",
   },
   {
-    imgPath: "./Images/Home Page Slider 2.jpg",
+    imgPath: "./Images/Home Page Slider 2.webp",
   },
   {
     imgPath: "./Images/Home Slider 3.webp",
