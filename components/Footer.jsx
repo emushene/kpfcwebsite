@@ -135,19 +135,17 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          {" "}
-          <hr className={styles.horizontalLine}></hr>
         </div>
         <div className={styles.legalDivs}>
           <div>Terms Of Use</div> <hr className={styles.line1} />
           <div>Privacy Policy</div> <hr className={styles.line1} />
           <div>Cookies</div> <hr className={styles.line1} />
           <div>Help</div>
-          <hr className={styles.line1} />
+  
           <div>FAQS</div>
         </div>
         <div>
-          <hr className={styles.horizontalLine} />
+        
         </div>
         <div className={styles.allRights}>
           <div>
