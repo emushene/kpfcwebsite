@@ -9,7 +9,7 @@ const Intro = () => {
     "/Images/_DSC0789.JPG",
   ];
   return (
-    <div >
+    <div className={styles.main}>
       <div className={styles.container}>
         <Corousel />
          </div>

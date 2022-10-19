@@ -1,7 +1,7 @@
 .mainContainer {
 
    
-    height: calc(80vh - 150px);
+    height: calc(100vh - 150px);
     text-align: center;
     font-size: 30px;
     align-items: center;
