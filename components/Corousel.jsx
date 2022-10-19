@@ -81,7 +81,7 @@ function SwipeableTextMobileStepper() {
                     <Box
                       component="img"
                       sx={{
-                        height: 645,
+                        height: 745,
                         width: "100%",
                         display: "blog",
                         overflow: "hidden",

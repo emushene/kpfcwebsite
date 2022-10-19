@@ -1,7 +1,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    height: calc(90vh - 150px);
+    height: calc(100vh - 80px);
     width: 100%;
     background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
     background-repeat: no-repeat;
