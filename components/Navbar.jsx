@@ -21,22 +21,22 @@ const Navbar = () => {
           <div className={styles.openHrs}>
           <EventRepeatRounded sx={{ fontSize: 30 }}/>
             <div >
-              <div style={{fontWeight: 'bold'}}> OPENING HOURS</div>
-              <div className={styles.text}> Monday - Friday 7AM - 6PM</div>
+              <div style={{fontWeight: '900'}}> OPENING HOURS</div>
+              <div className={styles.text} style={{fontWeight: '400'}}> Monday - Saturday 7AM - 6PM</div>
             </div>
           </div>
           <div className={styles.callus}>
           <Phone sx={{ fontSize: 30 }}/>
             <div>
-              <div style={{fontWeight: 'bold'}}> Call Us</div>
-              <div className={styles.text}> <h4>+254 7499999</h4></div>
+              <div style={{fontWeight: '900'}}> Call Us</div>
+              <div className={styles.text} style={{fontWeight: '100'}}> <h4>+254 791281423</h4></div>
             </div>
           </div>
           <div className={styles.emailus}>
           <ContactMail sx={{ fontSize: 30 }}/>
             <div>
-              <div style={{fontWeight: 'bold'}}> Email Us</div>
-              <div className={styles.emailadd}> sales@kpipes@kpipes.co.ke</div>
+              <div style={{fontWeight: '900'}}> Email Us</div>
+              <div className={styles.emailadd} style={{fontWeight: '400'}}> sales@kpipes@kpipes.co.ke</div>
             </div>
           </div>
         </div>
