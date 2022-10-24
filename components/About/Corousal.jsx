@@ -5,9 +5,11 @@ const Corousal = () => {
     <div className={styles.container}>
       <div className={styles.glide}>
         
-        <h1>About Us</h1>
+       
         <div className={styles.text}>
-          <h1>Hello World</h1>
+        <h2>About Us</h2>
+          <p>KPFC Builders Hardware, where you <br /> will find everything
+            your local hardware <br /> store carries and a lot more!</p>
         </div>
       </div>
     </div>

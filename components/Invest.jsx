@@ -34,7 +34,7 @@ const Invest = () => {
             src={investpic}
             layout="fill"
             objectFit="contain"
-            objectPosition={229}
+            objectPosition={245}
             alt=""
           />
         </div>
@@ -43,7 +43,7 @@ const Invest = () => {
             src={investpic}
             layout="fill"
             objectFit="contain"
-            objectPosition={330}
+            objectPosition={360}
             alt=""
           />
         </div>

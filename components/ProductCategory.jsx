@@ -6,9 +6,9 @@ import BlogSubSection from "./BlogSubSection";
 import Simple from "./Shop/Simple";
 import Image from "next/image";
 import doors from "../public/Images/doors.webp"
-import cement from "../public/Images/cement.jpg"
-import electrical from "../public/Images/electrical.webp"
-import duracoat from "../public/Images/duracoat.png"
+import cement from "../public/Images/products/waterproof-tile-grout-eurofix-kpfc-builders-hardware.webp"
+import electrical from "../public/Images/products/electrical-cables-red-black-single-phase-kpfc-builders-hardware-accessories.webp"
+import duracoat from "../public/Images/products/basco-value-paint-kpfc-builders-hardware-duracoat.webp"
 import d16 from "../public/Images/d16.webp"
 import tools from "../public/Images/tools.webp"
 import leftArrow from "../public/Images/leftArrow.png"
@@ -118,8 +118,8 @@ const ProductCategory = () => {
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
           <p>
-            Free estimates are provided for work that would be more involved
-            than a service call.
+          We offer a wide range of quality products,
+           at competitive prices <br/> all under one roof with service of a high standard.
           </p>
           <h3>
             {" "}

@@ -2,16 +2,16 @@ import styles from "../../styles/Shop/Simple.module.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Image } from "semantic-ui-react";
-import pl from "../../public/Images/Plumbing.png"
-import plumbing from "../../public/Images/Plumbing.png"
-import building from "../../public/Images/Building_Materials.png"
-import lighting from "../../public/Images/Lighting_Electricals.png"
-import hardware from "../../public/Images/Hardware_Tools.png"
-import iron from "../../public/Images/Iron_Sheets_Bars.png"
-import locks from "../../public/Images/Locks_Hinges.jpg.png"
-import mdf from "../../public/Images/MDF_Boards.png"
-import tanks from "../../public/Images/Water_Tanks.png"
-import gardening from "../../public/Images/Gardening_Tools_Equipment.png"
+import pl from "../../public/Images/Plumbing-kpfc-builders-hardware-builders.jpg"
+import plumbing from "../../public/Images/Plumbing-kpfc-builders-hardware-builders.jpg"
+import building from "../../public/Images/Building-Materials-kpfc-builders-hardware-builders.jpg"
+import lighting from "../../public/Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
+import hardware from "../../public/Images/Hardware-Tools-kpfc-builders-hardware-builders.jpg"
+import iron from "../../public/Images/Iron-Sheets-Bars-kpfc-builders-hardware-builders.jpg"
+import locks from "../../public/Images/Locks-Hinges-kpfc-builders-hardware-builders.jpg"
+import mdf from "../../public/Images/MDF-Boards-kpfc-builders-hardware-builders.jpg"
+import tanks from "../../public/Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
+import gardening from "../../public/Images/Gardening-Tools-Equipment-kpfc-builders-hardware-builders.jpg"
 
 
 const responsive = {
@@ -44,7 +44,7 @@ const Simple = ({ deviceType }) => {
         itemClass="image-item"
         responsive={responsive}
       >
-        <div
+          <div
           style={{
             display: "flex",
             alignItems: "center",
@@ -59,10 +59,7 @@ const Simple = ({ deviceType }) => {
             backgroundColor:"blue"
           }}
         >
-          <Image src={pl} alt="" layout="fill" 
-          objectFit="cover" height={400}
-          
-          />{" "}
+          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />{" "}
           <h6> Plumbing</h6>
         </div>
         <div
@@ -77,17 +74,14 @@ const Simple = ({ deviceType }) => {
             cursor:"pointer",
             gap: "3px,", 
             color: "white",
-            backgroundColor:"blue",
+            backgroundColor:"green",
             marginLeft: "-90px", 
           }}
         >
           {" "}
-          <Image
-            src={building}
+          <img
+            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders,jpg"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
-
             style={{ height: "70px",  }}
           />{" "}
           <h4>Building <br/>Materia</h4>
@@ -109,11 +103,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image
-            src={gardening}
+          <img
+            src="./Images/Gardening_Tools_Equipment.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />{" "}
           <h4>Garden <br/>Equipment</h4>
@@ -135,11 +127,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image
-            src={hardware}
+          <img
+            src="./Images/Hardware_Tools.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />{" "}
          <h4>Hardware<br/> Tools</h4> {" "}
@@ -161,11 +151,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image
-            src={iron}
+          <img
+            src="./Images/Iron_Sheets_Bars.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
           <h4>Iron <br/>Sheets</h4>{" "}
@@ -187,12 +175,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <div></div>
-          <Image
-            src={lighting}
+          <img
+            src="./Images/Lighting_Electricals.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
          <h4>Lighting &<br/> Electrical</h4>{" "}
@@ -214,11 +199,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image
-            src={locks}
+          <img
+            src="./Images/Locks_Hinges.jpg.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
           <h4>Locks & <br/>Hinges</h4>{" "}
@@ -241,11 +224,9 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image
-            src={mdf}
+          <img
+            src="./Images/MDF_Boards.png"
             alt=""
-            layout="fill" 
-          objectFit="cover" height={400}
             style={{ height: "70px" }}
           />
          <h4>MDF<br/> Boards</h4> {" "}
@@ -267,9 +248,7 @@ const Simple = ({ deviceType }) => {
           }}
         >
           {" "}
-          <Image src={plumbing} alt=""
-          layout="fill" 
-          objectFit="cover" height={400} style={{ height: "70px" }} />
+          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />
          <h4>Plumbing</h4> {" "}
         </div>
         <div
@@ -288,15 +267,12 @@ const Simple = ({ deviceType }) => {
             marginLeft: "-90px", 
           }}
         >
-          <div className={styles.imageDiv}>
-          <Image
-            src={tanks}
+          {" "}
+          <img
+            src="./Images/Water_Tanks.png"
             alt=""
-            layout="fill" 
-           objectFit="cover" 
-            height={300}
+            style={{ height: "70px" }}
           />{" "}
-          </div>
          <h4> Water <br/>Tanks</h4>
         </div>
 

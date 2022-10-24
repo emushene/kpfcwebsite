@@ -47,10 +47,9 @@ function SwipeableTextMobileStepper() {
       <div className={styles.overlayDiv}>
         <h1>OVERVIEW</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
-          magnam. Eligendi error voluptates nostrum quod, accusantium sit
-          cupiditate laborum nesciunt doloremque? Hic, est sequi! Perspiciatis
-          libero dolor iure eum vero.
+        KPFC Builders Hardware is the best supplier of hardwar; tiles, 
+        electricals, paint, building and plumbing materials, and garden tools, in Kenya.
+        We are located around the Country with over 30++ Stores Country Wide
         </p>
       </div>
       <div className={styles.couAndIntro}>
