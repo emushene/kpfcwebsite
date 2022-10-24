@@ -36,7 +36,7 @@ const Carousel = () => {
       </div>
       <div className={styles.textDiv}>
         <div className={styles.div1}>
-          <h3>1. KPFC Builders Product investment</h3><br /><br />
+          <h3>KPFC Builders Product investment</h3><br /><br />
           <p>
             In this category, the investor chooses a product in our product
             catalog. The product availability is on a first come first served
@@ -54,7 +54,7 @@ const Carousel = () => {
           </p>
         </div>
         <div className={styles.div2}>
-          <h3>2. KPFC Hardware Starter Pack.</h3><br /><br />
+          <h3>KPFC Hardware Starter Pack.</h3><br /><br />
           <p>
             This product is tailored for investors willing to start a hardware
             business from scratch and those in the hardware business willing to
@@ -84,7 +84,7 @@ const Carousel = () => {
           </p>
         </div>
         <div className={styles.div3}>
-          <h3>3. KPFC Franchisee</h3><br /><br />
+          <h3>KPFC Franchisee</h3><br /><br />
           <p>
             This is a lucrative investment opportunity where the investors will
             become part of the larger k pipes community as franchisees. KPFC
@@ -116,9 +116,10 @@ const Carousel = () => {
       </div>
       <div className={styles.contacts}>
           <p>
-            For more information, you can book a slot with us on <br />
-            sales@kpipes.co.ke talk to us <br />
-            WhatsApp us on 0791281423
+            For more information, book a slot with us on <br />
+            Email: sales@kpipes.co.ke<br />
+            WhatsApp us on: 0791281423. <br />
+           
           </p>
         </div>
       
