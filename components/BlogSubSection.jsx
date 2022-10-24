@@ -1,22 +1,27 @@
 import { Button } from "@material-ui/core";
 import styles from "../styles/BlogSubSection.module.css";
 import * as React from "react";
+import Link from "next/link"
 
 const BlogSubSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textDiv}>
         <h3>
-          This is the Sub-Headline for the blog <br />
-          section of the KPFC Website
+        Construction boom makes hardware shops most popular business in Kenya
         </h3>
         <p>
           {" "}
-          This is the brief overview of the blog section <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illum
-          aliquid deserunt, rem accusamus repudiandae voluptate! Quia, tempora
-          odit error ipsa qui eum, quisquam laboriosam quidem illo quod nihil.
-          Ducimus.
+          The booming real estate sector in Kenya has made hardware shops the most popular businesses across the country.
+
+The number of hardware shops is increasing every day, 
+particularly in Nairobi suburbs, where building of houses seems 
+to be the only meaningful business going on.
+
+A survey in various suburbs, especially on 
+the outskirts of the capital, showed that the hardware outlets
+ currently outnumber grocery stores, meat shops and bars, which at one time were the most popular businesses.
+ <button><Link href="/Blog"> Read more here......</Link></button>
         </p>
       </div>
 

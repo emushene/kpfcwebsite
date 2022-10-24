@@ -703,16 +703,16 @@ display: none;
 .adverts {
   grid-area: 1 / 3 / 4 / 4;
   background: url('./../public/Images/quality.webp');
-  background-size: contain;
+  background-size: cover;
 
   color: white;
-  /* color: rgb(252, 134, 0); */
+   /* color: rgb(252, 134, 0); */
   display: flex;
   flex-direction: column;
- 
+  justify-content: center;
   text-align: center;
-  font-weight: 100px;
-  padding-top: 0%;
+  font-size: 0.7em;
+  padding: 3px;
   position: relative;
   max-height: 400px;
   max-width: 150px;
@@ -726,7 +726,7 @@ display: none;
   background-color: rgb(5, 81, 196);
   border: none;
   color: orange;
-  padding: 10px;
+  padding: 5px;
   border-radius: 40px;
   bottom: 15px;
   right: 36%;
@@ -767,7 +767,7 @@ display: none;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  min-width: 50px;
+  min-width: 70px;
   
 }
 
@@ -779,7 +779,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 50px;
+  min-width: 70px;
   
   
 }
@@ -790,7 +790,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 50px;
+  min-width: 70px;
   
 
 }
@@ -801,7 +801,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
+  min-width: 70px;
   
 
 
@@ -813,7 +813,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
+  min-width: 70px;
   
 
 
@@ -825,7 +825,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
+  min-width: 70px;
   
 
 

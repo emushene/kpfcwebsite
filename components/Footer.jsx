@@ -112,10 +112,8 @@ const Footer = () => {
             <br />
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repellat, earum recusandae error quibusdam obcaecati soluta
-                porro laudantium beatae quia at, a vero id libero nesciunt, odit
-                quae! Expedita, amet
+              Sign up to our newsletter, so you can be the first to find out the latest specials and offerings, 
+               as well as general updates throughout the year
               </p>
             </div>
             <div>

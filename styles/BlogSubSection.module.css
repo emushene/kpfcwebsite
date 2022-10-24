@@ -23,6 +23,16 @@
  
 }
 
+.textDiv Button {
+  color: orange;
+  padding: 2px; ;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
 .divButton {
   margin-right: 40px;
   flex: 2;
@@ -88,6 +98,15 @@
     font-size: 0.9em;
     padding: 5px;
    
+  }
+
+  .textDiv Button {
+    color: white;
+    border: 1px solid red ;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+
   }
   
   .divButton {
