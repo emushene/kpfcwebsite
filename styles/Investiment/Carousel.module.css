@@ -47,6 +47,8 @@ overflow: hidden;
 
 .contacts p {
     font-size: 1.3em;
+    font-weight: 700;
+    color: blue;
    
 }
 .textDiv {
@@ -68,6 +70,11 @@ overflow: hidden;
 .textDiv ul{
     
     padding: 25px;
+}
+.textDiv h3 {
+    color: blue;
+    text-size-adjust:inherit;
+    font-size: 1em;
 }
 
 /*desktops - higher resolution*/

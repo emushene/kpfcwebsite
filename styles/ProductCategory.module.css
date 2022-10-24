@@ -276,47 +276,55 @@ margin-top: 0px;
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
-  .fullContainer {
-        max-width: 100%;
-        margin-top: 29em;
+  .prodDiv {
+    position: relative;
+    min-height: max-content;
   }
- 
+  
+  /* .fullContainer {
+    max-width: 100%;
+   min-height: max-content;
+  } */
+  
+  .productsHeader{
+  
+    display: flex;
+    color: rgb(5, 81, 196);
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 0.5em;
+    max-width: 100%;
+    border-bottom: 1px solid lightgray;
+    
+    
+    }
   
   .containerProducts {
     display: flex;
-    margin-top: 10px;
+  
     align-items: center;
     justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  
     gap: 15px;
     position: relative;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid orange;
     padding-top: 2px;
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgb(5, 81, 196) ;
-    width: 100%;
   }
-  .productsHeader{
-  margin-top: 450px;
-  display: flex;
-  color: rgb(5, 81, 196);
-  align-items: center;
-  justify-content: center;
-  
-  font-size: 0.7em;
-  max-width: 100%;
-  border-bottom: 1px solid lightgray;
-  
-  
-  }
+
 
   .productsHeader h1 {
     text-align: center;
   }
   .categoryCorousel {
-    min-height: 60px;
-     margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    min-height: max-content;
+   
+    margin-left: 15%;
+    margin-right: 15%;
   }
   
   
@@ -580,14 +588,27 @@ margin-top: 0px;
 @media (min-width: 320px) and (max-width: 480px) {
   .prodDiv {
     position: relative;
+    min-height: max-content;
   }
   
-  .fullContainer {
+  /* .fullContainer {
     max-width: 100%;
-    margin-top: -200px;
-    margin-bottom: 200px;
-  }
+   min-height: max-content;
+  } */
   
+  .productsHeader{
+  
+    display: flex;
+    color: rgb(5, 81, 196);
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 0.5em;
+    max-width: 100%;
+    border-bottom: 1px solid lightgray;
+    
+    
+    }
   
   .containerProducts {
     display: flex;
@@ -604,26 +625,14 @@ margin-top: 0px;
     font-size: 1em;
     color: rgb(5, 81, 196) ;
   }
-  .productsHeader{
-  margin-top: 150px;
-  display: flex;
-  color: rgb(5, 81, 196);
-  align-items: center;
-  justify-content: center;
-  
-  font-size: 0.5em;
-  max-width: 100%;
-  border-bottom: 1px solid lightgray;
-  
-  
-  }
+
 
   .productsHeader h1 {
     text-align: center;
   }
   .categoryCorousel {
-    min-height: 60px;
-     margin-top: 15px;
+    min-height: max-content;
+   
     margin-left: 15%;
     margin-right: 15%;
   }
@@ -658,7 +667,7 @@ margin-top: 0px;
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-top: -190px;
+
     margin-bottom: 590px;
     margin-left: 30px;
     max-width: 100%;
@@ -700,14 +709,13 @@ display: none;
   /* color: rgb(252, 134, 0); */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
   text-align: center;
   font-weight: 100px;
   padding-top: 0%;
   position: relative;
   max-height: 400px;
-  max-width: 250px;
+  max-width: 150px;
   margin-top: 2px;
   
  
@@ -759,7 +767,7 @@ display: none;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  max-height: 120px;
+  min-width: 50px;
   
 }
 
@@ -771,7 +779,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-height: 120px;
+  min-width: 50px;
   
   
 }
@@ -782,7 +790,7 @@ display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-height: 120px;
+  min-width: 50px;
   
 
 }
@@ -793,7 +801,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 120px;
+  min-width: 50px;
   
 
 
@@ -805,7 +813,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 120px;
+  min-width: 50px;
   
 
 
@@ -817,7 +825,7 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 120px;
+  min-width: 50px;
   
 
 
