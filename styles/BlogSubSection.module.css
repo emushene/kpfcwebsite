@@ -136,8 +136,9 @@
   }
   
   .textDiv {
-    margin-left: 40px;
+    min-height: max-content ;
     width: 100%;
+    justify-content: center;
     
   }
   .textDiv h3 {
@@ -150,7 +151,8 @@
   
   .textDiv p {
     color: white;
-    font-size: 10px;
+    font-size: 0.6em;
+    padding: 2px;
    
   }
   
@@ -158,12 +160,14 @@
     margin-right: 40px;
     
     align-items: center;
-    padding-left: 80px;
+   
   }
   
   .divButton Button {
     background-color: orange;
      border-radius: 40px;
+     font-size: 0.6em;
+
   }
   
 }

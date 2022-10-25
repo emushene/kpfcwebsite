@@ -34,7 +34,7 @@ const Skills = () => {
         <div className={styles.rightDiv}>
           <p>OUR PARTNERS</p>
           <h3>WE ARE TRUSTED</h3>
-          We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry
+          <h6> We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry</h6>
           <div className={styles.trusted}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid

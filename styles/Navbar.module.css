@@ -497,7 +497,7 @@
 
   .menu {
     position: fixed;
-    height: calc(90vh - 150px);
+    height: calc(93vh - 130px);
     width: 50vw;
     background-color: rgb(5, 81, 196);
     top: 100px;
