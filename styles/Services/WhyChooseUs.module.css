@@ -10,6 +10,7 @@
 
     text-align: center;
     color: rgb(5, 81, 196);
+    
 
 
 
@@ -97,6 +98,7 @@
     flex-direction: column;
     gap: 45px;
     min-width: 35%;
+  
 
 }
 
@@ -111,9 +113,7 @@
 
 .centerRight {
     display: flex;
-    align-items: right;
-    justify-content: right;
-    text-align: right;
+    
     padding-left: 10px;
     gap: 10px;
 
@@ -135,7 +135,7 @@
 }
 
 .centerRightText {
-    text-align: right;
+    text-align: left;
 }
 
 /*desktops - higher resolution*/
