@@ -22,7 +22,7 @@
 }
 
 
-.textDiv h1 {color: rgb(7, 7, 161); font-size: 2em;}
+.textDiv h1 {color: rgb(5, 81, 196) ; font-size: 2em;}
 .text{
     flex: 4;
     padding: 10px;
@@ -49,8 +49,8 @@
     display: none;
 }
 
-.textDiv p{color: rgba(245, 245, 248, 0.973); text-align: center;}
-.textDiv h5{color: rgba(236, 236, 243, 0.973);text-align: center;}
+.textDiv p{color: rgb(5, 81, 196); text-align: start; font-weight: 400;}
+.textDiv h5{color: rgb(5, 81, 196) ;text-align: start; font-weight: 600;}
 
 
 /*desktops - higher resolution*/

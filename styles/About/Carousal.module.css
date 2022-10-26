@@ -19,7 +19,7 @@
   }
 
 .glide h1 {
-  font-size: 6em;
+  font-size: 7em;
   position: absolute;
   top: 50%;
   left: 17%;
@@ -28,7 +28,7 @@
 
 .text {
   max-width: max-content;
-  font-size: 1.5em;
+  font-size: 1.1em;
   background: rgba(75, 73, 73, 0.4);
   position: absolute;
   top: 70%;

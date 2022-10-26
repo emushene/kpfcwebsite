@@ -34,12 +34,12 @@ const InvestBanner = () => {
                 variant="contained"
                 style={{
                 width: '150px',
-                //   backgroundColor: "transparent",
-                  textTransform: "none",
+                backgroundColor: "transparent",
+                  //textTransform: "none",
                   padding: "10px 10px",
                   borderRadius: '50px',
-                  backgroundColor:'blue',
-                  fontWeight: '900'  ,
+                  backgroundColor:'rgb(5, 81, 196)',
+                  fontWeight: '700'  ,
                   color: "white",
                 }}
               >
