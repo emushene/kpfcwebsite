@@ -180,7 +180,7 @@ const Simple = ({ deviceType }) => {
             alt=""
             style={{ height: "70px" }}
           />
-         <h4>Lighting &<br/> Electrical</h4>{" "}
+         <h4>Lighting &<br/> Electrical-</h4>{" "}
         </div>
         <div
           style={{
