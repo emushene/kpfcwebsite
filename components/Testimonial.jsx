@@ -4,8 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/Testimonial.module.css";
 import Image from "next/image";
-import jerusha from "../public/Images/jerusha.png"
-import morgan from "../public/Images/morgan.png"
+import jerusha from "../public/Images/jerusha1.png"
+import morgan from "../public/Images/morgan1.png"
 
 const responsive = {
   desktop: {
@@ -368,7 +368,7 @@ const Testimonial = ({ deviceType }) => {
                   fontSize: "8px",
                 }}
               >
-                <h6>Morgan Mwariri - Facebook</h6>
+                <h6>Jerusha Lelei - Facebook</h6>
               </p>
             </div>
           </div>
