@@ -4,7 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/Testimonial.module.css";
 import Image from "next/image";
-import Morgan from "../public/Images/morgan1.jpg"
+import jerusha from "../public/Images/jerusha.png"
+import morgan from "../public/Images/morgan.png"
 
 const responsive = {
   desktop: {
@@ -105,10 +106,10 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <Image
-                src={Morgan}
+                src={morgan}
                 alt=""
                 layout="fill"
-                objectFit="contain"
+                objectFit="cover"
                
               />
             </div>
@@ -132,14 +133,11 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
+                I have shopped here several times in the past two years. 
+                Store is beautiful inside and out and the staff is very friendly and helpful.
+                 They did an exellent job on their sores building, the customer service is  
+                 superb. They keep everything well
+                 stocked and maintained. The prices are wholesale! I will definately be coming back.”
               </p>
             </div>
             <div
@@ -158,7 +156,7 @@ const Testimonial = ({ deviceType }) => {
               </p>
             </div>
           </div>
-          <div>to be </div>
+          <div> </div>
           <div
             style={{
               minHeight: "400px",
@@ -179,10 +177,10 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <Image
-                src={Morgan}
+                src={jerusha}
                 alt=""
                 layout="fill"
-                objectFit="contain"
+                objectFit="cover"
                 
                
               />
@@ -207,14 +205,14 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
+                “Other Hardware stores got nothing on this place. Literally 10 seconds
+                 in the door, I was asked if I needed help,
+                  directed to my destinations and HELPED by a professional 
+                  in the paint department beyond my wildest dreams. PS. I have 
+                  twenty years experience in painting and I just got the best 
+                  customer service I,ve ever experienced with Njeri in the paint 
+                  dept.  
+                ” – Jerusha Lelei.
               </p>
             </div>
             <div
@@ -229,82 +227,12 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Morgan Mwariri - Facebook</h4>
+                <h4>Jerusha Lelei - Facebook</h4>
               </p>
             </div>
-          </div>
-          <div
-            style={{
-              minHeight: "400px",
-              position: "relative",
-              marginLeft: "200px",
-            }}
-          >
-            <div
-              style={{
-                border: `1px solid orange`,
-                position: "absolute",
-                width: "90px",
-                minHeight: "90px",
-                zIndex: "2",
-                top: "50px",
-                left: "-50px",
-                backgroundColor: "white",
-              }}
-            >
-              <Image
-                src={Morgan}
-                alt=""
-                layout="fill"
-                objectFit="contain"
-                
-              />
-            </div>
-
-            <div
-              style={{
-                border: `1px solid orange`,
-                backgroundColor: "white",
-                position: "absolute",
-                width: "450px",
-                minHeight: "290px",
-                zIndex: "1",
-                top: "30px",
-              }}
-            >
-              <p
-                style={{
-                  padding: "15px",
-                  textAlign: "justify",
-                  marginTop: "80px",
-                  paddingLeft: "45px",
-                }}
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
-              </p>
-            </div>
-            <div
-              style={{
-                backgroundColor: "orange",
-                position: "absolute",
-                width: "450px",
-                minHeight: "230px",
-                zIndex: "-2",
-                top: "130px",
-                left: "30px",
-              }}
-            >
-              <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Morgan Mwariri - Facebook</h4>
-              </p>
-            </div>
+         
+         
+        
           </div>
         </Carousel>
       </div>
@@ -387,7 +315,7 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <Image
-                src={Morgan}
+                src={jerusha}
                 alt=""
                 layout="fill"
                 objectFit="contain"
@@ -466,7 +394,7 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <Image
-                src={Morgan}
+                src={morgan}
                 alt=""
                 layout="fill"
                 objectFit="contain"

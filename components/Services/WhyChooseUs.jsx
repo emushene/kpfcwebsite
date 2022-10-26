@@ -51,7 +51,7 @@ const WhyChooseUs = () => {
         </div>
         <div className={styles.centerRightDiv}>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+         
             <div className={styles.centerRightText}>
               <h4>Proffesional Staff</h4>
               <p>
@@ -61,10 +61,11 @@ const WhyChooseUs = () => {
                 faculty, and classified staff
               </p>
             </div>
+            <div className={styles.centerRightBox}></div>
           
           </div>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+         
             <div className={styles.centerRightText}>
               <h4>24/7 Support</h4>
               <p>
@@ -73,10 +74,10 @@ const WhyChooseUs = () => {
                 next-business-day on-site support countrywide.
               </p>
             </div>
-           
+            <div className={styles.centerRightBox}></div>
           </div>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+        
             <div className={styles.centerRightText}>
               <h4>Quality Assuarance</h4>
               <p>
@@ -84,7 +85,7 @@ const WhyChooseUs = () => {
                 adipisicing elit. Incidunt, hic? Soluta, eius unde?
               </p>
             </div>
-            
+            <div className={styles.centerRightBox}></div>
           </div>
         </div>
       </div>

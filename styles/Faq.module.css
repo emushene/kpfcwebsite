@@ -4,15 +4,18 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    gap: 15px;
-    margin: 50px 10px 0px 50px;
+    gap: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 15em;
     
 }
 .faqContainer {
     
-    padding: 15px;
-    flex: 2;
-    height: 100vh;
+    padding: 10px;
+    flex: 3;
+    min-height: max-content;
+    margin-top: -21em;
     
 
 }
@@ -28,6 +31,7 @@
 }
 .quoteForm {
     flex: 2;
+    margin-top: -16em;
 }
 
 .faqListMobile {
