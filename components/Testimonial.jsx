@@ -137,7 +137,7 @@ const Testimonial = ({ deviceType }) => {
                 Store is beautiful inside and out and the staff is very friendly and helpful.
                  They did an exellent job on their sores building, the customer service is  
                  superb. They keep everything well
-                 stocked and maintained. The prices are wholesale! I will definately be coming back.”
+                 stocked and maintained. The prices are wholesale! I will definately be coming back to this store.”
               </p>
             </div>
             <div
