@@ -133,14 +133,13 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
+          I have shopped here several times in the past two years.
+           The Hardware store is beautiful inside and out and the
+            staff is amicable and helpful. They did an exemplary job 
+            for me when I was doing my renovations and the customer 
+            service was superb. They keep everything well stocked and maintained. 
+            The prices are very fair! I will keep coming back.” -Morgan Mwari
+
               </p>
             </div>
             <div
@@ -159,7 +158,7 @@ const Testimonial = ({ deviceType }) => {
               </p>
             </div>
           </div>
-          <div>to be </div>
+          <div></div>
           <div
             style={{
               minHeight: "400px",
@@ -208,14 +207,10 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
+             “This place is excellent! Very helpful staff,
+              good prices! The staff really took the time to 
+              explain everything to me and were very knowledgeable. 
+              Very pleased with my experience here at KPFC Builders Hardware!” – Jerusha Lelei
               </p>
             </div>
             <div
@@ -230,7 +225,7 @@ const Testimonial = ({ deviceType }) => {
               }}
             >
               <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Morgan Mwariri - Facebook</h4>
+                <h4>Jerusha Lelei - Facebook</h4>
               </p>
             </div>
           </div>
