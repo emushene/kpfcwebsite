@@ -5,12 +5,12 @@ import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
 import Simple from "./Shop/Simple";
 import Image from "next/image";
-import doors from "../public/Images/doors.webp"
-import cement from "../public/Images/products/waterproof-tile-grout-eurofix-kpfc-builders-hardware.webp"
-import electrical from "../public/Images/products/electrical-cables-red-black-single-phase-kpfc-builders-hardware-accessories.webp"
-import duracoat from "../public/Images/products/basco-value-paint-kpfc-builders-hardware-duracoat.webp"
-import d16 from "../public/Images/d16.webp"
-import tools from "../public/Images/tools.webp"
+import doors from "../public/Images/ppe-elbow-plumbing-kpfc-builders-hardware.png"
+import cement from "../public/Images/paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png"
+import electrical from "../public/Images/double-tap-plumbing-kpfc-builders-hardware.png"
+import duracoat from "../public/Images/electric-flood-light-led-kpfc-builders-hardware.png"
+import d16 from "../public/Images/hose-pipe-plumbing-kpfc-builders-hardware.png"
+import tools from "../public/Images/circuit-breaker-electric-kpfc-builders-hardware.png"
 import leftArrow from "../public/Images/leftArrow.png"
 import rightArrow from "../public/Images/rightArrow.png"
 import Link from "next/link";
@@ -52,67 +52,124 @@ const ProductCategory = () => {
             <Image
               src={doors}
               alt="kpfc hardware doors"
-              height={10}
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
-            <button className={styles.addCard}>Add to Cart</button>
+          
           </a>
+         <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
         </div>
         <div className={styles.pictures2}>
           <a className={styles.a} href="#">
             <Image
               src={cement}
               alt="kpfc hardware cement"
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
-            <button className={styles.addCard}>Add to Cart</button>
           </a>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+
         </div>
         <div className={styles.pictures3}>
           <a className={styles.a} href="#">
             <Image
               src={electrical}
               alt="kpfc hardware Electrical"
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
-            <button className={styles.addCard}>Add to Cart</button>
           </a>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+
+
         </div>
         <div className={styles.pictures4}>
           <a className={styles.a} href="#">
             <Image
               src={duracoat}
-              alt="ichiran"
+              alt="flood-light-electrical-led-kpfc-builders-hardware"
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
           </a>
-          <button className={styles.addCard}>Add to Cart</button>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+
         </div>
         <div className={styles.pictures5}>
           <a className={styles.a} href="#">
             <Image
               src={d16}
               alt="ichiran"
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
           </a>
-          <button className={styles.addCard}>Add to Cart</button>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+  
         </div>
         <div className={styles.pictures6}>
           <a className={styles.a} href="#">
             <Image
               src={tools}
               alt="ichiran"
+              layout="fill"
+              objectFit="contain"
               // width="260"
               // height="300"
             />
           </a>
-          <button className={styles.addCard}>Add to Cart</button>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+        </div>
+        <div className={styles.pictures7}>
+          <a className={styles.a} href="#">
+            <Image
+              src={tools}
+              alt="ichiran"
+              layout="fill"
+              objectFit="contain"
+              // width="260"
+              // height="300"
+            />
+          </a>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+        </div>
+        <div className={styles.pictures8}>
+          <a className={styles.a} href="#">
+            <Image
+              src={tools}
+              alt="ichiran"
+              layout="fill"
+              objectFit="contain"
+              // width="260"
+              // height="300"
+            />
+          </a>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+        </div>
+        <div className={styles.pictures9}>
+          <a className={styles.a} href="#">
+            <Image
+              src={tools}
+              alt="ichiran"
+              layout="fill"
+              objectFit="contain"
+
+              // width="260"
+              // height="300"
+            />
+          </a>
+          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
         </div>
       </div>
       <div className={styles.ourService}>

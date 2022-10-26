@@ -59,7 +59,7 @@ const Simple = ({ deviceType }) => {
             backgroundColor:"blue"
           }}
         >
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />{" "}
+          <img src="./Images/Plumbing-kpfc-builders-hardware-builders.jpg" alt="" style={{ height: "70px" }} />{" "}
           <h6> Plumbing</h6>
         </div>
         <div
@@ -80,7 +80,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders,jpg"
+            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px",  }}
           />{" "}
@@ -104,7 +104,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Gardening_Tools_Equipment.png"
+            src="./Images/Gardening-Tools-Equipment-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}
@@ -128,7 +128,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Hardware_Tools.png"
+            src="./Images/Hardware-Tools-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}
@@ -152,7 +152,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Iron_Sheets_Bars.png"
+            src="./Images/Iron-Sheets-Bars-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -176,7 +176,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Lighting_Electricals.png"
+            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -200,7 +200,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Locks_Hinges.jpg.png"
+            src="./Images/Locks-Hinges-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -225,7 +225,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/MDF_Boards.png"
+            src="./Images/MDF-Boards-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -269,7 +269,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Water_Tanks.png"
+            src="./Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}
