@@ -15,10 +15,10 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    imgPath: "./Images/Home Page Slider 1.jpg",
+    imgPath: "./Images/Home Page Slider 1.webp",
   },
   {
-    imgPath: "./Images/Home Page Slider 2.jpg",
+    imgPath: "./Images/Home Page Slider 2.webp",
   },
   {
     imgPath: "./Images/Home Slider 3.webp",
@@ -47,10 +47,9 @@ function SwipeableTextMobileStepper() {
       <div className={styles.overlayDiv}>
         <h1>OVERVIEW</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi,
-          magnam. Eligendi error voluptates nostrum quod, accusantium sit
-          cupiditate laborum nesciunt doloremque? Hic, est sequi! Perspiciatis
-          libero dolor iure eum vero.
+        KPFC Builders Hardware is the best supplier of Hardware and Building Materials; We stock Tiles, 
+        Electricals, Paint, Building and Plumbing materials, and Garden tools, in Kenya.
+        We are located around the Country with over 30++ Stores Country Wide
         </p>
       </div>
       <div className={styles.couAndIntro}>
@@ -81,7 +80,7 @@ function SwipeableTextMobileStepper() {
                     <Box
                       component="img"
                       sx={{
-                        height: 645,
+                        height: 745,
                         width: "100%",
                         display: "blog",
                         overflow: "hidden",

@@ -3,6 +3,7 @@
   width: 100%;
   top: 0;
   z-index: 999;
+  border-bottom: 0.2em solid white;
 }
 
 .innerContainer {
@@ -23,11 +24,11 @@
 
 .companyLogo {
 
-  width: 295px;
-  height: 70px;
+  width: 305px;
+  height: 60px;
   align-items: center;
   margin-bottom: 15px;
-  background-image: url(../public/Images/company_logo2.png);
+  background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
   background-size: cover;
 
 
@@ -37,8 +38,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 10px;
-  color: rgb(12, 12, 12);
+  gap: 20px;
+  color: rgb(15, 10, 10);
   margin-right: 20px;
 }
 
@@ -75,15 +76,14 @@
 
 
 /*desktops - higher resolution*/
-@media (min-width: 1281px) {}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1281px) {
   .navContainer {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
+    z-index: 999;
   }
-
+  
   .innerContainer {
     width: 100%;
     height: 100px;
@@ -95,57 +95,61 @@
     justify-content: space-between;
     padding-left: 30px;
     font-size: 12px;
-
-
+    position: sticky;
+  
+  
   }
-
+  
   .companyLogo {
-
-    width: 295px;
-    height: 70px;
+  
+    width: 305px;
+    height: 60px;
     align-items: center;
     margin-bottom: 15px;
-    background-image: url(../public/Images/company_logo2.png);
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
     background-size: cover;
-
-
+  
+  
   }
+}
 
-  .navIcons {
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .navContainer {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #fa8807;
+    color: rgb(15, 15, 15);
+    font-weight: 300px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-    color: rgb(12, 12, 12);
-    margin-right: 20px;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 12px;
+    position: sticky;
+  
+  
+  }
+  
+  .companyLogo {
+  
+    width: 305px;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 15px;
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
+    background-size: cover;
+  
+  
   }
 
-  .callus {
-    display: flex;
-    gap: 5px;
-  }
-
-  .emailus {
-    display: flex;
-    gap: 5px;
-  }
-
-  .emailadd {
-    cursor: pointer;
-    gap: 5px;
-    font-size: 16px;
-  }
-
-  .openHrs {
-    display: flex;
-    gap: 5px;
-  }
-
-  .text {
-    color: black;
-    font-size: 16px;
-    font-weight: 400px;
-  }
 
 }
 
@@ -177,7 +181,7 @@
     height: 70px;
     align-items: center;
     margin-bottom: 15px;
-    background-image: url(../public/Images/company_logo2.png);
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
     background-size: cover;
 
 
@@ -255,7 +259,7 @@
     height: 70px;
     align-items: center;
     margin-bottom: 15px;
-    background-image: url(../public/Images/company_logo2.png);
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
     background-size: contain;
 
 
@@ -332,7 +336,7 @@
     max-width: 160px;
     max-height: 30px;
     align-items: center;
-    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware.png);
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
     background-size: cover;
     margin-left: 40%;
     margin-top: 0;
@@ -461,7 +465,7 @@
     height: 13px;
     align-items: center;
     margin-bottom: 30px;
-    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware.png);
+    background-image: url(../public/Images/kpfc_Builders_kpipes_hardware_1.png);
     background-size: cover;
     position: absolute;
     left: 46%;
@@ -493,7 +497,7 @@
 
   .menu {
     position: fixed;
-    height: calc(90vh - 150px);
+    height: calc(93vh - 130px);
     width: 50vw;
     background-color: rgb(5, 81, 196);
     top: 100px;

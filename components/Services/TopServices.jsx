@@ -31,7 +31,7 @@ const TopServices = () => {
           <div className={styles.card}>
             <h2>DELIVERY FROM STORE</h2>
             <p> If you are trying to complete a project quickly, want to get
-            larger-sized items to your home or job site or if you can't make it
+            larger-sized items to your home or job site or if you cant make it
             into the store, “Delivery from Store” is for you.</p>
           </div>
           <div className={styles.getQuote}>

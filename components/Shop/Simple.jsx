@@ -1,6 +1,18 @@
+import styles from "../../styles/Shop/Simple.module.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Image } from "semantic-ui-react";
+import pl from "../../public/Images/Plumbing-kpfc-builders-hardware-builders.jpg"
+import plumbing from "../../public/Images/Plumbing-kpfc-builders-hardware-builders.jpg"
+import building from "../../public/Images/Building-Materials-kpfc-builders-hardware-builders.jpg"
+import lighting from "../../public/Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
+import hardware from "../../public/Images/Hardware-Tools-kpfc-builders-hardware-builders.jpg"
+import iron from "../../public/Images/Iron-Sheets-Bars-kpfc-builders-hardware-builders.jpg"
+import locks from "../../public/Images/Locks-Hinges-kpfc-builders-hardware-builders.jpg"
+import mdf from "../../public/Images/MDF-Boards-kpfc-builders-hardware-builders.jpg"
+import tanks from "../../public/Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
+import gardening from "../../public/Images/Gardening-Tools-Equipment-kpfc-builders-hardware-builders.jpg"
+
 
 const responsive = {
   desktop: {
@@ -32,7 +44,7 @@ const Simple = ({ deviceType }) => {
         itemClass="image-item"
         responsive={responsive}
       >
-        <div
+          <div
           style={{
             display: "flex",
             alignItems: "center",
@@ -47,7 +59,7 @@ const Simple = ({ deviceType }) => {
             backgroundColor:"blue"
           }}
         >
-          <img src="./Images/Plumbing.png" alt="" style={{ height: "70px" }} />{" "}
+          <img src="./Images/Plumbing-kpfc-builders-hardware-builders.jpg" alt="" style={{ height: "70px" }} />{" "}
           <h6> Plumbing</h6>
         </div>
         <div
@@ -62,13 +74,13 @@ const Simple = ({ deviceType }) => {
             cursor:"pointer",
             gap: "3px,", 
             color: "white",
-            backgroundColor:"blue",
+            backgroundColor:"green",
             marginLeft: "-90px", 
           }}
         >
           {" "}
           <img
-            src="./Images/Building_Materials.png"
+            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px",  }}
           />{" "}
@@ -92,7 +104,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Gardening_Tools_Equipment.png"
+            src="./Images/Gardening-Tools-Equipment-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}
@@ -116,7 +128,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Hardware_Tools.png"
+            src="./Images/Hardware-Tools-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}
@@ -140,7 +152,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Iron_Sheets_Bars.png"
+            src="./Images/Iron-Sheets-Bars-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -164,11 +176,11 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Lighting_Electricals.png"
+            src="./Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
-         <h4>Lighting &<br/> Electrical</h4>{" "}
+         <h4>Lighting &<br/> Electrical-</h4>{" "}
         </div>
         <div
           style={{
@@ -188,7 +200,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Locks_Hinges.jpg.png"
+            src="./Images/Locks-Hinges-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -213,7 +225,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/MDF_Boards.png"
+            src="./Images/MDF-Boards-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />
@@ -257,7 +269,7 @@ const Simple = ({ deviceType }) => {
         >
           {" "}
           <img
-            src="./Images/Water_Tanks.png"
+            src="./Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
             alt=""
             style={{ height: "70px" }}
           />{" "}

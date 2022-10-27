@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Main from 'next/document'
 import Intro from '../components/Intro'
 import ProductCategory from '../components/ProductCategory'
 import Skills from '../components/Skills'

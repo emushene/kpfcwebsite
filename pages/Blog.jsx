@@ -9,7 +9,7 @@ const Blog = () => {
         <Head>
         <title>Blog Page</title>
         <meta name="description" content="Shop best cheapest quality Hardware plumbing kenya" />
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
+        {/* <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link> */}
       </Head>
     
      <div className={styles.single}>

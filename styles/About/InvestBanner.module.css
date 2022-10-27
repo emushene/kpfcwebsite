@@ -4,7 +4,7 @@
     justify-content: center;
     
     background-color: #f57200;
-    height: 150px;
+    min-height: max-content;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
@@ -12,24 +12,45 @@
 }
 
 .textDiv{
-    padding: 20px;
-    align-items: stretch;
+    display: flex;
+    min-height: max-content;
+    text-align: start;
     position: relative;
+   
+   
+
 }
-.textDiv h1 {color: rgb(7, 7, 161); font-size: 40px;}
+
+
+.textDiv h1 {color: rgb(5, 81, 196) ; font-size: 2em;}
+.text{
+    flex: 4;
+    padding: 10px;
+    text-align: start;
+   
+    
+}
 .buttonDiv{
+    flex: 1;
     align-items: flex-end;
-    justify-content: flex-end;
-    left: 98%;
-    top: 50%;
+    align-items: center;
+    justify-content: center;
+    
+ 
+ 
+}
+
+.buttonDiv button {
     position: absolute;
+    top: 50%;
+    right: 4%;
 }
 .mobileButton {
     display: none;
 }
 
-.textDiv p{color: rgba(9, 9, 187, 0.973); text-align: center;}
-.textDiv h5{color: rgba(9, 9, 187, 0.973);text-align: center;}
+.textDiv p{color: rgb(5, 81, 196); text-align: start; font-weight: 400;}
+.textDiv h5{color: rgb(5, 81, 196) ;text-align: start; font-weight: 600;}
 
 
 /*desktops - higher resolution*/
