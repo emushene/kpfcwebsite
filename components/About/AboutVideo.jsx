@@ -3,6 +3,10 @@ import React from "react";
 import ReactPlayer from "react-player";
 import InvestBanner from  "../About/InvestBanner"
 import BannerHappy from "./BannerHappy";
+import Image from "next/image";
+import drill from "../../public/Images/drill.webp"
+
+
 
 const AboutVideo = () => {
   return (
@@ -31,7 +35,7 @@ const AboutVideo = () => {
                     do everything in the best interests of our customers, their goals, and
                      their ultimate success. KPFC Builders is a leading wholesale & retail
                       business in the building & construction industry, headquartered 
-                      in the town of Kikuyu in Kiambu County, Kenya.   Our founders' 
+                      in the town of Kikuyu in Kiambu County, Kenya.   Our founders 
                       beliefs guide us: When you bring together skilled and knowledgeable 
                       people from different origins, you can achieve great things. The people
                        of KPFC Builders achieve this every day by steadfastly adhering to our 
@@ -61,7 +65,8 @@ const AboutVideo = () => {
             
             </div>
         <div className={styles.addDiv}>
-            <img src="https://images.unsplash.com/photo-1606676539940-12768ce0e762?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="" />    
+            <Image src={drill} alt="" objectFit="cover"
+            height={350}/>    
           
         </div>
       </div>

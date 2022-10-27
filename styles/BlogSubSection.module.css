@@ -23,6 +23,16 @@
  
 }
 
+.textDiv Button {
+  color: orange;
+  padding: 2px; ;
+  border: none;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
 .divButton {
   margin-right: 40px;
   flex: 2;
@@ -66,7 +76,7 @@
     width: 100%;
     margin-top: -500px;
     background-color: rgb(5, 81, 196);
-    margin-top: -33em;
+    margin-top: -26em;
     padding: 0.9em;
   }
   
@@ -88,6 +98,15 @@
     font-size: 0.9em;
     padding: 5px;
    
+  }
+
+  .textDiv Button {
+    color: white;
+    border: 1px solid red ;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+
   }
   
   .divButton {
@@ -117,8 +136,9 @@
   }
   
   .textDiv {
-    margin-left: 40px;
+    min-height: max-content ;
     width: 100%;
+    justify-content: center;
     
   }
   .textDiv h3 {
@@ -131,7 +151,8 @@
   
   .textDiv p {
     color: white;
-    font-size: 10px;
+    font-size: 0.6em;
+    padding: 2px;
    
   }
   
@@ -139,12 +160,14 @@
     margin-right: 40px;
     
     align-items: center;
-    padding-left: 80px;
+   
   }
   
   .divButton Button {
     background-color: orange;
      border-radius: 40px;
+     font-size: 0.6em;
+
   }
   
 }

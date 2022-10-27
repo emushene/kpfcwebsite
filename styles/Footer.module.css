@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
 
-  height: 69vh;
+  height: 49vh;
   width: 100%;
  
   padding-top: 100px;
@@ -46,14 +46,14 @@
 }
 
 .bottomFour {
-  height: 50vh;
+  height: 40vh;
   display: flex;
-  align-items: auto;
-  justify-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 22px;
-  font-weight: 100px;
+  margin-top: -5em;
+  
   color: whitesmoke;
   gap: 20px;
 }
@@ -139,35 +139,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 1.4em;
   font-size: 14px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
+  margin-left: 5em;
+  margin-right:5em;
+  margin-top: -2em;
   margin-bottom: 30px;
   cursor: pointer;
+  border-bottom: 0.1em solid grey;
+  border-top: 0.1em solid grey;
 }
 
 .allRights {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  max-height: 1em;
+  font-size: 1em;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 30px;
   margin-bottom: 30px;
+
 }
 
-.line1 {
-  border-bottom: 10px solid #fffafa;
-  padding-bottom: 5px;
-  
-}
 
-.horizontalLine {
-    margin: 1px 100px;
-}
+
 .subscription * {
   margin: 0;
   padding: 0;
@@ -233,11 +230,12 @@
 }
 
 /*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {.container {
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
   display: flex;
   flex-direction: column;
 
-  height: 40vh;
+  min-height: fit-content;
   width: 100%;
  
   padding-top: 100px;
@@ -283,13 +281,14 @@
 }
 
 .bookAppointment h2{
-  font-size: 10px;
+  font-size: 2em;
 }
 
 .bottomFour {
-  height: 90vh;
+  
   display: flex;
  flex-direction: row;
+ margin-top: 0.1em;
   justify-content: space-between;
   color: whitesmoke;
   gap: 20px;
@@ -484,20 +483,17 @@ margin-left: 0px;
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
+
   .container {
     display: flex;
     flex-direction: column;
   
-    height: 121vh;
-    width: 100%;
-   
-    padding-top: 100px;
+    min-height: 70vh;
+    min-width: 100%;
+       
     color: white;
-    background: #c04848; /* fallback for old browsers */
     background: linear-gradient(rgba(51, 38, 240, 0.8), rgba(49, 27, 245, 0.8)),
       url('https://thumbs.dreamstime.com/z/workers-construction-site-hard-work-building-along-ngong-road-nairobi-kenya-61385013.jpg'); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(rgba(24, 76, 245, 0.8), rgba(44, 30, 247, 0.8)),
-      url('https://thumbs.dreamstime.com/z/workers-construction-site-hard-work-building-along-ngong-road-nairobi-kenya-61385013.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -516,8 +512,8 @@ margin-left: 0px;
     text-align: center;
     color: #f57200;
     cursor: pointer;
-    height: 30px;
-    font-size: 8px;
+    min-height: 30px;
+    font-size: 0.4em;
   }
   
   .bookAppointment {
@@ -527,217 +523,75 @@ margin-left: 0px;
     text-align: center;
     color: rgb(5, 81, 196);
     font-size: 8px;
-    height: 30px;
+    min-height: 30px;
+    font-size: 0.3em;
    cursor: pointer;
    
     
   }
-
+  
   .bookAppointment h2{
-    font-size: 10px;
+    font-size: 2em;
   }
   
   .bottomFour {
-    height: 40vh;
-    display: flex;
-   flex-direction: column;
-    justify-content: space-between;
-    color: whitesmoke;
-    gap: 20px;
-  }
-  
-  .officeContact {
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-    gap: 1px;
-    margin-top: -90px;
-   
-    font-size: 14px;
-  
-  }
-  .officeContact p {
-    font-size: 10px;
-  }
-  .officeContact h5 {
- 
-    border-bottom: 1px solid grey;
-  }
-  
-  .serviceArea {
-    
-    display: flex;
-    flex-direction: column;
+    display: block;
+    font-size: 1em;
     align-items: center;
-    gap: 2PX;
-    font-size: 14px;
-   
-    
+    justify-content: center;
 
-    
   }
-  .serviceArea h5 {
-    font-size: 10px;
-    border-bottom: 1px solid grey;
-    text-align: center;
-   
-  
+
+  .serviceArea {
+    display: none;
   }
-  
-  .serviceArea ul{
-    margin-top: -0px;
-    margin-left: 25px;
-   
-  
-  }
+
   .usefulPages {
     display: none;
-    /* flex: 1;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-   */
-    
-  }
-  .list {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    text-align: justify;
-    gap: 5px;
-    font-size: 12px;
-  }
-  
-  .listItem {
-    margin-top: 10px;
-    font-size: 10px;
-  }
-  
-  .newsLetter {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .phoneIcon{
-    height: 25px;
   }
 
-
-  .newsLetter p {
-    font-size: 10px;
-    text-align: justify;
-  }
-
-  .locationFooter {
-    display: flex;
-    height: 10px;
-    align-items: center;
-    gap: 5px;
-    
-  }
   
-  .phoneFooter {
-    display: flex;
-    height: 10px;
-    margin-top: 30px;
-    align-items: center;
-    gap: 5px;
-    margin-left: 10px;
-  }
-
+.officeContact {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  border-bottom: 1px solid grey;
 
   
-  .emailFooter {
-    display: flex;
-    height: 10px;
-    align-items: center;
-    gap: 5px;
-    margin-left: 10px;
-    margin-bottom: 15px;
+
+}
+.officeContact p {
+  font-size: 0.8em;
+}
+.officeContact h5 {
+font-size: 0.8em;
  
-  }
-  
-  .legalDivs {
-    display: flex;
-    width: 100%;
- margin-left: 0px;
-    gap: 0.7em;
-    font-size: 0.6em;
-   
-    margin-top: 25em;
-    margin-bottom: 1em;
-    cursor: pointer;
-  }
-  
-  .allRights {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 0.6em;
-    
-    margin-top: 1em;
-    margin-bottom: 1px;
-  }
-  
-  .line1 {
-    border-bottom: 10px solid #fffafa;
-    padding-bottom: 5px;
-    
-  }
-  
-  .horizontalLine {
-     display: none;
-  }
-  .subscription * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  .subscription {
-    border: 1px solid #eee;
-    display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-  
-  .subscription input[type='text'] {
-    font-size: 10px;
-    padding: 10px 5px;
-    border: none;
-    color: #909090;
-  }
-  .subscription input[type='submit'] {
-    background-color: #f57200;
-    color: rgb(78, 78, 78);
-    text-shadow: 1px 1px 3px #fff;
-    font-weight: bold;
-    box-shadow: inset 0 1px 1px rgba(36, 56, 243, 0.6);
-    background-image: linear-gradient(
-      #f57200,
-      #f57200
-    );
-    font-size: 12px;
-    padding: 15px 20px;
-    border: none;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-  
-    cursor: pointer;
-  }
-  .subscription input[type='submit']:hover {
-    background-color: #f57200;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-  }
-  
+}
+.phoneIcon {
+  font-size: 0.5em;
+}
+
+.newsLetter {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 0.9em;
+
+}
+.newsLetter p {
+  font-size: 0.7em;
+  text-align: justify;
+}
+
+
+.legalDivs {
+display: none;
+}
+.allRights {
+  margin-top: 16em;
+  font-size: 0.7em;
+}
+
 }

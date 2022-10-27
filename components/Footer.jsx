@@ -112,10 +112,8 @@ const Footer = () => {
             <br />
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                repellat, earum recusandae error quibusdam obcaecati soluta
-                porro laudantium beatae quia at, a vero id libero nesciunt, odit
-                quae! Expedita, amet
+              Sign up to our newsletter, so you can be the first to find out the latest specials and offerings, 
+               as well as general updates throughout the year
               </p>
             </div>
             <div>
@@ -135,19 +133,17 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          {" "}
-          <hr className={styles.horizontalLine}></hr>
         </div>
         <div className={styles.legalDivs}>
           <div>Terms Of Use</div> <hr className={styles.line1} />
           <div>Privacy Policy</div> <hr className={styles.line1} />
           <div>Cookies</div> <hr className={styles.line1} />
           <div>Help</div>
-          <hr className={styles.line1} />
+  
           <div>FAQS</div>
         </div>
         <div>
-          <hr className={styles.horizontalLine} />
+        
         </div>
         <div className={styles.allRights}>
           <div>

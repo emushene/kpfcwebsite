@@ -182,8 +182,8 @@
     padding: 15px;
   }
   
-  .leftDiv h5 {color: orange; margin-bottom: 5px;}
-  .leftDiv h4 {color: blue; margin-bottom: 5px; font-size: 20px;}
+  .leftDiv h5 {color: orange; margin-bottom: 5px; text-align: center;}
+  .leftDiv h4 {color: blue; margin-bottom: 5px; font-size: 20px; text-align: center;}
   
   .dataSlider{
       margin-top: 10px;
@@ -197,6 +197,7 @@
   }
   .rightDiv h3 {
     color: rgba(29, 14, 247, 0.8);
+    text-align: center;
   }
   
   .trusted {
@@ -205,6 +206,7 @@
 
   .rightDiv p {
     color: orange;
+    text-align: center;
   }
   .callToAsk {
     display: flex;

@@ -2,6 +2,8 @@ import styles from "../../styles/Blog/SinglePost.module.css"
 import ModeEditOutlineOutlinedIcon from '@mui/icons-material/ModeEditOutlineOutlined';
 import DeleteForeverTwoToneIcon from '@mui/icons-material/DeleteForeverTwoTone';
 import Sidebar from "../Blog/Sidebar";
+import rotarySwitch from "../../public/Images/rotarySwitch.webp";
+import Image from "next/image";
 
 const SinglePost = () => {
     return (
@@ -9,7 +11,8 @@ const SinglePost = () => {
         <div className={styles.singlePost}>
          
         <div className={styles.singlePostWrapper}>
-            <img src="https://girishsab.files.wordpress.com/2018/02/rotary-switch.jpg" alt="" className={styles.singlePostImg} />
+            <Image src={rotarySwitch} alt="" className={styles.singlePostImg} 
+            objectFit="cover"/>
             <h1 className={styles.singlePostTitle}> Lorem ipsum dolor, 
             sit
             <div className={styles.singlePostEditContainer}>

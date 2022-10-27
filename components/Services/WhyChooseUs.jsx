@@ -1,9 +1,18 @@
 import styles from "../../styles/Services/WhyChooseUs.module.css";
+import staff from "../../public/Images/Staff-Image-1.webp"
+import Image from "next/image";
+
+
+
 const WhyChooseUs = () => {
   return (
     <div className={styles.topContainer}>
       <h2>WHY CHOOSE US</h2>
-      <img src="./Images/Staff-Image-1.png" alt="" />
+      <div className={styles.Image}>
+      <Image src={staff} alt="" layout="fill"
+      objectFit="contain" 
+      />
+      </div>
       <div className={styles.container}>
         <div className={styles.centerLeftDiv}>
           <div className={styles.centerLeft1}>
@@ -42,7 +51,7 @@ const WhyChooseUs = () => {
         </div>
         <div className={styles.centerRightDiv}>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+         
             <div className={styles.centerRightText}>
               <h4>Proffesional Staff</h4>
               <p>
@@ -52,10 +61,11 @@ const WhyChooseUs = () => {
                 faculty, and classified staff
               </p>
             </div>
+            <div className={styles.centerRightBox}></div>
           
           </div>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+         
             <div className={styles.centerRightText}>
               <h4>24/7 Support</h4>
               <p>
@@ -64,10 +74,10 @@ const WhyChooseUs = () => {
                 next-business-day on-site support countrywide.
               </p>
             </div>
-           
+            <div className={styles.centerRightBox}></div>
           </div>
           <div className={styles.centerRight}>
-          <div className={styles.centerRightBox}></div>
+        
             <div className={styles.centerRightText}>
               <h4>Quality Assuarance</h4>
               <p>
@@ -75,7 +85,7 @@ const WhyChooseUs = () => {
                 adipisicing elit. Incidunt, hic? Soluta, eius unde?
               </p>
             </div>
-            
+            <div className={styles.centerRightBox}></div>
           </div>
         </div>
       </div>

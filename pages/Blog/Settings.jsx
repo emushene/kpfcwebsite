@@ -1,6 +1,8 @@
 import styles from "../../styles/Blog/Settings.module.css"
 import Sidebar from "../Blog/Sidebar"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import blogheadimage from "../../public/Images/blogheadimage.jpg"
+import Image from "next/image";
 
 const Settings = () => {
     return (
@@ -13,7 +15,7 @@ const Settings = () => {
        <form className={styles.settingsForm}>
         <label>Profile Picture</label>
         <div className={styles.settingsProfPic}>
-            <img src="https://www.nicepng.com/png/detail/69-698871_our-service-solutions-are-customised-according-to-customers.png" alt="" />
+            <Image src={blogheadimage} alt="" objectFit="contain" />
             <label htmlFor="fileInput" styles={{display: "none" }}>
                 <div className={styles.settingProfIcon}>
                 <AccountCircleIcon />

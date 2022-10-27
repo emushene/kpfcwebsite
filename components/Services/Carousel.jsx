@@ -1,9 +1,13 @@
 import styles from "../../styles/Services/Carousel.module.css";
+import Image from "next/image";
+import serviceImage from "../../public/Images/ServicePage.jpg"
 
 const Carousel = () => {
   return (
     <div className={styles.mainContainer}>
-      <img src="./Images/ServicePage.jpg" alt="" />
+      <Image src={serviceImage} alt="" layout="fill"
+      height="2450px" objectFit="cover"
+      />
       <div className={styles.corouselDiv}></div>
       <div className={styles.overlay}>
         <h1>Services Overview</h1>

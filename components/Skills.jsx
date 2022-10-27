@@ -6,7 +6,8 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import DataSlider from "./DataSlider";
-import Testimonial from "./Testimonial";
+import Image from "next/image";
+import eaclogo from "../public/Images/eaclogo.jpg"
 
 const Skills = () => {
   const Item = styled(Paper)(({ theme }) => ({
@@ -33,7 +34,7 @@ const Skills = () => {
         <div className={styles.rightDiv}>
           <p>OUR PARTNERS</p>
           <h3>WE ARE TRUSTED</h3>
-          We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry
+          <h6> We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry</h6>
           <div className={styles.trusted}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid
@@ -44,7 +45,7 @@ const Skills = () => {
                 {Array.from(Array(6)).map((_, index) => (
                   <Grid xs={2} sm={2} md={4} key={index}>
                     <Item>
-                      <img src="https://www.industrialization.go.ke/images/east-african-portland-cement-company-eapcc-logo.jpg" 
+                      <Image src={eaclogo} 
                       alt="" className={styles.itemImage}/>
                     </Item>
                   </Grid>
