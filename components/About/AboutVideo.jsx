@@ -15,7 +15,7 @@ const AboutVideo = () => {
         <div className={styles.vidDiv}>
           <div >
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=MOV-fIsqCrg"
+              url="https://youtu.be/wKJChvlnct4"
               className="react-player"
               playing
               width="100%"
