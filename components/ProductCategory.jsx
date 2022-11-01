@@ -3,7 +3,7 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
-import Simple from "./Shop/Simple";
+import ShopCarousel from "./../components/ShopCarousel"
 import Image from "next/image";
 import doors from "../public/Images/ppe-elbow-plumbing-kpfc-builders-hardware.png"
 import cement from "../public/Images/paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png"
@@ -26,7 +26,7 @@ const ProductCategory = () => {
                   
         </div>
         <div className={styles.categoryCorousel}>
-          <Simple />
+          <ShopCarousel/>
           </div>
         <div className={styles.containerProducts}>
         <h6>MOST POPULAR PRODUCTS </h6>
@@ -37,10 +37,10 @@ const ProductCategory = () => {
         <div className={styles.popularHeading}>
           <h1>MOST POPULAR PRODUCTS </h1>
           <div className={styles.mostDivLeft}>
-            <Image src={leftArrow} alt="" />
+            {/* <Image src={leftArrow} alt="" /> */}
           </div>
           <div className={styles.mostDivRight}>
-            <Image src={rightArrow} alt="" />
+            {/* <Image src={rightArrow} alt="" /> */}
           </div>
         </div>
         <div className={styles.adverts}>
