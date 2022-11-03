@@ -11,9 +11,9 @@ const Invest = () => {
     <div className={styles.container}>
       
         <div className={styles.leftDiv}>
-          <h3 className={styles.topHeading}>
-            #InvestNaKPFC Builders Today! 
-          </h3>
+          <h1 className={styles.topHeading}>
+            INVEST NA KPFC 
+          </h1>
           <h3 className={styles.midHeading}>
             BUILDERS 
           </h3>
@@ -21,8 +21,8 @@ const Invest = () => {
           <div className={styles.leftInnerDiv}>
             <div>
               <h1>40+</h1>
-              Branches <br></br>
-              Countrywide
+            <p>  Branches <br></br>
+              Countrywide</p>
             </div>
             <div>
               <h1> 500+</h1>

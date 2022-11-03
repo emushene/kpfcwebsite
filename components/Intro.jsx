@@ -15,8 +15,8 @@ const Intro = () => {
          </div>
        <div className={styles.reachOut}>
         
-        <div className={styles.salesTeam}> <h2>Want To reach our Sales Team Today?</h2> </div>
-        <div className={styles.appointment}> <h2>Book Appointment </h2></div>
+        <div className={styles.salesTeam}> <h2>LOOKING TO START A HARDWARE STORE?</h2> </div>
+        <div className={styles.appointment}> <h2>LEARN MORE </h2></div>
        </div>
     </div>
   );

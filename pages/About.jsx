@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Corousal from "../components/About/Corousal";
 import AboutVideo from "../components/About/AboutVideo";
-import InvestBanner  from "../components/About/InvestBanner";
-import Skills from "../components/Skills";
+import OurPromise from "../components/About/OurPromise";
+import BannerInvest from "../components/About/BannerInvest";
+import Aspiration from "../components/About/Aspiration"
 
 
 
@@ -23,8 +24,11 @@ const About = () => {
         
       <Corousal />
       <AboutVideo />
-      <InvestBanner />
-      <Skills />
+      <OurPromise />
+      <BannerInvest/>
+      <Aspiration />
+   
+    
     
     </div>
     )

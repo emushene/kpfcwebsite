@@ -18,114 +18,22 @@
 
   }
 
-.glide h1 {
-  font-size: 7em;
-  position: absolute;
-  top: 50%;
-  left: 17%;
 
-}
 
 .text {
-  max-width: max-content;
+  max-width: 50%;
   font-size: 1.1em;
   background: rgba(75, 73, 73, 0.4);
   position: absolute;
-  top: 70%;
-  left: 17%;
+  top: 60%;
+  left: 30%;
+  
   z-index: 991;
 
 }
-  /*desktops - higher resolution*/
-@media (min-width: 1281px) {
-
-}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-}
-
-/*tablets, ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: calc(70vh - 150px);
-    width: 100%;
-    background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    position: relative;
-    background-blend-mode:soft-light;
-  }
-
-  .glide{
-    height: calc(70vh - 150px);
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
-    
-
-  }
-
-.glide h1 {
-  font-size: 6em;
-}
-
-.text {
-  height: 400px;
-  width: 50px;
-  position: absolute;
-  top: 50%;
-  z-index: 999;
-
-}
-
-
-}
-
-/*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: calc(90vh - 150px);
-    width: 100%;
-    background-image: url('../../public/Images/About_Us_Page_Cover.jpg'); 
-    background-size: cover; 
-    position: relative;
-    
-  }
-
-  .glide{
-    height: calc(90vh - 150px);
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
-
-  }
-
-.glide h1 {
+.text h1{font-size: 6em; text-align: center;}
+.text p{
   font-size: 1em;
+  text-align: center;
 }
-
-.text {
-  height: 400px;
-  width: 50px;
-  position: absolute;
-  top: 50%;
-  z-index: 999;
-
-}
-}
+  

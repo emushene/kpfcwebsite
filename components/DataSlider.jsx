@@ -40,13 +40,13 @@ const marks = [
 ];
 
 const IOSSlider = styled(Slider)(({ theme }) => ({
-  color: theme.palette.mode === 'dark' ? '#3880ff' : '#3880ff',
+  color: theme.palette.mode === 'dark' ? '#3880ff' : '	#32CD32',
   height: 2,
   padding: '15px 0',
   '& .MuiSlider-thumb': {
     height: 28,
     width: 28,
-    backgroundColor: '#fff',
+    backgroundColor: '	#32CD32',
     boxShadow: iOSBoxShadow,
     '&:focus, &:hover, &.Mui-active': {
       boxShadow:
@@ -58,9 +58,9 @@ const IOSSlider = styled(Slider)(({ theme }) => ({
     },
   },
   '& .MuiSlider-valueLabel': {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: 'normal',
-    top: -2,
+    top: -8,
     backgroundColor: 'unset',
     color: theme.palette.text.primary,
     '&:before': {
@@ -90,13 +90,13 @@ const IOSSlider = styled(Slider)(({ theme }) => ({
 }));
 
 const PrettoSlider = styled(Slider)({
-  color: '#52af77',
+  color: '#FFFF00',
   height: 8,
   '& .MuiSlider-track': {
     border: 'none',
   },
   '& .MuiSlider-thumb': {
-    height: 24,
+    height: 14,
     width: 24,
     backgroundColor: '#fff',
     border: '2px solid currentColor',
@@ -129,13 +129,13 @@ const PrettoSlider = styled(Slider)({
 });
 
 const AirbnbSlider = styled(Slider)(({ theme }) => ({
-  color: '#3a8589',
+  color: '#FF0000',
   height: 3,
   padding: '13px 0',
   '& .MuiSlider-thumb': {
     height: 27,
     width: 27,
-    backgroundColor: '#fff',
+    backgroundColor: '#FF0000',
     border: '1px solid currentColor',
     '&:hover': {
       boxShadow: '0 0 0 8px rgba(58, 133, 137, 0.16)',
@@ -152,7 +152,7 @@ const AirbnbSlider = styled(Slider)(({ theme }) => ({
     height: 3,
   },
   '& .MuiSlider-rail': {
-    color: theme.palette.mode === 'dark' ? '#bfbfbf' : '#d8d8d8',
+    color: theme.palette.mode === 'dark' ? '#bfbfbf' : '#FF0000',
     opacity: theme.palette.mode === 'dark' ? undefined : 1,
     height: 3,
   },
@@ -184,14 +184,14 @@ export default function CustomizedSlider() {
         marks={marks}
         valueLabelDisplay="on"
       />
-      <Box sx={{ m: 3 }} />
+      <Box sx={{ m: 1 }} />
       <Typography gutterBottom>Product Diversification</Typography>
       <PrettoSlider
         valueLabelDisplay="auto"
         aria-label="pretto slider"
         defaultValue={20}
       />
-      <Box sx={{ m: 3 }} />
+      <Box sx={{ m: 1 }} />
       <Typography gutterBottom>Delivery Service</Typography>
       <Slider
         valueLabelDisplay="auto"
@@ -201,7 +201,7 @@ export default function CustomizedSlider() {
         aria-label="custom thumb label"
         defaultValue={20}
       />
-      <Box sx={{ m: 3 }} />
+      <Box sx={{ m: 1 }} />
       <Typography gutterBottom>Customer Incentives Service</Typography>
       <AirbnbSlider
         components={{ Thumb: AirbnbThumbComponent }}

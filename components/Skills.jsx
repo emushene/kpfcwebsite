@@ -23,35 +23,27 @@ const Skills = () => {
         <div className={styles.leftDiv}>
           <h5>OUR SKILLS</h5>
           <h4>The KPIPES Resume</h4>
+     
+          <div className={styles.dataSlider}>
           <p>
           We specialize in distributing home construction and renovation
            plumbing products, building materials, hardware, and tools.
           </p>
-          <div className={styles.dataSlider}>
             <DataSlider />
           </div>
         </div>
         <div className={styles.rightDiv}>
-          <p>OUR PARTNERS</p>
+          <h6>OUR PARTNERS</h6>
           <h3>WE ARE TRUSTED</h3>
-          <h6> We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry</h6>
+          <p> We endeavor to create formidable relations with our key Trusted Partners in the industry</p>
           <div className={styles.trusted}>
-            <Box sx={{ flexGrow: 1 }}>
-              <Grid
-                container
-                spacing={{ xs: 2, md: 3 }}
-                columns={{ xs: 4, sm: 8, md: 12 }}
-              >
-                {Array.from(Array(6)).map((_, index) => (
-                  <Grid xs={2} sm={2} md={4} key={index}>
-                    <Item>
-                      <Image src={eaclogo} 
-                      alt="" className={styles.itemImage}/>
-                    </Item>
-                  </Grid>
-                ))}
-              </Grid>
-            </Box>
+            <div className={styles.partnerLogo}> <p>Logo</p></div>
+            <div className={styles.partnerLogo}><p>Logo</p></div>
+            <div className={styles.partnerLogo}><p>Logo</p></div>
+            <div className={styles.partnerLogo}><p>Logo</p></div>
+            <div className={styles.partnerLogo}><p>Logo</p></div>
+            <div className={styles.partnerLogo}><p>Logo</p></div>
+
           </div>
           <div className={styles.callToAsk}>
             <div className={styles.askDiv}>

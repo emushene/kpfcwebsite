@@ -29,10 +29,11 @@ const responsive = {
 // It will work on real devices.
 const Testimonial = ({ deviceType }) => {
   return (
-    <div>
-      <div ID={styles.desk} style={{ marginTop: "30px" }}>
-        <h3 style={{ marginLeft: "45%", color: "blue" }}>TESTIMONIALS</h3>
-        <h1 style={{ marginLeft: "40%", color: "blue" }}>Our Clients Say</h1>
+    <div className={styles.container}>
+      <div ID={styles.desk} >
+        <hr />
+        <h5 >TESTIMONIALS</h5>
+        <h1 >Our Clients Say</h1>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -119,8 +120,8 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 backgroundColor: "white",
                 position: "absolute",
-                width: "450px",
-                minHeight: "290px",
+                width: "400px",
+                minHeight: "90px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -133,12 +134,8 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-          I have shopped here several times in the past two years.
-           The Hardware store is beautiful inside and out and the
-            staff is amicable and helpful. They did an exemplary job 
-            for me when I was doing my renovations and the customer 
-            service was superb. They keep everything well stocked and maintained. 
-            The prices are very fair! I will keep coming back.” -Morgan Mwari
+                I have been sourcing plumbing materials wholesale for my hardware store 
+                from the Kpipes Thika Branch for the past 5 years.
 
               </p>
             </div>
@@ -146,15 +143,15 @@ const Testimonial = ({ deviceType }) => {
               style={{
                 backgroundColor: "orange",
                 position: "absolute",
-                width: "450px",
-                minHeight: "230px",
+                width: "400px",
+                maxHeight: "130px",
                 zIndex: "-2",
-                top: "130px",
+                top: "110px",
                 left: "30px",
               }}
             >
-              <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Morgan Mwariri - Facebook</h4>
+              <p style={{ marginTop: "90px", padding: "15px", color: "blue" }}>
+                <h4>John Kiragu - Kiambu Town</h4>
               </p>
             </div>
           </div>
@@ -193,8 +190,8 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 backgroundColor: "white",
                 position: "absolute",
-                width: "450px",
-                minHeight: "290px",
+                width: "400px",
+                minHeight: "90px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -207,25 +204,23 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-             “This place is excellent! Very helpful staff,
-              good prices! The staff really took the time to 
-              explain everything to me and were very knowledgeable. 
-              Very pleased with my experience here at KPFC Builders Hardware!” – Jerusha Lelei
+                I have been receiving numerous product knowledge support, delivery, 
+                services, and other technical support I may need.
               </p>
             </div>
             <div
               style={{
                 backgroundColor: "orange",
                 position: "absolute",
-                width: "450px",
-                minHeight: "230px",
+                width: "400px",
+                maxHeight: "130px",
                 zIndex: "-2",
-                top: "130px",
+                top: "110px",
                 left: "30px",
               }}
             >
-              <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
-                <h4>Jerusha Lelei - Facebook</h4>
+              <p style={{ marginTop: "90px", padding: "15px", color: "blue" }}>
+                <h4>Emily Wanjiku - Rongai Town</h4>
               </p>
             </div>
           </div>
@@ -262,8 +257,8 @@ const Testimonial = ({ deviceType }) => {
                 border: `1px solid orange`,
                 backgroundColor: "white",
                 position: "absolute",
-                width: "450px",
-                minHeight: "290px",
+                width: "400px",
+                maxHeight: "190px",
                 zIndex: "1",
                 top: "30px",
               }}
@@ -278,22 +273,17 @@ const Testimonial = ({ deviceType }) => {
               >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius dignissimos vero
-                accusamus assumenda beatae porro. Quas, beatae? Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Laboriosam enim
-                unde culpa deleniti nobis placeat asperiores ab quas recusandae
-                minima sit numquam, aliquam perferendis voluptatibus, eligendi
-                eaque id? Architecto, suscipit!
+           
               </p>
             </div>
             <div
               style={{
                 backgroundColor: "orange",
                 position: "absolute",
-                width: "450px",
-                minHeight: "230px",
+                width: "400px",
+                maxHeight: "130px",
                 zIndex: "-2",
-                top: "130px",
+                top: "100px",
                 left: "30px",
               }}
             >

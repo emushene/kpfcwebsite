@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 2em;
+    margin: 1em 5em;
+}
+
+.aspiration{flex:2; margin-left: 2em; }
+.aspiration h2 { color: rgb(5, 81, 196);}
+
+
+.trusted {flex: 2;}
+.trusted h6 {color: orange}
+.trusted h2 {color: rgb(5, 81, 196);}
+.logoDiv{ display: flex;
+flex-wrap: wrap;
+gap: 0.5em;
+margin-top: 1em;}
+.partnerLogo{
+    width: 140px;
+    min-height: 120px;
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+}
+
+.call {
+    background-color:rgb(5, 81, 196) ;
+    padding: 0.5em 2em;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.callText {display: flex; flex-direction: column;}
+.callText h6 {color: white;}
+.callText h2 { color: orange;}
+.callIcon {color: orange;}

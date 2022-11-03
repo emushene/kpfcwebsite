@@ -45,11 +45,10 @@ function SwipeableTextMobileStepper() {
   return (
     <div className={styles.container}>
       <div className={styles.overlayDiv}>
-        <h1>OVERVIEW</h1>
+        <h1>Quality Building Materials</h1>
         <p>
-        KPFC Builders Hardware is the best supplier of Hardware and Building Materials; We stock Tiles, 
-        Electricals, Paint, Building and Plumbing materials, and Garden tools, in Kenya.
-        We are located around the Country with over 30++ Stores Country Wide
+        Join the KPFC Builders investiment program with selected
+        products such as Deformed Bars, Square Tubes & other Building Materials.
         </p>
       </div>
       <div className={styles.couAndIntro}>
@@ -166,39 +165,7 @@ function SwipeableTextMobileStepper() {
                 </div>
               ))}
             </AutoPlaySwipeableViews>
-            {/* <MobileStepper
-              steps={maxSteps}
-              position="static"
-              activeStep={activeStep}
-              nextButton={
-                <Button
-                  size="small"
-                  onClick={handleNext}
-                  disabled={activeStep === maxSteps - 6}
-                >
-                  Next
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowLeft />
-                  ) : (
-                    <KeyboardArrowRight />
-                  )}
-                </Button>
-              }
-              backButton={
-                <Button
-                  size="small"
-                  onClick={handleBack}
-                  disabled={activeStep === 0}
-                >
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowRight />
-                  ) : (
-                    <KeyboardArrowLeft />
-                  )}
-                  Back
-                </Button>
-              }
-            /> */}
+    
           </Box>
         </div>
         <div className={styles.couDivMobileLandscape}>
@@ -240,39 +207,7 @@ function SwipeableTextMobileStepper() {
                 </div>
               ))}
             </AutoPlaySwipeableViews>
-            {/* <MobileStepper
-              steps={maxSteps}
-              position="static"
-              activeStep={activeStep}
-              nextButton={
-                <Button
-                  size="small"
-                  onClick={handleNext}
-                  disabled={activeStep === maxSteps - 6}
-                >
-                  Next
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowLeft />
-                  ) : (
-                    <KeyboardArrowRight />
-                  )}
-                </Button>
-              }
-              backButton={
-                <Button
-                  size="small"
-                  onClick={handleBack}
-                  disabled={activeStep === 0}
-                >
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowRight />
-                  ) : (
-                    <KeyboardArrowLeft />
-                  )}
-                  Back
-                </Button>
-              }
-            /> */}
+            
           </Box>
         </div>
       </div>

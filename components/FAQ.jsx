@@ -17,8 +17,9 @@ const FAQ = () => {
   return (
     <div className={styles.container}>
       <div className={styles.faqContainer}>
-        <p1> SERVICE</p1>
+        <div className={styles.heading}><p1> SERVICE</p1>
         <h3>FAQS: SERVICES</h3>
+        </div>
         <div className={styles.faqList}>
           <Accordion
             expanded={expanded === "panel1"}
@@ -29,15 +30,13 @@ const FAQ = () => {
               aria-controls="panel1bh-content"
               id="panel1bh-header"
             >
-              <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                <h6>KPFC Frequent</h6>
-              </Typography>
-              <Typography sx={{ color: "text.secondary" }}>Can I get Waste Pipes from KPFC?</Typography>
+             
+              <Typography sx={{ color: "text.secondary" }}>Can I source my hardware's stock from KPFC?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Nulla facilisi. Phasellus sollicitudin nulla et quam mattis
-                feugiat. Aliquam eget maximus est, id dignissim quam.
+            Yes, KPFC specializes in the retail and wholesale of building, electrical &
+             plumbing materials directly to the public and other hardware stores countrywide.            
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -50,11 +49,9 @@ const FAQ = () => {
               aria-controls="panel2bh-content"
               id="panel2bh-header"
             >
-              <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                Frequesntly asked Questions
-              </Typography>
+            
               <Typography sx={{ color: "text.secondary" }}>
-                How Many Branches does KPFC have?
+                Do you offer Delivery services for bulk Purchases?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -74,11 +71,9 @@ const FAQ = () => {
               aria-controls="panel3bh-content"
               id="panel3bh-header"
             >
-              <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                How do I invest with KPFC?
-              </Typography>
+              
               <Typography sx={{ color: "text.secondary" }}>
-                How do I transport my goods from KPFC?
+                Does kpipes and Fitting Center offer Plumbing Services?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -95,12 +90,56 @@ const FAQ = () => {
           >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel3bh-content"
+              id="panel3bh-header"
+            >
+              
+              <Typography sx={{ color: "text.secondary" }}>
+                Does kpipes and Fitting Center offer Plumbing Services?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
+                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
+                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
+                augue.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            expanded={expanded === "panel5"}
+            onChange={handleChange("panel5")}
+          >
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel3bh-content"
+              id="panel3bh-header"
+            >
+              
+              <Typography sx={{ color: "text.secondary" }}>
+                Does kpipes and Fitting Center offer Plumbing Services?
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
+                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
+                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
+                augue.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion
+            expanded={expanded === "panel6"}
+            onChange={handleChange("panel6")}
+          >
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
               aria-controls="panel4bh-content"
               id="panel4bh-header"
-            >
-              <Typography sx={{ width: "33%", flexShrink: 0 }}>
-               Ask our Engineers to help you
-              </Typography>
+            >          <Typography sx={{ color: "text.secondary" }}>
+            Does kpipes and Fitting Center offer Plumbing Services?
+          </Typography>
+           
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>

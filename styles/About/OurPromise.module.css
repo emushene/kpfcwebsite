@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+
+    padding: 2em;
+
+    margin-left: 7em;
+    margin-right: 7em;
+}
+.container h6 {color: orange;}
+.container h2{color: rgb(5, 81, 196)}
+
+.dataSlider {
+    background-color: darkgray;
+    width: 80%;
+    padding: 1em;
+}
+
+.promise {margin-top: 1em; width: 80%; padding: 1em;}
+
+.promise p { text-align: justify;}

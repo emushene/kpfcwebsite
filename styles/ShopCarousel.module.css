@@ -1,8 +1,20 @@
 .circleImg {
     border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1px solid lightgray;
+}
+
+.imgDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    max-height: max-content;
+
+    border: 2px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+   
 }
 
 

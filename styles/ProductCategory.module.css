@@ -1,6 +1,6 @@
 .prodDiv{
   margin-top: 2em;
-  border: 5px solid black;
+ 
 }
 
 .fullContainer {
@@ -328,17 +328,21 @@ margin-bottom: 2em;
 }
 
 .ourServiceText {
-  flex: 4;
+  flex: 2;
   color: rgb(5, 81, 196);
   margin-left: 50px;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-size: 1.5em;
 }
 
 .ourServicesButton {
   
   flex: 2;
+  margin-left: 8em;
+  font-size: 2em;
 }
 
 .ourServicesButtonMobile{

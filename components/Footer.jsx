@@ -7,7 +7,7 @@ import { LocationOn, PhoneCallback, ContactMail } from "@mui/icons-material";
 
 const Footer = () => {
   return (
-    <>
+      <div className={styles.mainDiv}>
       <div className={styles.inviteBar}>
         <div className={styles.viewShop}>
           <h2>VIEW SHOP</h2>
@@ -23,7 +23,7 @@ const Footer = () => {
               <h5> OFFICE CONTACT</h5>
             </div>
 
-            <div className={styles.locationFooter}>
+            <div className={styles.fourDivs}>
               <div className={styles.phoneIcon}>
                 <LocationOn sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <p>123, Kikuyu Area Kikuyu</p>
               </div>
             </div>
-            <div className={styles.phoneFooter}>
+            <div className={styles.fourDivs}>
               <div  className={styles.phoneIcon}>
                 <PhoneCallback sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <p>+254-098786665</p>{" "}
               </div>
             </div>
-            <div className={styles.emailFooter}>
+            <div className={styles.fourDivs}>
               <div className={styles.phoneIcon}>
                 <ContactMail sx={{ fontSize: 35, color: "#f57200" }} />
               </div>
@@ -71,14 +71,12 @@ const Footer = () => {
                 <li className={styles.listItem}>
                   <Link href={"/Investiment"}>Consultancy Services</Link>
                 </li>
-                <li className={styles.listItem}>
-                  <Link href={"/Contactus"}> Tools and Equipment Hire</Link>
-                </li>
+                
               </ul>
             </div>
           </div>
           <div className={styles.usefulPages}>
-            <div style={{ color: "#f57200" }}>
+            <div >
               <h5>USEFUL PAGES </h5>
             </div>
             <br />
@@ -88,17 +86,15 @@ const Footer = () => {
                   <Link href={"/"}>Home</Link>
                 </li>
                 <li className={styles.listItem}>
-                  <Link href={"/About"}>About Us</Link>
+                  <Link href={"/Services"}>Services</Link>
                 </li>
                 <li className={styles.listItem}>
-                  <Link href={"/Services"}>Services</Link>
+                  <Link href={"/Shop"}>Shop</Link>
                 </li>
                 <li className={styles.listItem}>
                   <Link href={"/Blog"}>Blog</Link>
                 </li>
-                <li className={styles.listItem}>
-                  <Link href={"/Investiment"}>Investiment</Link>
-                </li>
+               
                 <li className={styles.listItem}>
                   <Link href={"/Contactus"}> Contact Us</Link>
                 </li>
@@ -147,13 +143,13 @@ const Footer = () => {
         </div>
         <div className={styles.allRights}>
           <div>
-            All Rights Reserved
+           <p>KPFC Builders Hardware- All Rights Reserved</p>
           
           </div>
-          <div>Designed By</div>
+          <div>Designed By #SWORDTECH</div>
         </div>
       </div>
-    </>
+      </div>
   );
 };
 

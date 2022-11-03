@@ -1,105 +1,22 @@
 
 .container {
     color: black;
-    border: 2px solid pink;
+ 
+    max-height: 24em;
     
-}
-
-#mobile {
-    display: none;
-}
-
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
-
-}
-
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-}
-
-/*tablets, ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-        
-.container {
-    color: black;
-    border: 2px solid pink;
 }
 
 #desk {
+    margin-top: 1em;
+}
+#desk h5{color:rgb(5, 81, 196); text-align: center;}
+#desk h1{color:rgb(5, 81, 196); text-align: center;}
+#desk hr {margin-left: 30%; margin-right: 30%; margin-bottom: 1em; border:2px solid grey}
+
+
+
+
+#mobile {
     display: none;
 }
 
-#mobile {
-    display: flex;
-    flex-direction: column;
-   height: 300px;
-    margin-top:5px;
-    margin-bottom: -120px;
-    margin-bottom: 1px solid grey;
-   
-}
-
-#mobile h1 {
-    text-align: center;
-    color: rgb(5, 81, 196);
-
-}
-#mobile h3 {
-    text-align: center;
-    color: rgb(5, 81, 196)
-    
-    
-}
-  
-}
-
-
-
-/*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px) {
-    
-.container {
-  
-    color: black;
-    border: 2px solid pink;
-}
-
-#desk {
-    display: none;
-}
-
-#mobile {
-    display: flex;
-    flex-direction: column;
-    min-height: 300px;
-    margin-top:-30px;
-    margin-bottom: -120px;
-    margin-bottom: 1px solid grey;
-   
-}
-
-#mobile h1 {
-    text-align: center;
-    color: rgb(5, 81, 196);
-
-}
-#mobile h3 {
-    text-align: center;
-    color: rgb(5, 81, 196)
-    
-    
-}
-  
-}

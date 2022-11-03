@@ -26,24 +26,23 @@ import tank from "../public/Images/Water-Tanks-kpfc-builders-hardware-builders.j
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-  <Image className={styles.circleImg} src={building} borderRadius="50px" width="90px" height="90px" marginLeft="1em" onDragStart={handleDragStart} role="presentation" placeholder='Whell Barrow'/>,
-  <Image className={styles.circleImg} src={gardening} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={hardware} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={iron} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={lighting} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={locks} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={mdf} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={plumbing} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={sanitary} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
-  <Image className={styles.circleImg} src={tank} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" />,
+  <div> <Image className={styles.circleImg} src={building} borderRadius="50px" width="90px" height="90px" marginLeft="1em" onDragStart={handleDragStart} role="presentation" /><p>Building Materials</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={gardening} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /> <p>GARDEN TOOLS</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={hardware} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>HARDWARE MATERIALS</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={iron} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>IRON SHEETS</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={lighting} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>LIGHTING AND ELECTRICAL</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={locks} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>LOCKS & HINGES</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={mdf} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>MDF BOARDS</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={plumbing} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>PLUMBING MATERIALS</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={sanitary} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>SANITARY & BATH ROOM</p></div>,
+  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={tank} borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>WATER TANKS</p></div>,
 ];
 
 const Gallery = () => {
   const responsive = {
     0: { items: 1 },
     568: { items: 2 },
-    1024: { items: 3 },
-  };
+    1024: { items: 3 }, };
 
 
 
@@ -54,11 +53,11 @@ const Gallery = () => {
     <div>
     <AliceCarousel
      mouseTracking items={items}
-     autoWidth 
-  
-     responsive={responsive}
+    esponsive={responsive}
     controlsStrategy="alternate"
-    
+    autoWidth
+    autoHeight
+  
      
      
      />

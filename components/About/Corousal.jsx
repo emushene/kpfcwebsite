@@ -7,9 +7,14 @@ const Corousal = () => {
         
        
         <div className={styles.text}>
-        <h2>About Us</h2>
-          <p>KPFC Builders Hardware, where you <br /> will find everything
-            your local hardware <br /> store carries and a lot more!</p>
+        <h1>About Us</h1>
+        <p>
+        What distinguishes KPFC Builders Hardware? Our understasnding of
+         what true partnership and collaboration means.
+
+        </p>
+        
+      
         </div>
       </div>
     </div>

@@ -4,21 +4,21 @@ const BannerHappy = () => {
         <div className={styles.lowerDiv}>
         <div className={styles.div40}>
             <h3>40+</h3>
-            <h5>EAST AFRICA</h5>
+            <h5>BRANCHES <br />COUNTRYWIDE</h5>
 
         </div>
         <div className={styles.div10}>
         <h3>10+</h3>
-            <h5>COUNTIES</h5>
+            <h5>COUNTIES <br /> COVERED</h5>
         </div>
         <div className={styles.div35000}>
-        <h3>3,500+</h3>
-            <h5>HAPPY CLIENTS</h5>
+        <h3>5K+</h3>
+            <h5>HAPPY <br /> CLIENTS</h5>
         
         </div>
         <div className={styles.div100000}>
-        <h3>10,000+</h3>
-            <h5>COMPLETED ORDERS</h5>
+        <h3>10K</h3>
+            <h5>COMPLETED <br /> ORDERS</h5>
             </div>
       </div>
     );
