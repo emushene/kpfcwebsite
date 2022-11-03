@@ -18,7 +18,7 @@
 
   }
 
-<<<<<<< HEAD
+
 
 
 .text {
@@ -29,7 +29,7 @@
   top: 60%;
   left: 30%;
   
-=======
+}
 .glide h1 {
   font-size: 7em;
   position: absolute;
@@ -45,10 +45,7 @@
   position: absolute;
   top: 70%;
   left: 17%;
-<<<<<<< HEAD
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
-=======
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
   z-index: 991;
 
 }

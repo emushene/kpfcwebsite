@@ -82,12 +82,6 @@ const ProductCategory = () => {
               alt="kpfc hardware Electrical"
               layout="fill"
               objectFit="contain"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
-              // width="260"
               // height="300"
             />
           </a>
@@ -102,22 +96,15 @@ const ProductCategory = () => {
               alt="flood-light-electrical-led-kpfc-builders-hardware"
               layout="fill"
               objectFit="contain"
-<<<<<<< HEAD
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
-=======
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
               // width="260"
               // height="300"
             />
           </a>
           <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
         </div>
         <div className={styles.pictures5}>
           <a className={styles.a} href="#">
@@ -145,8 +132,7 @@ const ProductCategory = () => {
             />
           </a>
           <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-<<<<<<< HEAD
-=======
+
         </div>
         <div className={styles.pictures7}>
           <a className={styles.a} href="#">
@@ -187,7 +173,7 @@ const ProductCategory = () => {
             />
           </a>
           <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
         </div>
         <div className={styles.pictures7}>
           <a className={styles.a} href="#">
@@ -228,7 +214,7 @@ const ProductCategory = () => {
             />
           </a>
           <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
         </div>
        
               
@@ -240,18 +226,14 @@ const ProductCategory = () => {
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
           <p>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
           Building a personal relationship with all our customers to ensure their needs
           are satisfied and feel part of our family.
-=======
+
           We offer a wide range of quality products,
            at competitive prices <br/> all under one roof with service of a high standard.
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
-=======
-          We offer a wide range of quality products,
-           at competitive prices <br/> all under one roof with service of a high standard.
->>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+
           </p>
          
         </div>

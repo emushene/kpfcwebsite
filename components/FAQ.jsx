@@ -31,7 +31,7 @@ const FAQ = () => {
               id="panel1bh-header"
             >
              
-              <Typography sx={{ color: "text.secondary" }}>Can I source my hardware's stock from KPFC?</Typography>
+              <Typography sx={{ color: "text.secondary" }}>Can I source my hardwares stock from KPFC?</Typography>
             </AccordionSummary>
             <AccordionDetails>
             <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
