@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container {
   display: flex;
@@ -8,6 +9,18 @@
   position: relative;
   width: 100%;
 
+=======
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,600;1,700;1,900&family=Varela+Round&display=swap'); */
+
+.container {
+  display: flex;
+  border-top: 5px;
+  gap: 25px;
+  padding: 10px;
+  font-size: 1.5em;
+  position: relative;
+  width: 100%;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 .imageDiv {
   width: 100%;
@@ -29,6 +42,7 @@
 }
 .topHeading {
   color: rgb(5, 81, 196);
+<<<<<<< HEAD
   font-size: 2em;
   text-align: center;
   font-weight: 900;
@@ -37,14 +51,24 @@
 .topHeading h1 {
   font-size: 1em;
   margin-bottom: -0.9em;
+=======
+  text-align: center;
+}
+.topHeading h1 {
+  font-size: 1em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .midHeading {
   color: orange;
+<<<<<<< HEAD
   font-size: 2em;
   font-weight: 900;
   text-align: center;
   margin-bottom: -0.5em;
+=======
+  text-align: center;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .leftDiv Button {
@@ -59,6 +83,7 @@
   color: rgb(5, 81, 196);
 
   gap: 25px;
+<<<<<<< HEAD
   
 }
 .leftInnerDiv h1{
@@ -68,6 +93,8 @@
 }
 .leftInnerDiv p {
   font-size: 0.8em;
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .rightDiv {
@@ -79,18 +106,27 @@
 
 .textDiv {
   background-color: orange;
+<<<<<<< HEAD
   max-width: 25em;
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
   padding: 15px;
   text-align: start;
   color: rgb(5, 81, 196);
   font-size: 0.7em;
   margin-bottom: 2em;
+<<<<<<< HEAD
   align-self: center;
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .textDivButton {
   margin-bottom: 2em;
+<<<<<<< HEAD
   margin-left: 4em;
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .rightDivText {
@@ -120,3 +156,298 @@
   display: none;
 }
 
+<<<<<<< HEAD
+=======
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        min-height: max-content;
+        display: flex;
+        border-top: 5px;
+        gap: 25px;
+        padding: 10px;
+        font-size: 1em;
+       
+        position: relative;
+        margin-bottom: 500px;
+      }
+    
+      .imageDiv {
+       display: none;
+      
+      }
+      .mobileImageDiv {
+        display: none;
+      }
+      .mobile2ImageDiv{
+        
+        display: block;
+        z-index: -1;
+      }
+    
+    
+    
+      .leftDiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 5px;
+        gap: 2px;
+    
+       
+      }
+      .topHeading {
+        color: rgb(5, 81, 196);
+        text-align: center;
+        margin-left: -2em;
+      }
+    
+      .midHeading {
+        color: orange;
+        text-align: center;
+        font-weight: 900px;
+        font-size: 1em;
+        margin-left: -2em;
+      }
+    
+      .leftDiv h1 {
+        font-family: "Montserrat";
+        font-size: 1em;
+       
+        margin-left: -2em;
+    
+      }
+    
+      .leftDiv Button {
+        background-color: rgb(5, 81, 196);
+        left: 0px;
+      }
+      .leftInnerDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(5, 81, 196);
+    
+        font-size: 1em;
+        margin-left: -2em;
+      }
+      .leftInnerDiv h1 {
+        font-size: 2em;
+        margin-left: 1em;
+      }
+    
+      .rightDiv {
+        display: none;
+        /* display: flex;
+         margin-right: 40px;
+         flex: 1;
+         position: relative; */
+      }
+      .textDiv {
+        display: none;
+      }
+    
+      .textDivMobile {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        background-color: orange;
+        padding: 0.5em;
+        text-align: start;
+        font-size: 1em;
+        color: rgb(5, 81, 196);
+        margin-left: -10px;
+        margin-top: 10em;
+      }
+      .textDivMobile p {
+        font-size: 0.2em;
+        
+      }
+    
+      .rightDivText {
+        display: none;
+    
+        /* background-color: orange;
+        padding: 5px;
+        height: 60px;
+        width: 250px;
+        text-align:start;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        right: -15%; */
+      }
+    
+      .textDivButton {
+        display: none;
+      }
+      .rightDivText p {
+        font-size: 8px;
+        color: rgb(5, 81, 196);
+      }
+      .rightDivText h6 {
+        font-size: 0.2em;
+        color: rgb(5, 81, 196);
+      }
+      .rightDivText h6 {
+        font-weight: bold;
+      }
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    min-height: max-content;
+    display: flex;
+    border-top: 5px;
+    gap: 25px;
+    padding: 10px;
+    font-size: 0.7em;
+   
+    position: relative;
+    margin-bottom: 36.3em;
+  }
+
+  .imageDiv {
+   display: none;
+  
+  }
+  .mobile2ImageDiv{
+    display: none;
+  }
+  .mobileImageDiv {
+    display: block;
+    z-index: -1;
+  }
+
+
+
+  .leftDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: -35px;
+    margin-top: 5px;
+    gap: 2px;
+
+   
+  }
+  .topHeading {
+    color: rgb(5, 81, 196);
+    text-align: center;
+    margin-left: -2em;
+  }
+
+  .midHeading {
+    color: orange;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 1em;
+    margin-left: -2em;
+  }
+
+  .leftDiv h1 {
+    font-family: "Montserrat";
+    font-size: 1em;
+   
+    margin-left: -2em;
+
+  }
+
+  .leftDiv Button {
+    background-color: rgb(5, 81, 196);
+    left: 0px;
+  }
+  .leftInnerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(5, 81, 196);
+
+    font-size: 1em;
+    margin-left: -2em;
+  }
+  .leftInnerDiv h1 {
+    font-size: 2em;
+    margin-left: 1em;
+  }
+
+  .rightDiv {
+    display: none;
+    /* display: flex;
+     margin-right: 40px;
+     flex: 1;
+     position: relative; */
+  }
+  .textDiv {
+    display: none;
+  }
+
+  .textDivMobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    background-color: orange;
+    padding: 0.5em;
+    text-align: start;
+    font-size: 1em;
+    color: rgb(5, 81, 196);
+    margin-left: -10px;
+    margin-top: 11em;
+  }
+  .textDivMobile p {
+    font-size: 0.8em;
+    
+  }
+
+  .rightDivText {
+    display: none;
+
+    /* background-color: orange;
+    padding: 5px;
+    height: 60px;
+    width: 250px;
+    text-align:start;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: -15%; */
+  }
+
+  .textDivButton {
+    display: none;
+  }
+  .rightDivText p {
+    font-size: 8px;
+    color: rgb(5, 81, 196);
+  }
+  .rightDivText h6 {
+    font-size: 0.2em;
+    color: rgb(5, 81, 196);
+  }
+  .rightDivText h6 {
+    font-weight: bold;
+  }
+}
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a

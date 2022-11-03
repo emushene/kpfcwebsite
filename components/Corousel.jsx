@@ -47,8 +47,14 @@ function SwipeableTextMobileStepper() {
       <div className={styles.overlayDiv}>
         <h1>Quality Building Materials</h1>
         <p>
+<<<<<<< HEAD
         Join the KPFC Builders investiment program with selected
         products such as Deformed Bars, Square Tubes & other Building Materials.
+=======
+        KPFC Builders Hardware is the best supplier of Hardware and Building Materials; We stock Tiles, 
+        Electricals, Paint, Building and Plumbing materials, and Garden tools, in Kenya.
+        We are located around the Country with over 30++ Stores Country Wide
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
         </p>
       </div>
       <div className={styles.couAndIntro}>

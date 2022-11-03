@@ -3,7 +3,11 @@
   padding: 0;
   
   box-sizing: border-box;
+<<<<<<< HEAD
  
+=======
+  letter-spacing: 0.1em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
    }
 html,
 body {
@@ -35,3 +39,9 @@ a {
   }
 }
 
+<<<<<<< HEAD
+=======
+p {
+  font-size: 0.85em;
+}
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a

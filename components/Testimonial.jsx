@@ -134,8 +134,17 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
+<<<<<<< HEAD
                 I have been sourcing plumbing materials wholesale for my hardware store 
                 from the Kpipes Thika Branch for the past 5 years.
+=======
+          I have shopped here several times in the past two years.
+           The Hardware store is beautiful inside and out and the
+            staff is amicable and helpful. They did an exemplary job 
+            for me when I was doing my renovations and the customer 
+            service was superb. They keep everything well stocked and maintained. 
+            The prices are very fair! I will keep coming back.” -Morgan Mwari
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 
               </p>
             </div>
@@ -204,8 +213,15 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
+<<<<<<< HEAD
                 I have been receiving numerous product knowledge support, delivery, 
                 services, and other technical support I may need.
+=======
+             “This place is excellent! Very helpful staff,
+              good prices! The staff really took the time to 
+              explain everything to me and were very knowledgeable. 
+              Very pleased with my experience here at KPFC Builders Hardware!” – Jerusha Lelei
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
               </p>
             </div>
             <div
@@ -219,8 +235,13 @@ const Testimonial = ({ deviceType }) => {
                 left: "30px",
               }}
             >
+<<<<<<< HEAD
               <p style={{ marginTop: "90px", padding: "15px", color: "blue" }}>
                 <h4>Emily Wanjiku - Rongai Town</h4>
+=======
+              <p style={{ marginTop: "190px", padding: "15px", color: "blue" }}>
+                <h4>Jerusha Lelei - Facebook</h4>
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
               </p>
             </div>
           </div>

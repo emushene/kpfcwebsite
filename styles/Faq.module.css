@@ -4,12 +4,19 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+<<<<<<< HEAD
     min-height: 60vh;
     gap: 2em;
     margin-left: 3em;
     margin-right: 3em;
  
     border-top: 2px solid grey;
+=======
+    gap: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 15em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
     
 }
 .faqContainer {
@@ -17,7 +24,11 @@
     padding: 10px;
     flex: 3;
     min-height: max-content;
+<<<<<<< HEAD
 
+=======
+    margin-top: -21em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
     
 
 }
@@ -36,7 +47,11 @@
 .heading {border-bottom: 2px solid grey; margin-bottom: 1em;}
 .quoteForm {
     flex: 2;
+<<<<<<< HEAD
 
+=======
+    margin-top: -16em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 }
 
 .faqListMobile {
