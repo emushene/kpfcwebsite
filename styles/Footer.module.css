@@ -16,7 +16,10 @@ background-repeat: no-repeat;
  margin-right: 3em;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
   height: 49vh;
   width: 100%;
  
@@ -63,6 +66,7 @@ background-repeat: no-repeat;
 
 .bottomFour {
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: 1em;
   display: flex;
   justify-content: space-around;
@@ -70,12 +74,19 @@ background-repeat: no-repeat;
 =======
   height: 40vh;
   display: flex;
+=======
+  height: 40vh;
+  display: flex;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
     justify-content: space-between;
     flex-wrap: wrap;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: -5em;
   
+<<<<<<< HEAD
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+=======
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
   color: whitesmoke;
   margin-bottom: 2rem;
@@ -135,6 +146,7 @@ background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
    border-bottom: 0.1em solid grey;
   border-top: 0.1em solid grey;
   margin-right: 6em;
@@ -159,6 +171,8 @@ background-repeat: no-repeat;
   text-transform: capitalize;
 }
 =======
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
   gap: 1.4em;
   font-size: 14px;
   margin-left: 5em;
@@ -184,6 +198,9 @@ background-repeat: no-repeat;
 }
 
 
+<<<<<<< HEAD
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+=======
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 
 .subscription * {
@@ -617,5 +634,9 @@ display: none;
   font-size: 0.7em;
 }
 
+<<<<<<< HEAD
+}
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+=======
 }
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a

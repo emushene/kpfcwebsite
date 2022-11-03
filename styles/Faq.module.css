@@ -5,6 +5,7 @@
     justify-content: space-between;
     flex-direction: row;
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-height: 60vh;
     gap: 2em;
     margin-left: 3em;
@@ -12,10 +13,15 @@
  
     border-top: 2px solid grey;
 =======
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
     gap: 2em;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 15em;
+<<<<<<< HEAD
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+=======
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
     
 }
@@ -25,7 +31,11 @@
     flex: 3;
     min-height: max-content;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+    margin-top: -21em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 =======
     margin-top: -21em;
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
@@ -48,7 +58,11 @@
 .quoteForm {
     flex: 2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+    margin-top: -16em;
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 =======
     margin-top: -16em;
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a

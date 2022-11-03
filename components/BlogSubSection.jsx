@@ -9,12 +9,15 @@ const BlogSubSection = () => {
       <div className={styles.textDiv}>
         <h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
         Get Inspired with tips and ideas for your building project, hiring a professional, 
         materials information and much more.
         </h3>
         <p>
 
 =======
+=======
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
         Construction boom makes hardware shops most popular business in Kenya
         </h3>
         <p>
@@ -29,6 +32,9 @@ A survey in various suburbs, especially on
 the outskirts of the capital, showed that the hardware outlets
  currently outnumber grocery stores, meat shops and bars, which at one time were the most popular businesses.
  <button><Link href="/Blog"> Read more here......</Link></button>
+<<<<<<< HEAD
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
+=======
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
         </p>
       </div>

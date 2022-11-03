@@ -12,9 +12,15 @@ const Invest = () => {
       
         <div className={styles.leftDiv}>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <h1 className={styles.topHeading}>
             INVEST NA KPFC 
           </h1>
+=======
+          <h3 className={styles.topHeading}>
+            #InvestNaKPFC Builders Today! 
+          </h3>
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 =======
           <h3 className={styles.topHeading}>
             #InvestNaKPFC Builders Today! 

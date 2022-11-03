@@ -36,7 +36,11 @@ const Skills = () => {
           <h6>OUR PARTNERS</h6>
           <h3>WE ARE TRUSTED</h3>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <p> We endeavor to create formidable relations with our key Trusted Partners in the industry</p>
+=======
+          <h6> We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry</h6>
+>>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
 =======
           <h6> We endeavor to create formidable relations <br/> with our key Trusted Partners in the industry</h6>
 >>>>>>> f7737119ed115b604fd670bd50395ff56d30ea9a
