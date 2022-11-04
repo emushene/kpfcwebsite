@@ -28,12 +28,8 @@ const ProductCategory = () => {
       <div className={styles.container}>
         <div className={styles.popularHeading}>
           <h1>MOST POPULAR PRODUCTS </h1>
-          <div className={styles.mostDivLeft}>
-            {/* <Image src={leftArrow} alt="" /> */}
-          </div>
-          <div className={styles.mostDivRight}>
-            {/* <Image src={rightArrow} alt="" /> */}
-          </div>
+   
+    
         </div>
         <div className={styles.adverts}>
           <h1>Get Quality Plumbing Materials</h1>
@@ -83,6 +79,7 @@ const ProductCategory = () => {
             <button className={styles.addCard}>Add to Cart</button>
           </div>
         </div>
+        
       </div>
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
@@ -130,6 +127,7 @@ const ProductCategory = () => {
           </Button>
         </div>
       </div>
+      
       <Invest />
       <BlogSubSection />
     </div>

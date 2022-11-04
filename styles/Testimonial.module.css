@@ -1,11 +1,20 @@
 
 .container {
-    color: black;
-
- 
+    color:rgb(5, 81, 196) ;
+    text-align: center;
+    margin-top: 1em;
     max-height: 24em;
 
     
+}
+
+#desk {
+   
+}
+#desk h5 { 
+    border-top: 5px solid grey;
+    margin-left: 20em;
+    margin-right: 20em;
 }
 
 #mobile {

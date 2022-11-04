@@ -1,5 +1,7 @@
 import styles from "../../styles/About/Aspiration.module.css"
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
+import { partners } from "../Data/Data";
+import Image from "next/image";
 
 
 const Aspiration = () => {
@@ -27,12 +29,9 @@ const Aspiration = () => {
 
                 </p>
                 <div className={styles.logoDiv}>
-                <div className={styles.partnerLogo}> Logo</div>
-                <div className={styles.partnerLogo}>Logo</div>
-                <div className={styles.partnerLogo}>Logo</div>
-                <div className={styles.partnerLogo}>Logo</div>
-                <div className={styles.partnerLogo}>Logo</div>
-                <div className={styles.partnerLogo}>Logo</div>
+                    {partners.map((items) => (
+                <div className={styles.partnerLogo}> <Image src={items.logo} alt={items.name} layout="responsive" objectFit="cover"/></div>
+                ))}
 
                 
                 </div>

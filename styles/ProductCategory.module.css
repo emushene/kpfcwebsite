@@ -1,48 +1,41 @@
 .prodDiv{
+  min-height: 100vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
 
  
 }
 
 .fullContainer {
-
-  border: 5px solid green;
+margin-top: 5em;
 }
 
 
 .container {
-  border: 5px solid grey;
+
+  max-height: 65vh;
+  width: 100%;
+  
 }
 .containerProducts {
   display: none;
-  /* display: flex;
 
-  align-items: center;
-  justify-content: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  gap: 15px;
-  margin-bottom: 20px;
-  position: relative; */
 }
 .productsHeader{
 display: flex;
 color: rgb(5, 81, 196);
 align-items: center;
 justify-content: center;
-border-bottom: 1px solid lightgray;
+
 
 
 
 
 }
 .categoryCorousel {
-  max-height: 1200px;
-margin-top: 1em;
-margin-bottom: 2em;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  max-height: 150px;
 
-  overflow: hidden;
+
 }
 
 
@@ -55,12 +48,10 @@ margin-bottom: 2em;
 
 .mostPolular {
   display: flex;
-
-  justify-content: center;
   flex-direction: column;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 30px;
+
+
+
 }
 
 
@@ -99,9 +90,9 @@ margin-bottom: 2em;
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0.3em;
   grid-row-gap: 0.3em;
+  margin-left: 10em;
 
-  margin-left: 8em;
-  margin-bottom: -20em;
+
   
   
   
@@ -111,8 +102,8 @@ margin-bottom: 2em;
     color:  rgb(5, 81, 196);
     font-size: 1em;
     font-weight: 400;
-    margin-left: 40px;
-    border-top: 1px solid grey;
+
+    border-top: 3px solid grey;
     display: flex;
     align-items: center;
   
@@ -312,7 +303,7 @@ margin-bottom: 2em;
  align-self: center;
   font-size: 0.6em;
   min-width: 30%;
-  margin-bottom: 1em;
+
 }
 
 .ourService {
@@ -322,7 +313,8 @@ margin-bottom: 2em;
   max-width: 100%;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+
+  
 }
 
 .ourServiceText {

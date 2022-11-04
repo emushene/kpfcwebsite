@@ -1,6 +1,8 @@
 .container{
     margin-left: 4rem;
     margin-right: 4rem;
+    
+
  
 }
 
@@ -9,6 +11,8 @@
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
+    max-height: 200px;
+    overflow: hidden;
     
 
 }
@@ -16,8 +20,8 @@
 .topCard{
     border: 1px solid grey;
 
-    max-width: 150px;
-    max-height: 400px;
+    max-width: 100px;
+    max-height: 150px;
     background-color: orange;
     color: blue;
     text-align: center;

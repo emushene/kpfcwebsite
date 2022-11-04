@@ -1,62 +1,7 @@
 
 .container {
   margin-bottom: 10px;
+  min-height: 92vh;
 
-  border: 1px solid green;
-}
-.reachout {
-  border: 1px solid pink;
 
-}
-
-.appointment {
-  min-height: 100px;
-  background: rgba(5, 81, 196);
-  position: relative;
-  width: calc(50% - 30px);
-  color: white;
-  align-items: center;
-  padding: 30px;
-  cursor: pointer;
-}
-.appointment h2 {
-  font-size: 24px;
-}
-.salesTeam h2 {
-  font-size: 24px;
-}
-
-.salesTeam {
-  min-height: 100px;
-  background: #f57200;
-  position: relative;
-  width: calc(50% - 30px);
-  color: white;
-  align-items: center;
-  padding: 30px;
-  cursor: pointer;
-}
-.salesTeam {
-  float: left;
-}
-.appointment {
-  float: right;
-}
-.salesTeam:after,
-.appointment:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 0;
-  height: 0;
-}
-.salesTeam:after {
-  left: 100%;
-  border-top: 100px solid #f57200;
-  border-right: 50px solid transparent;
-}
-.appointment:before {
-  right: 100%;
-  border-bottom: 100px solid rgba(5, 81, 196);
-  border-left: 50px solid transparent;
 }

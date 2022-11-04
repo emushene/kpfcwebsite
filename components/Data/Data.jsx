@@ -9,6 +9,14 @@ import plumbing from "../../public/Images/Plumbing-kpfc-builders-hardware-builde
 import sanitary from "../../public/Images/Sanitary-Bathroom-kpfc-builders-hardware-builders.jpg"
 import tank from "../../public/Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
 
+//Partner Logos
+import partner1 from "../../public/Images/partners/kpfc-parners-1.png"
+import partner2 from "../../public/Images/partners/kpfc-partner-2.png"
+import partner3 from "../../public/Images/partners/kpfc-partner-3.png"
+import partner4 from "../../public/Images/partners/kpfc-partner-4.png"
+import partner5 from "../../public/Images/partners/kpfc-partner-5.png"
+import partner6 from "../../public/Images/partners/kpfc-parner-6.png"
+
 
 export const productsData = [
     {
@@ -102,7 +110,37 @@ export const productsData = [
 
     },
 
-    
+    ]
 
-
-]
+    export const partners = [
+        {
+            id:1,
+            logo:partner1,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+        {
+            id:2,
+            logo:partner2,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+        {
+            id:3,
+            logo:partner3,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+        {
+            id:4,
+            logo:partner4,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+        {
+            id:5,
+            logo:partner5,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+        {
+            id:6,
+            logo:partner6,
+            name: "KPFC-Builders-Partner-Logo"
+        },
+    ]

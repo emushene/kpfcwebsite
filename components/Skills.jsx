@@ -1,13 +1,13 @@
 import styles from "../styles/Skills.module.css";
 import * as React from "react";
 import { experimentalStyled as styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Unstable_Grid2";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import DataSlider from "./DataSlider";
 import Image from "next/image";
-import eaclogo from "../public/Images/eaclogo.jpg"
+import { partners } from "./Data/Data";
+
+
 
 const Skills = () => {
   const Item = styled(Paper)(({ theme }) => ({
@@ -41,13 +41,9 @@ const Skills = () => {
 
           
           <div className={styles.trusted}>
-            <div className={styles.partnerLogo}> <p>Logo</p></div>
-            <div className={styles.partnerLogo}><p>Logo</p></div>
-            <div className={styles.partnerLogo}><p>Logo</p></div>
-            <div className={styles.partnerLogo}><p>Logo</p></div>
-            <div className={styles.partnerLogo}><p>Logo</p></div>
-            <div className={styles.partnerLogo}><p>Logo</p></div>
-
+            {partners.map((Item) => (
+            <div className={styles.partnerLogo}> <Image src={Item.logo} alt="" layout="responsive" objectFit="cover"/></div>
+                      ))}
           </div>
           <div className={styles.callToAsk}>
             <div className={styles.askDiv}>

@@ -82,7 +82,7 @@ function SwipeableTextMobileStepper() {
                     <Box
                       component="img"
                       sx={{
-                        height: 745,
+                        height: 700,
                         width: "100%",
                         display: "blog",
                         overflow: "hidden",
@@ -94,39 +94,11 @@ function SwipeableTextMobileStepper() {
                 </div>
               ))}
             </AutoPlaySwipeableViews>
-            <MobileStepper
-              steps={maxSteps}
-              position="static"
-              activeStep={activeStep}
-              nextButton={
-                <Button
-                  size="small"
-                  onClick={handleNext}
-                  disabled={activeStep === maxSteps - 6}
-                >
-                  Next
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowLeft />
-                  ) : (
-                    <KeyboardArrowRight />
-                  )}
-                </Button>
-              }
-              backButton={
-                <Button
-                  size="small"
-                  onClick={handleBack}
-                  disabled={activeStep === 0}
-                >
-                  {theme.direction === "rtl" ? (
-                    <KeyboardArrowRight />
-                  ) : (
-                    <KeyboardArrowLeft />
-                  )}
-                  Back
-                </Button>
-              }
-            />
+            <div className={styles.reachOut}>
+        
+        <div className={styles.salesTeam}> <h2>LOOKING TO START A HARDWARE STORE?</h2> </div>
+        <div className={styles.appointment}> <h2>LEARN MORE </h2></div>
+       </div>
           </Box>
         </div>
         <div className={styles.couDivMobile}>

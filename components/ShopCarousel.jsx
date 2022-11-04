@@ -1,14 +1,12 @@
-import React from 'react';
-import styles from "../styles/ShopCarousel.module.css"
-import "slick-carousel/slick/slick.css"; 
+import React from "react";
+import styles from "../styles/ShopCarousel.module.css";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { productsData } from './Data/Data';
-import { Item } from 'semantic-ui-react';
+import { productsData } from "./Data/Data";
+import { Item } from "semantic-ui-react";
 import Image from "next/image";
-import Slider from 'react-slick';
+import Slider from "react-slick";
 import Link from "next/link";
-
-
 
 const ShopCarousel = () => {
   const settings = {
@@ -27,25 +25,25 @@ const ShopCarousel = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   function SampleNextArrow(props) {
@@ -58,7 +56,7 @@ const ShopCarousel = () => {
       />
     );
   }
-  
+
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -71,48 +69,30 @@ const ShopCarousel = () => {
   }
 
   return (
-    
-
-
-
-
-
-
     <div className={styles.container}>
       <Slider {...settings}>
-
-      {productsData.map((Item)=>(
-              <div className={styles.card}>
-              <div className={styles.topCard}>
-                <Image src={Item.linkImg} alt={Item.title} layout="responsive" border-Radius={50} objectFit="cover"/>
-                <Link  href={"/Shop"}><h3>{Item.title}</h3></Link>
-              </div>
-              <div className={styles.bottomCard}>
-              {/* <h1>{Item.price}</h1> */}
-              {/* <p>{Item.category}</p> */}
-              </div>
-              </div>
-
-
-      ))
-
-
-      }
-        
+        {productsData.map((Item) => (
+          <div className={styles.card}>
+            <div className={styles.topCard}>
+              <Image
+                src={Item.linkImg}
+                alt={Item.title}
+                layout="responsive"
+                borderRadius={50}
+                objectFit="cover"
+              />
+              <Link href={"/Shop"}>
+                <h3>{Item.title}</h3>
+              </Link>
+            </div>
+            <div className={styles.bottomCard}>
+          
+            </div>
+          </div>
+        ))}
       </Slider>
-       
-    
-
     </div>
+  );
+};
 
-
-
-
-  )
-}
-
-export default ShopCarousel
-
-
-
-
+export default ShopCarousel;
