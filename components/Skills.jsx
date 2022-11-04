@@ -42,7 +42,8 @@ const Skills = () => {
           
           <div className={styles.trusted}>
             {partners.map((Item) => (
-            <div className={styles.partnerLogo}> <Image src={Item.logo} alt="" layout="responsive" objectFit="cover"/></div>
+            <div className={styles.partnerLogo} key={Item.id}> 
+            <Image src={Item.logo} alt="" layout="responsive" objectFit="cover"/></div>
                       ))}
           </div>
           <div className={styles.callToAsk}>

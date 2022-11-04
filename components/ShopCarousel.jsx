@@ -73,7 +73,7 @@ const ShopCarousel = () => {
       <Slider {...settings}>
         {productsData.map((Item) => (
           <div className={styles.card}>
-            <div className={styles.topCard}>
+            <div className={styles.topCard} key={Item.id}>
               <Image
                 src={Item.linkImg}
                 alt={Item.title}
