@@ -78,7 +78,6 @@ const ShopCarousel = () => {
                 src={Item.linkImg}
                 alt={Item.title}
                 layout="responsive"
-                borderRadius={50}
                 objectFit="cover"
               />
               <Link href={"/Shop"}>
