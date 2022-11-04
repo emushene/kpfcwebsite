@@ -53,7 +53,7 @@ background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
+  color: white;
 
 
 
@@ -138,11 +138,8 @@ background-repeat: no-repeat;
   align-items: center;
   justify-content: space-between;
   max-height: 1em;
-  font-size: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: 0.6em;
+  
 
 }
 

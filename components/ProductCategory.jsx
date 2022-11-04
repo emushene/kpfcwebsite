@@ -3,19 +3,13 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
-import ShopCarousel from "./../components/ShopCarousel"
+import ShopCarousel from "./../components/ShopCarousel";
 import Image from "next/image";
-import doors from "../public/Images/ppe-elbow-plumbing-kpfc-builders-hardware.png"
-import cement from "../public/Images/paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png"
-import electrical from "../public/Images/double-tap-plumbing-kpfc-builders-hardware.png"
-import duracoat from "../public/Images/electric-flood-light-led-kpfc-builders-hardware.png"
-import d16 from "../public/Images/hose-pipe-plumbing-kpfc-builders-hardware.png"
-import tools from "../public/Images/circuit-breaker-electric-kpfc-builders-hardware.png"
-import leftArrow from "../public/Images/leftArrow.png"
-import rightArrow from "../public/Images/rightArrow.png"
+import doors from "../public/Images/ppe-elbow-plumbing-kpfc-builders-hardware.png";
+import cement from "../public/Images/paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png";
+import electrical from "../public/Images/double-tap-plumbing-kpfc-builders-hardware.png";
+
 import Link from "next/link";
-
-
 
 const ProductCategory = () => {
   return (
@@ -23,15 +17,13 @@ const ProductCategory = () => {
       <div className={styles.fullContainer}>
         <div className={styles.productsHeader}>
           <h2> PRODUCTS BY CATEGORY</h2>
-                  
         </div>
         <div className={styles.categoryCorousel}>
-          <ShopCarousel/>
-          </div>
+          <ShopCarousel />
+        </div>
         <div className={styles.containerProducts}>
-        <h6>MOST POPULAR PRODUCTS </h6>
-             
-        </div> 
+          <h6>MOST POPULAR PRODUCTS </h6>
+        </div>
       </div>
       <div className={styles.container}>
         <div className={styles.popularHeading}>
@@ -57,9 +49,10 @@ const ProductCategory = () => {
               // width="260"
               // height="300"
             />
-          
           </a>
-         <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
+          <div className={styles.butDiv}>
+            <button className={styles.addCard}>Add to Cart</button>
+          </div>
         </div>
         <div className={styles.pictures2}>
           <a className={styles.a} href="#">
@@ -72,8 +65,9 @@ const ProductCategory = () => {
               // height="300"
             />
           </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
+          <div className={styles.butDiv}>
+            <button className={styles.addCard}>Add to Cart</button>
+          </div>
         </div>
         <div className={styles.pictures3}>
           <a className={styles.a} href="#">
@@ -85,157 +79,19 @@ const ProductCategory = () => {
               // height="300"
             />
           </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
-
+          <div className={styles.butDiv}>
+            <button className={styles.addCard}>Add to Cart</button>
+          </div>
         </div>
-        <div className={styles.pictures4}>
-          <a className={styles.a} href="#">
-            <Image
-              src={duracoat}
-              alt="flood-light-electrical-led-kpfc-builders-hardware"
-              layout="fill"
-              objectFit="contain"
-
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
-
-
-        </div>
-        <div className={styles.pictures5}>
-          <a className={styles.a} href="#">
-            <Image
-              src={d16}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-  
-        </div>
-        <div className={styles.pictures6}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
-        </div>
-        <div className={styles.pictures7}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-        </div>
-        <div className={styles.pictures8}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-        </div>
-        <div className={styles.pictures9}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
-        </div>
-        <div className={styles.pictures7}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-        </div>
-        <div className={styles.pictures8}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-        </div>
-        <div className={styles.pictures9}>
-          <a className={styles.a} href="#">
-            <Image
-              src={tools}
-              alt="ichiran"
-              layout="fill"
-              objectFit="contain"
-
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}><button className={styles.addCard}>Add to Cart</button></div> 
-
-        </div>
-       
-              
-      
-        
-       
-      
       </div>
       <div className={styles.ourService}>
         <div className={styles.ourServiceText}>
           <p>
-
-
-          Building a personal relationship with all our customers to ensure their needs
-          are satisfied and feel part of our family.
-
-          We offer a wide range of quality products,
-           at competitive prices <br/> all under one roof with service of a high standard.
-
+            Building a personal relationship with all our customers to ensure
+            their needs are satisfied and feel part of our family. We offer a
+            wide range of quality products, at competitive prices <br /> all
+            under one roof with service of a high standard.
           </p>
-         
         </div>
         <div className={styles.ourServicesButton}>
           <Button

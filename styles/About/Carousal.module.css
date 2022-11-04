@@ -17,7 +17,7 @@
     color: white;
 
   }
-
+.text{ }
 
 
 
@@ -30,23 +30,17 @@
   left: 30%;
   
 }
-.glide h1 {
-  font-size: 7em;
-  position: absolute;
-  top: 50%;
-  left: 17%;
 
-}
 /* Test backup*/
 .text {
   max-width: max-content;
   font-size: 1.1em;
   background: rgba(75, 73, 73, 0.4);
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 17%;
+  width: 50%;
 
-  z-index: 991;
 
 }
 .text h1{font-size: 6em; text-align: center;}

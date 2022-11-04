@@ -312,8 +312,7 @@ margin-bottom: 2em;
 }
 
 .ourService {
-  margin-top: 10px;
-  min-height: 150px;
+
   background-color: orange;
   display: flex;
   max-width: 100%;
@@ -323,20 +322,19 @@ margin-bottom: 2em;
 }
 
 .ourServiceText {
-  flex: 2;
+  flex: 3;
+  padding: 1em;
   color: rgb(5, 81, 196);
-  margin-left: 50px;
-
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  text-align: start;
   font-size: 1.5em;
 }
 
 .ourServicesButton {
   
   flex: 2;
-  margin-left: 8em;
+
   font-size: 2em;
 }
 
