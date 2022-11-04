@@ -18,6 +18,9 @@ const Toplogo = () => {
           <Link href={"/Services"}>Services</Link>
           </li>
           <li className={styles.listItem}>
+         <Link href={"/Shop"}>Shop</Link>
+          </li>
+          <li className={styles.listItem}>
          <Link href={"/Blog"}>Blog</Link>
           </li>
           <li className={styles.listItem} style={{display: "none"}}>

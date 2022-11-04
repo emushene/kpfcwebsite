@@ -1,23 +1,36 @@
-.circleImg {
+.container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+ 
+}
+
+.card {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    
+
+}
+
+.topCard{
+    border: 1px solid grey;
+
+    max-width: 150px;
+    max-height: 400px;
+    background-color: orange;
+    color: blue;
+    text-align: center;
+    margin-left: 3.5em;
+}
+.topCard Image {
     border-radius: 50px;
-    width: 150px;
-    height: 150px;
-    border: 1px solid lightgray;
+}
+.topCard h3 {
+    cursor: pointer;
+    font-size: 0.9em;
 }
 
-.imgDiv {
-    display: flex;
-    flex-direction: column;
-    max-width: 100px;
-    max-height: max-content;
-
-    border: 2px solid lightgrey;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-
-
+.bottomCard {background-color: orange; color: white;}
 
 

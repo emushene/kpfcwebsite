@@ -1,69 +1,118 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
 import styles from "../styles/ShopCarousel.module.css"
-
-import Image from "next/image"
-
-import building from "../public/Images/Building-Materials-kpfc-builders-hardware-builders.jpg"
-import gardening from "../public/Images/Gardening-Tools-Equipment-kpfc-builders-hardware-builders.jpg"
-import hardware from "../public/Images/Hardware-Tools-kpfc-builders-hardware-builders.jpg"
-import iron from "../public/Images/Iron-Sheets-Bars-kpfc-builders-hardware-builders.jpg"
-import lighting from "../public/Images/Lighting-Electricals-accessories-kpfc-builders-hardware-builders.jpg"
-import locks from "../public/Images/Locks-Hinges-kpfc-builders-hardware-builders.jpg"
-import mdf from "../public/Images/MDF-Boards-kpfc-builders-hardware-builders.jpg"
-import plumbing from "../public/Images/Plumbing-kpfc-builders-hardware-builders.jpg"
-import sanitary from "../public/Images/Sanitary-Bathroom-kpfc-builders-hardware-builders.jpg"
-import tank from "../public/Images/Water-Tanks-kpfc-builders-hardware-builders.jpg"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { productsData } from './Data/Data';
+import { Item } from 'semantic-ui-react';
+import Image from "next/image";
+import Slider from 'react-slick';
+import Link from "next/link";
 
 
 
+const ShopCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
 
-
-
-
-
-const handleDragStart = (e) => e.preventDefault();
-
-const items = [
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={building} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em" onDragStart={handleDragStart} role="presentation" /><p>Building Materials</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={gardening} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /> <p>GARDEN TOOLS</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={hardware} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>HARDWARE MATERIALS</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={iron} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>IRON SHEETS</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={lighting} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>LIGHTING AND ELECTRICAL</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={locks} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>LOCKS & HINGES</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={mdf} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>MDF BOARDS</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={plumbing} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>PLUMBING MATERIALS</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={sanitary} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>SANITARY & BATH ROOM</p></div>,
-  <div className={styles.imgDiv}> <Image className={styles.circleImg} src={tank} alt="" borderRadius="50px" width="90px" height="90px" marginLeft="1em"  onDragStart={handleDragStart} role="presentation" /><p>WATER TANKS</p></div>,
-];
-
-const Gallery = () => {
-  const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    1024: { items: 3 }, };
-
-
-
-
-
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "orange" }}
+        onClick={onClick}
+      />
+    );
+  }
   
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "orange" }}
+        onClick={onClick}
+      />
+    );
+  }
+
   return (
-    <div>
-    <AliceCarousel
-     mouseTracking items={items}
-    esponsive={responsive}
-    controlsStrategy="alternate"
-    autoWidth
-    autoHeight
-  
-     
-     
-     />
+    
+
+
+
+
+
+
+    <div className={styles.container}>
+      <Slider {...settings}>
+
+      {productsData.map((Item)=>(
+              <div className={styles.card}>
+              <div className={styles.topCard}>
+                <Image src={Item.linkImg} alt={Item.title} layout="responsive" border-Radius={50} objectFit="cover"/>
+                <Link  href={"/Shop"}><h3>{Item.title}</h3></Link>
+              </div>
+              <div className={styles.bottomCard}>
+              {/* <h1>{Item.price}</h1> */}
+              {/* <p>{Item.category}</p> */}
+              </div>
+              </div>
+
+
+      ))
+
+
+      }
+        
+      </Slider>
+       
+    
 
     </div>
 
+
+
+
   )
 }
-export default Gallery;
+
+export default ShopCarousel
+
+
+
+
