@@ -180,7 +180,7 @@ export default function CustomizedSlider() {
       <Typography gutterBottom>Customer Support</Typography>
       <IOSSlider
         aria-label="ios slider"
-        defaultValue={60}
+        defaultValue={78}
         marks={marks}
         valueLabelDisplay="on"
       />
@@ -189,7 +189,7 @@ export default function CustomizedSlider() {
       <PrettoSlider
         valueLabelDisplay="auto"
         aria-label="pretto slider"
-        defaultValue={20}
+        defaultValue={80}
       />
       <Box sx={{ m: 1 }} />
       <Typography gutterBottom>Delivery Service</Typography>
@@ -199,14 +199,14 @@ export default function CustomizedSlider() {
           ValueLabel: ValueLabelComponent,
         }}
         aria-label="custom thumb label"
-        defaultValue={20}
+        defaultValue={90}
       />
       <Box sx={{ m: 1 }} />
       <Typography gutterBottom>Customer Incentives Service</Typography>
       <AirbnbSlider
         components={{ Thumb: AirbnbThumbComponent }}
         getAriaLabel={(index) => (index === 0 ? 'Minimum price' : 'Maximum price')}
-        defaultValue={[20, 40]}
+        defaultValue={[20, 90]}
       />
     </Box>
   );
