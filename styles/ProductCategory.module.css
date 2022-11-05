@@ -86,31 +86,104 @@
 
 @media (max-width: 480px) {
   .container {
-    border: 5px solid red;
+  
     margin-top: 6.5rem;
   }
   .prodDiv {
     border: 2px solid green;
   }
-  .prodHeader {
-    font-size: 0.6em;
-    color: rgb(5, 81, 196);
+  .prodHeader { font-size: 0.6em;color: rgb(5, 81, 196);
     text-align: center;
   }
-  .carousel {
-    border: 3px solid gold;
-  }
+
+
   .shopDiv {
-    border: 2px solid blue;
+
+    display: grid; 
+  
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 80%;
+  }
+  .topic {
+   
+   
+    grid-row-start: 1;
+    grid-column-start: 1;
+  
+    grid-row-end: 2;
+    grid-column-end: 6;
+  }
+  .products {
+    
+  
+    grid-row-start: 2;
+    grid-column-start: 1;
+  
+    grid-row-end: 4;
+    grid-column-end: 6;
+   
+  }
+  .banner {
+    
+  
+  
+    grid-row-start: 4;
+    grid-column-start: 1;
+  
+    grid-row-end: 6;
+    grid-column-end: 6;
+  }
+  
+  .prodTop { color: rgb(5, 81, 196); top:30% }
+  .prodTop h2 {margin-top: 1em;  margin-left:3em;}
+  .productDiv{display: block; flex-wrap: wrap;}
+  .topCard {height: 90px; border: 1px solid grey; }
+  .bottomCard { font-size: 0.6rem;}
+  .bottomCard > button {align-items: center;
+    border: none;
+    background: rgb(5, 81, 196);
+    padding: 0.8em;
+    color: orange;
+    border-radius: 20px;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+  .bannerCard {margin: 2em; max-width: 70%; position: relative;}
+  .bannerCard h1 { color: white; text-align: center; }
+  .ourService {
+    background-color: orange;
+    display: block;
+    padding: 0.6em;
+  }
+  .serviceText{ flex: 2; color: rgb(5, 81, 196); font-size: 0.9em; }
+  .btnDiv button { align-self: center; 
+    border: none;
+    padding: 0.5em;
+    border-radius: 30px;
+    font-size: 0.6em;
+    color: orange ;
+    background-color: rgb(5, 81, 196);
+    cursor: pointer;
   }
   .investDiv {
-    border: 3px solid black;
+   
     margin-bottom: 2em;
   }
   .blogSecDiv {
     border: 3px solid aqua;
   }
+
+
+
 }
+
+
+
+
+
 /*For Tablets */
 
 @media (max-width: 960px) {

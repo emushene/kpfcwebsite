@@ -27,6 +27,36 @@ import product6 from "../../public/Images/items/item6.webp"
 import product7 from "../../public/Images/items/item7.webp"
 import product8 from "../../public/Images/items/item8.webp"
 import product9 from "../../public/Images/items/item9.webp"
+import product10 from "../../public/Images/items/item10.png"
+import product11 from "../../public/Images/items/item11.png"
+import product12 from "../../public/Images/items/item12.png"
+import product13 from "../../public/Images/items/item13.png"
+import product14 from "../../public/Images/items/item14.png"
+import product15 from "../../public/Images/items/item15.png"
+import product16 from "../../public/Images/items/item16.png"
+import product17 from "../../public/Images/items/item17.png"
+import product18 from "../../public/Images/items/item18.png"
+import product19 from "../../public/Images/items/item19.png"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -103,6 +133,87 @@ export const prodItems = [
         fulldescription: `Water Tanks that are not woring but working`,
         title:`Thermal Switch`,
     },
+    {
+        id:10,
+        name:product10,
+        desc:`tape-duct-plumbing-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Duct Tape`,
+    },
+    {
+        id:11,
+        name:product11,
+        desc:`ppe-elbow-plumbing-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`PPE Elbow`,
+    },
+    {
+        id:12,
+        name:product12,
+        desc:`tangit-glue-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Tangit Glue`,
+    },
+    {
+        id:13,
+        name:product13,
+        desc:`t-junction-elbow-plumbing-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`T-Junction`,
+    },
+    {
+        id:14,
+        name:product14,
+        desc:`woodseal-finish-furnish-wood-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Wood Finish`,
+    },
+    {
+        id:15,
+        name:product15,
+        desc:`circuit-breaker-electric-kpfc-builders-hardware.png`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Circuit Breaker`,
+    },
+    {
+        id:16,
+        name:product16,
+        desc:`paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Crown paint - Super Gloss`,
+    },
+    {
+        id:17,
+        name:product17,
+        desc:`hose-pipe-plumbing-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Hose Pipe`,
+    },
+    {
+        id:18,
+        name:product18,
+        desc:`electric-flood-light-led-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Flood Light`,
+    },
+    {
+        id:19,
+        name:product19,
+        desc:`double-tap-plumbing-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Double Tap`,
+    },
+
 
 ]
 
