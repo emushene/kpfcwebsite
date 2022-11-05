@@ -4,6 +4,7 @@ import BannerHappy from "../About/BannerHappy";
 const TopServices = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.wrapper}>
       <div className={styles.topDiv}>
       
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
@@ -13,6 +14,7 @@ const TopServices = () => {
         
         <h2> OUR TOP SERVICES</h2>
         <hr />
+      </div>
       </div>
       <div className={styles.lowerDiv}>
         <div className={styles.topServ}>
@@ -50,7 +52,12 @@ const TopServices = () => {
           </div>
         </div>
         <div className={styles.topServ}>
-          <div className={styles.card}>4</div>
+          <div className={styles.card}>
+          <h2>INDUSTRY CONSULTING SERVICES</h2>
+          <p>   Our experience with building materials across global markets allows
+            us to provide expert decision analysis, proven expertise, and
+            innovative thinking.</p>
+          </div>
           <div className={styles.getQuote}>
             <h5>GET A QUOTE</h5>
           </div>

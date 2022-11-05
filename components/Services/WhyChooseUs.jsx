@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
       </div>
       <div className={styles.container}>
         <div className={styles.centerLeftDiv}>
-          <div className={styles.centerLeft1}>
+          <div className={styles.centerLeft}>
             <div className={styles.centerLeftBox}></div>
             <div className={styles.centerLeftText}>
               <h4>Best in the Industry</h4>
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className={styles.centerLeft2}>
+          <div className={styles.centerLeft}>
             <div className={styles.centerLeftBox}></div>
             <div className={styles.centerLeftText}>
               <h4>Award Winning</h4>
@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className={styles.centerLeft3}>
+          <div className={styles.centerLeft}>
             <div className={styles.centerLeftBox}></div>
             <div className={styles.centerLeftText}>
               <h4>Happy Clients</h4>

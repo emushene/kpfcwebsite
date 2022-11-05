@@ -31,7 +31,7 @@ const Testimonial = ({ deviceType }) => {
   return (
     <div className={styles.container}>
       <div ID={styles.desk}>
-        <hr />
+  
         <h5>TESTIMONIALS</h5>
         <h1>Our Clients Say</h1>
         <Carousel

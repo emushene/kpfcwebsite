@@ -97,9 +97,7 @@ const ProductCategory = () => {
               alt={Items.desc}
               layout="responsive"
               objectFit="contain"
-
-              
-              />
+             />
 
             </div>
             <div className={styles.bottomCard}>
@@ -107,7 +105,6 @@ const ProductCategory = () => {
               <h4>{Items.price}</h4>
               <p>{Items.fulldescription}</p>
               <button href="/Shop">Add to Cart</button>
-
             </div>
             </div>
         ))}

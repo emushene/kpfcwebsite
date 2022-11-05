@@ -18,7 +18,6 @@ const About = () => {
             <Head>
         <title>About Page</title>
         <meta name="description" content="About best cheapest quality Hardware plumbing kenya" />
-        {/* <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"></link> */}
   
      
       </Head>

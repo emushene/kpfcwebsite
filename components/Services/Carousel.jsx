@@ -5,8 +5,13 @@ import serviceImage from "../../public/Images/ServicePage.jpg"
 const Carousel = () => {
   return (
     <div className={styles.mainContainer}>
-      <Image src={serviceImage} alt="" layout="fill"
-      height="2450px" objectFit="cover"
+      <Image src={serviceImage} alt="KPFC-BUILDERS-HARDWARE-STORE" 
+      fill
+      objectFit="cover"
+      sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              
       />
       <div className={styles.corouselDiv}></div>
       <div className={styles.overlay}>

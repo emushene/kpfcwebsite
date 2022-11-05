@@ -4,8 +4,7 @@ import Servicebanner from "../components/Services/Servicebanner";
 import SplitBanner from "../components/Services/SplitBanner";
 import TopServices from "../components/Services/TopServices";
 import WhyChooseUs from "../components/Services/WhyChooseUs";
-import Testimonial from "../components/Testimonial"
-
+import Testimonial from "../components/Testimonial";
 
 const Services = () => {
   return (
@@ -14,7 +13,7 @@ const Services = () => {
         <title>Services Page</title>
         <meta
           name="description"
-          content="Services best cheapest quality Hardware plumbing kenya"
+          content="Services best cheapest quality Hardware plumbing Kenya"
         />
       </Head>
 
@@ -24,7 +23,6 @@ const Services = () => {
       <WhyChooseUs />
       <SplitBanner />
       <Testimonial />
-      
     </div>
   );
 };

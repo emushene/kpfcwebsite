@@ -1,163 +1,82 @@
 .mainContainer {
+  height: calc(85vh - 150px);
+  margin-top: 4em;
+  font-size: 2rem;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 
-   
-    height: calc(90vh - 150px);
-    text-align: center;
-    font-size: 30px;
-    align-items: center;
-    justify-content: center;
-    /* background-image: url("../../public/Images/Service\ Page.jpg"); */
-    object-fit: cover;
-    position: relative;
 }
 
 .mainContainer img {
-    object-fit: cover;
-    max-height: 65vh;
-        width: 100%;
-        z-index: -1;
-
-    }
-
-
-.overlay{
-    position:absolute;
-    max-width:40%;
-   max-height: min-content;
-
-    text-align: justify;
-    top: 65%;
-    left: 5%;
-    
-    padding: 15px;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.4);
-    
-    }
-
-    .overlay h1 {
-        color: orange;
-        font-size: 40px;
-    }
-
-    .overlay p{
-        color: white;
-        font-size: 0.45em;
-    }
-
-    /*desktops - higher resolution*/
-@media (min-width: 1281px) {
-
+   z-index: -1;
 }
 
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-
+.overlay {
+  position: absolute;
+  max-width: 40%;
+  max-height: min-content;
+  text-align: justify;
+  top: 45%;
+  left: 5%;
+  padding: 15px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
 }
 
-/*tablets, ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1024px){
-
+.overlay h1 {
+  color: orange;
+  font-size: 40px;
 }
 
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+.overlay p {
+  color: white;
+  font-size: 0.45em;
 }
 
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-    .mainContainer {
+/*For Mobile Phones */
 
-   
-        height: calc(80vh - 150px);
-        text-align: center;
-            
-        
-        /* background-image: url("../../public/Images/Service\ Page.jpg"); */
-        background-size: cover;
-        object-fit: cover;
-        position: relative;
-    }
+@media (max-width: 480px) {
+.mainContainer{
+    height: calc(40vh - 100px);
     
-    .mainContainer img {
-        object-fit: cover;
-        min-height: 60vh;
-    }
-    
-    .overlay{
-        position:absolute;
-        max-width:50%;
-       max-height: min-content;
-    
-        text-align: justify;
-        top: 30%;
-        
-        padding: 15px;
-        overflow: hidden;
-        background: rgba(0, 0, 0, 0.4);
-        
-        }
-    
-        .overlay h1 {
-            color: orange;
-            font-size: 35px;
-            text-align: center;
-            
-        }
-    
-        .overlay p{
-            color: white;
-            font-size: 13px;
-        }
 
-}
-
-/*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px) {
-    .mainContainer {
-
-   
-        height: calc(80vh - 150px);
-        text-align: center;
-        font-size: 30px;
-        align-items: center;
-        justify-content: center;
-        /* background-image: url("../../public/Images/Service\ Page.jpg"); */
-        object-fit:cover;
-        background-repeat: no-repeat;
-        
-        position: relative;
-    }
-    
-    .mainContainer img {
-        height: 100vh;
-        object-fit: cover;
-
-    }
-    
-    .overlay{
-        position:absolute;
-        max-width:40%;
-       max-height: min-content;
-    
-        text-align: justify;
-        top: 30%;
-        
-        padding: 15px;
-        overflow: hidden;
-        background: rgba(0, 0, 0, 0.4);
-        
-        }
-    
-        .overlay h1 {
-            color: orange;
-            font-size: 20px;
-        }
-    
-        .overlay p{
-            color: white;
-            font-size: 10px;
-        }
   
+}  
+
+
+.mainContainer img {
+    min-height: fit-content;
+    z-index: -1;
+    object-fit: cover;
+ }
+
+.overlay {
+    position: absolute;
+    top: 25%;
+    min-width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.overlay p{font-size: 0.5rem;}
+.overlay h1{font-size: 1rem;}
+
+}
+/*For Tablets */
+
+@media (max-width: 960px) {
+}
+/*For Laptops/Desktop*/
+
+@media (min-width: 1025px) {
+  .mainContainer {
+
+    overflow: hidden;
+  
+    
+  }
+}
+/*For Hi-Res Laptops*/
+
+@media (max-width: 1280px) {
+ 
 }

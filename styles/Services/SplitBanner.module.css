@@ -7,7 +7,7 @@
   font-size: 0.8em;
   color: white;
     position: relative;
-  margin-top: 5px;
+
   margin-bottom: 45px;
 }
 
@@ -62,34 +62,23 @@
   border-left: 100px solid transparent;
   
 }
+/*For Mobile Phones */
 
-
-/*desktops - higher resolution*/
-@media (min-width: 1281px) {
+@media (max-width:480px){
+  .hero {
+   
+    font-size: 0.6rem;
+}
+.hero_2 h2{margin-top: -2rem;}
+.hero_1 h2{margin-top: -2rem;}
 
 }
+/*For Tablets */
 
-/*laptops, desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
 
-}
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
 
-/*tablets, ipads (portrait)*/
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
-
-/*tablets, ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-}
-
-/*low resolution tablets, mobiles (landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-
-}
-
-/*smartphones mobiles (portrait)*/
-@media (min-width: 320px) and (max-width: 480px) {
-  
-}
+@media (max-width:1280px){}

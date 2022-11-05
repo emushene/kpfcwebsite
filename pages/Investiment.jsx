@@ -5,7 +5,7 @@ const Investiment = () => {
     return (
 
         <div>
-            <Head>
+        <Head>
         <title>Shop Page</title>
         <meta name="description" content="Shop best cheapest quality Hardware plumbing kenya" />
       
