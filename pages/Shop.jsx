@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styles from "../styles/Shop/Shop.module.css"
 
 const Shop = () => {
