@@ -48,3 +48,18 @@
     display: none;
 }
 
+/*For Mobile Phones */
+
+@media (max-width:480px){
+    .container{display: block; width: 100%; font-size: 0.5rem;}
+    .quoteForm { margin-left: -3em;width: 100%; background-color: rgb(5, 81, 196);}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

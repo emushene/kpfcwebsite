@@ -1,135 +1,137 @@
 import styles from "../styles/ProductCategory.module.css";
 import * as React from "react";
-import Button from "@mui/material/Button";
 import Invest from "./Invest";
 import BlogSubSection from "./BlogSubSection";
 import ShopCarousel from "./../components/ShopCarousel";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import doors from "../public/Images/ppe-elbow-plumbing-kpfc-builders-hardware.png";
-import cement from "../public/Images/paint-super-gloss-crown-plumbing-kpfc-builders-hardware.png";
-import electrical from "../public/Images/double-tap-plumbing-kpfc-builders-hardware.png";
-
-import Link from "next/link";
+import Slider from "react-slick";
+import { prodItems } from "./Data/Data";
+import bannerImg from "../public/Images/quality.webp"
 
 const ProductCategory = () => {
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "orange" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "orange" }}
+        onClick={onClick}
+      />
+    );
+  }
+
   return (
-    <div className={styles.prodDiv}>
-      <div className={styles.fullContainer}>
-        <div className={styles.productsHeader}>
+    <div className={styles.container}>
+      <div className={styles.prodDiv}>
+        <div className={styles.prodHeader}>
           <h2> PRODUCTS BY CATEGORY</h2>
-        </div>
-        <div className={styles.categoryCorousel}>
+      </div>
+        <div className={styles.carousel}>
           <ShopCarousel />
         </div>
-        <div className={styles.containerProducts}>
-          <h6>MOST POPULAR PRODUCTS </h6>
-        </div>
       </div>
-      <div className={styles.container}>
-        <div className={styles.popularHeading}>
-          <h1>MOST POPULAR PRODUCTS </h1>
-   
+      <div className={styles.shopDiv}>
+        <div className={styles.topic}>
+
+          <div className={styles.prodTop}><h2>MOST POPULAR PRODUCTS</h2></div>
+        </div>
+       
+        <div className={styles.products}>
+        <Slider {...settings}>
+          {prodItems.map((Items) => (
+          <div className={styles.productsDiv}>
+            <div className={styles.topCard} key={Items.id}>
+              <Image 
+              src={Items.name}
+              alt={Items.desc}
+              layout="responsive"
+              objectFit="contain"
+
+              
+              />
+
+            </div>
+            <div className={styles.bottomCard}>
+              <h3>{Items.title}</h3>
+              <h4>{Items.price}</h4>
+              <p>{Items.fulldescription}</p>
+              <button href="/Shop">Add to Cart</button>
+
+            </div>
+            </div>
+        ))}
+        </Slider>
+          </div>
     
-        </div>
-        <div className={styles.adverts}>
-          <h1>Get Quality Plumbing Materials</h1>
-          <button className={styles.advertButton}>Shop Now</button>
-        </div>
-        <div className={styles.pictures1}>
-          <a className={styles.a} href="#">
-            <Image
-              src={doors}
-              alt="kpfc hardware doors"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
+        <div className={styles.banner}>
+          <div className={styles.bannerCard}>
+            <Image 
+            src={bannerImg}
+            alt="buy-quality-plumbing-materials"
+            layout="responsive"
+            objectFit="cover"
             />
-          </a>
-          <div className={styles.butDiv}>
-            <button className={styles.addCard}>Add to Cart</button>
+            <h1>GET QUALITY PLUMBING MATERIALS</h1>
           </div>
-        </div>
-        <div className={styles.pictures2}>
-          <a className={styles.a} href="#">
-            <Image
-              src={cement}
-              alt="kpfc hardware cement"
-              layout="fill"
-              objectFit="contain"
-              // width="260"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}>
-            <button className={styles.addCard}>Add to Cart</button>
-          </div>
-        </div>
-        <div className={styles.pictures3}>
-          <a className={styles.a} href="#">
-            <Image
-              src={electrical}
-              alt="kpfc hardware Electrical"
-              layout="fill"
-              objectFit="contain"
-              // height="300"
-            />
-          </a>
-          <div className={styles.butDiv}>
-            <button className={styles.addCard}>Add to Cart</button>
-          </div>
-        </div>
-        
-      </div>
-      <div className={styles.ourService}>
-        <div className={styles.ourServiceText}>
-          <p>
-            Building a personal relationship with all our customers to ensure
-            their needs are satisfied and feel part of our family. We offer a
-            wide range of quality products, at competitive prices <br /> all
-            under one roof with service of a high standard.
-          </p>
-        </div>
-        <div className={styles.ourServicesButton}>
-          <Button
-            variant="contained"
-            style={{
-              borderRadius: "40px",
-              width: "250px",
-              border: "none",
-              color: "orange",
-              backgroundColor: "rgb(5, 81, 196)",
-              textTransform: "none",
-              padding: "14px 30px",
-              boxShadow:
-                "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
-            }}
-          >
-            <Link href="/Services">OUR SERVICES</Link>
-          </Button>
-        </div>
-        <div className={styles.ourServicesButtonMobile}>
-          <Button
-            variant="contained"
-            style={{
-              borderRadius: "40px",
-              width: "120px",
-              border: "none",
-              color: "orange",
-              backgroundColor: "rgb(5, 81, 196)",
-              textTransform: "none",
-              padding: "2px 8px",
-              boxShadow:
-                "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
-            }}
-          >
-            <Link href="/Services">OUR SERVICES</Link>
-          </Button>
         </div>
       </div>
-      
-      <Invest />
-      <BlogSubSection />
+
+      <div className={styles.investDiv}>
+        <Invest />
+      </div>
+      <div className={styles.blogSecDiv}>
+        <BlogSubSection />
+      </div>
     </div>
   );
 };

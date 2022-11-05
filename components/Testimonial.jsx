@@ -4,8 +4,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/Testimonial.module.css";
 import Image from "next/image";
-import Morgan from "../public/Images/morgan1.png"
-import Jerusha from "../public/Images/jerusha1.png"
+import Morgan from "../public/Images/morgan1.png";
+import Jerusha from "../public/Images/jerusha1.png";
 
 const responsive = {
   desktop: {
@@ -30,10 +30,10 @@ const responsive = {
 const Testimonial = ({ deviceType }) => {
   return (
     <div className={styles.container}>
-      <div ID={styles.desk} >
+      <div ID={styles.desk}>
         <hr />
-        <h5 >TESTIMONIALS</h5>
-        <h1 >Our Clients Say</h1>
+        <h5>TESTIMONIALS</h5>
+        <h1>Our Clients Say</h1>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -106,13 +106,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <Image
-                src={Morgan}
-                alt=""
-                layout="fill"
-                objectFit="cover"
-               
-              />
+              <Image src={Morgan} alt="" layout="fill" objectFit="cover" />
             </div>
 
             <div
@@ -134,10 +128,9 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-
-                I have been sourcing plumbing materials wholesale for my hardware store 
-                from the Kpipes Thika Branch for the past 5 years.
-
+                I have been sourcing plumbing materials wholesale for my
+                hardware store from the Kpipes Thika Branch for the past 5
+                years.
               </p>
             </div>
             <div
@@ -176,14 +169,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <Image
-                src={Jerusha}
-                alt=""
-                layout="fill"
-                objectFit="cover"
-                
-               
-              />
+              <Image src={Jerusha} alt="" layout="fill" objectFit="cover" />
             </div>
 
             <div
@@ -205,10 +191,8 @@ const Testimonial = ({ deviceType }) => {
                   paddingLeft: "45px",
                 }}
               >
-
-                I have been receiving numerous product knowledge support, delivery, 
-                services, and other technical support I may need.
-
+                I have been receiving numerous product knowledge support,
+                delivery, services, and other technical support I may need.
               </p>
             </div>
             <div
@@ -222,12 +206,8 @@ const Testimonial = ({ deviceType }) => {
                 left: "30px",
               }}
             >
-
               <p style={{ marginTop: "90px", padding: "15px", color: "blue" }}>
                 <h4>Emily Wanjiku - Rongai Town</h4>
-
-          
-
               </p>
             </div>
           </div>
@@ -250,13 +230,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <Image
-                src={Morgan}
-                alt=""
-                layout="fill"
-                objectFit="contain"
-                
-              />
+              <Image src={Morgan} alt="" layout="fill" objectFit="contain" />
             </div>
 
             <div
@@ -280,7 +254,6 @@ const Testimonial = ({ deviceType }) => {
               >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-           
               </p>
             </div>
             <div
@@ -303,8 +276,8 @@ const Testimonial = ({ deviceType }) => {
       </div>
 
       <div id={styles.mobile} /*style={{marginTop:"30px"}}*/>
-        <h3>TESTIMONIALS</h3>
-        <h1>Our Clients Say</h1>
+        <h4>TESTIMONIALS</h4>
+        <h3>Our Clients Say</h3>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -363,7 +336,7 @@ const Testimonial = ({ deviceType }) => {
               minHeight: "100px",
               position: "relative",
               marginLeft: "75px",
-              marginTop:"-10px",
+              marginTop: "-10px",
               marginBottom: "70px",
             }}
           >
@@ -379,13 +352,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <Image
-                src={Morgan}
-                alt=""
-                layout="fill"
-                objectFit="contain"
-                
-              />
+              <Image src={Morgan} alt="" layout="fill" objectFit="contain" />
             </div>
 
             <div
@@ -408,10 +375,8 @@ const Testimonial = ({ deviceType }) => {
                   fontSize: "8px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius voluptatibus, eligendi
-                suscipit!
+                I have been receiving numerous product knowledge support,
+                delivery, services, and other technical support I may need.
               </p>
             </div>
             <div
@@ -421,7 +386,7 @@ const Testimonial = ({ deviceType }) => {
                 minWidth: "180px",
                 maxHeight: "100px",
                 zIndex: "-2",
-                top: "50px",
+                top: "45px",
                 left: "30px",
               }}
             >
@@ -433,20 +398,13 @@ const Testimonial = ({ deviceType }) => {
                   fontSize: "8px",
                 }}
               >
-                <h6>Morgan Mwariri - Facebook</h6>
+                <h6>Emily Wanjiku - Rongai Town</h6>
               </p>
             </div>
           </div>
 
-
-
-
-
-
-
-
-                <div style={{position: "relative",  left: "180px",}}>
-          <div
+          <div style={{ position: "relative", left: "180px" }}>
+            <div
               style={{
                 border: `1px solid orange`,
                 position: "absolute",
@@ -458,14 +416,7 @@ const Testimonial = ({ deviceType }) => {
                 backgroundColor: "white",
               }}
             >
-              <Image
-                src={Morgan}
-                alt=""
-                layout="fill"
-                objectFit="contain"
-                
-                
-              />
+              <Image src={Morgan} alt="" layout="fill" objectFit="contain" />
             </div>
 
             <div
@@ -477,7 +428,7 @@ const Testimonial = ({ deviceType }) => {
                 minHeight: "100px",
                 zIndex: "1",
                 top: "20px",
-                left:"-105px",
+                left: "-105px",
               }}
             >
               <p
@@ -489,10 +440,8 @@ const Testimonial = ({ deviceType }) => {
                   fontSize: "8px",
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Perspiciatis nobis, necessitatibus consequuntur a eum et dolore
-                libero minima doloremque aliquid eos eius voluptatibus, eligendi
-                suscipit!
+                I have been sourcing plumbing materials wholesale for my hardware store 
+                from the Kpipes Thika Branch for the past 5 years.
               </p>
             </div>
             <div
@@ -502,77 +451,22 @@ const Testimonial = ({ deviceType }) => {
                 width: "180px",
                 minHeight: "100px",
                 zIndex: "-1",
-                top: "40px",
+                top: "10px",
                 left: "-70px",
               }}
             >
               <p
                 style={{
-                  marginTop: "70px",
+                  marginTop: "80px",
                   padding: "15px",
                   color: "blue",
                   fontSize: "8px",
                 }}
               >
-                <h6>Morgan Mwariri - Facebook</h6>
+                <h6>John Kiragu - Kiambu Town</h6>
               </p>
             </div>
-            </div>
-        
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-           
-          
+          </div>
         </Carousel>
       </div>
     </div>

@@ -38,3 +38,17 @@
 .bottomCard {background-color: orange; color: white;}
 
 
+/*For Mobile Phones */
+
+@media (max-width:480px){
+    .container{ width: 100%;}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

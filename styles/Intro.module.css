@@ -5,3 +5,18 @@
 
 
 }
+
+/*For Mobile Phones */
+
+@media (max-width:480px){
+  .container{max-height: 90vh;}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

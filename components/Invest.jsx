@@ -26,8 +26,8 @@ const Invest = () => {
             </div>
             <div>
               <h1> 500+</h1>
-              Investiment <br />
-              Opportunities
+             <p>  Investiment <br />
+              Opportunities</p>
             </div>
             <div className={styles.mobileImageDiv}>
           <Image

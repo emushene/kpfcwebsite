@@ -17,6 +17,95 @@ import partner4 from "../../public/Images/partners/kpfc-partner-4.png"
 import partner5 from "../../public/Images/partners/kpfc-partner-5.png"
 import partner6 from "../../public/Images/partners/kpfc-parner-6.png"
 
+// Product Items
+import product1 from "../../public/Images/items/item1.webp"
+import product2 from "../../public/Images/items/item2.webp"
+import product3 from "../../public/Images/items/item3.webp"
+import product4 from "../../public/Images/items/item4.webp"
+import product5 from "../../public/Images/items/item5.webp"
+import product6 from "../../public/Images/items/item6.webp"
+import product7 from "../../public/Images/items/item7.webp"
+import product8 from "../../public/Images/items/item8.webp"
+import product9 from "../../public/Images/items/item9.webp"
+
+
+
+export const prodItems = [
+    {
+        id:1,
+        name:product1,
+        desc:`kpfc-builders-hardware-electrical-change-over-switch-3-phase`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Electrical Stuff`,
+    },
+    {
+        id:2,
+        name:product2,
+        desc: `kpfc-builders-hardware-electrical-volt-shield-surge-protector`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Surge Protector`,
+    },
+    {
+        id:3,
+        name:product3,
+        desc:`kpfc-builders-hardware-gate-valve-plumbing-water`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Gate Valve`,
+    },
+    {
+        id:4,
+        name:product4,
+        desc: `kpfc-builders-hardware-kitchen-sink`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Kitchen Sink`,
+    },
+    {
+        id:5,
+        name:product5,
+        desc:'kpfc-builders-hardware-kitchen-sink',
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Kitchen Sink`,
+    },
+    {
+        id:6,
+        name:product6,
+        desc:`kpfc-builders-hardware-plumbing-steel-joint`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Steel Thing`,
+    },
+    {
+        id:7,
+        name:product7,
+        desc:`kpfc-builders-hardware-ppr-joint-elbow`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Elbow`,
+    },
+    {
+        id:8,
+        name:product8,
+        desc:`kpfc-builders-hardware-ppr-pvc-pipe-all`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`PVC Pipe`,
+    },
+    {
+        id:9,
+        name:product9,
+        desc:`kpfc-builders-hardware-smart-switch-auto-lighting`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Thermal Switch`,
+    },
+
+]
+
 
 export const productsData = [
     {

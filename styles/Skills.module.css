@@ -3,7 +3,7 @@
   gap: 15px;
   width: 100%;
   margin-top: 15px;
-  border: 1ps xolid grey;
+
 
 }
 .leftDiv {
@@ -78,3 +78,26 @@
   min-height: 150px;
   border: 1px solid lightgray
 }
+
+
+/*For Mobile Phones */
+
+@media (max-width:480px){
+.container {display: block; width: 100%;}
+.dataSlider{max-height: fit-content; font-size: 0.8rem; align-self: center;}
+.rightDiv {display: flex; flex-direction: column; width: 100%; font-size: 0.8rem;}
+.trusted{}
+.rightDiv p {  max-width: 100%;  font-size: 1em; font-weight: 600; padding-right: 2em;}
+.partnerLogo {  align-items: center;}
+
+
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

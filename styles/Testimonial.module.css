@@ -8,9 +8,7 @@
     
 }
 
-#desk {
-   
-}
+
 #desk h5 { 
     border-top: 5px solid grey;
     margin-left: 20em;
@@ -20,3 +18,19 @@
 #mobile {
     display: none;
 }
+
+/*For Mobile Phones */
+
+@media (max-width:480px){
+#desk{ display: none;}
+#mobile{display: block;}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}
