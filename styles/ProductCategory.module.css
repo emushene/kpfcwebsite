@@ -45,7 +45,7 @@
 .prodTop { color: rgb(5, 81, 196); top:30% }
 .prodTop h2 {margin-top: 1em;  margin-left:3em;}
 .productDiv{display: block; gap: 1em;}
-.topCard {height: 250px; border: 1px solid grey; margin-left: 3em;}
+.topCard {height: 250px; border: 1px solid grey; margin-left: 3em; margin-right: 1em;}
 .bottomCard {margin-left: 3rem; margin-bottom: 1em;}
 .bottomCard > button {align-items: center;
   border: none;
@@ -58,9 +58,24 @@
 }
 .bannerCard {margin: 2em; max-width: 70%; position: relative;}
 .bannerCard h1 {position: absolute; top: 40%; left:15%; color: white; text-align: center; }
-
+.ourService {
+  background-color: orange;
+  display: flex;
+  padding: 3em;
+}
+.serviceText{ flex: 2; color: rgb(5, 81, 196); font-size: 1.5em; margin-left: 4rem;}
+.btnDiv{ flex: 2; }
+.btnDiv button { align-self: center; 
+  border: none;
+  padding: 1em;
+  border-radius: 30px;
+  margin-left: 4rem;
+  color: orange ;
+  background-color: rgb(5, 81, 196);
+  cursor: pointer;
+}
 .investDiv {
-  border: 3px solid black;
+ 
   margin-bottom: 2em;
 }
 .blogSecDiv {

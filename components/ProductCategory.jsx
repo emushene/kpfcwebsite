@@ -9,6 +9,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import { prodItems } from "./Data/Data";
 import bannerImg from "../public/Images/quality.webp"
+import Link from "next/link";
 
 const ProductCategory = () => {
   const settings = {
@@ -89,8 +90,8 @@ const ProductCategory = () => {
         <div className={styles.products}>
         <Slider {...settings}>
           {prodItems.map((Items) => (
-          <div className={styles.productsDiv}>
-            <div className={styles.topCard} key={Items.id}>
+          <div className={styles.productsDiv} key={Items.id}>
+            <div className={styles.topCard} >
               <Image 
               src={Items.name}
               alt={Items.desc}
@@ -125,7 +126,21 @@ const ProductCategory = () => {
           </div>
         </div>
       </div>
-
+            <div className={styles.ourService}>
+              <div className={styles.serviceText}>
+                <p>
+                  Building a personal relationship with all our
+                   customers to ensure their needs are
+                    satisfied and feel part of our family.
+                </p>
+              </div>
+              <div className={styles.btnDiv}>
+                <Link href="/Services">
+                  <button><h3>OUR SERVICES</h3>
+                  </button>
+                  </Link>
+              </div>
+            </div>
       <div className={styles.investDiv}>
         <Invest />
       </div>
