@@ -123,6 +123,7 @@ const ProductCategory = () => {
             objectFit="cover"
             />
             <h1>GET QUALITY PLUMBING MATERIALS</h1>
+            <Link href="/Shop"><button><p>SHOP NOW</p></button></Link>
           </div>
         </div>
       </div>
