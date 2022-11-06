@@ -153,7 +153,7 @@ export const prodItems = [
         id:12,
         name:product12,
         desc:`tangit-glue-kpfc-builders-hardware`,
-        price: `<KSH className="280"></KSH>`,
+        price: `KSH.280`,
         fulldescription: `TANGIT 100 ML`,
         title:`TANGIT 100 ML`,
     },
