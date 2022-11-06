@@ -1,108 +1,108 @@
 .mainContainer {
-    margin-top: 5px;
-    margin-bottom: 5px;
-
-
+  display: block;
+ padding: 2rem;
+  width: 100%;
 
 }
 
 .container {
+  width: 100%;
+  margin: 3rem auto;
 
-    padding: 1em 3em 0;
-
-
+ 
 
 }
 
 .vidDiv {
-    float: left;
-    padding: 0 5em 0;
-    max-width: 700px;
-
-    margin-left: 40px;
-
 
 }
-
-
-
-
-
-
-
-
-
+.vidContainer{max-width: 30em;}
 .textDiv {
-    flex: 2;
-    padding: 15px;
-    text-align: justify;
-    margin-right: 1em;
+  flex: 2;
+
+  text-align: justify;
 
 }
 
 .textDiv h6 {
-    color: #f57200;
-     padding: 0em 5em;
+  color: #f57200;
 }
 
 .textDiv h4 {
-    color: rgb(5, 5, 131);
-   
-
-    margin-top: 10px;
-  
-
-    padding: 0em 5em;
-
+  color: rgb(5, 5, 131);
 }
 
 .textDiv p {
-    color: black;
+  color: black;
   text-align: justify;
-
-    padding: 0em 5em;
-
 }
 
-
-
 .portifolio {
-    padding: 1em 7em 0;
+
+
+
 }
 
 .experience {
-
-
-
 }
 
 .experience h6 {
-    color: #f57200;
-   
+  color: #f57200;
 }
 
 .experience h3 {
-    color: blue;
-
+  color: blue;
 }
 
 .experience p {
- 
 }
 
 .addDiv {
-
-width: 30%;
-float: right;
-
-
+position: relative;
+max-width: 30em;
 
 
 }
 
-.addDiv img {
+
+
+/*For Mobile Phones */
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  .vidDiv {
+    min-width: 100%;
+  }
+.portifolio{ display: flex;
+flex-direction: column;
+margin: 0 auto;
+padding: 1rem;
+font-size: 0.8rem;
+
+}
+
+.addDiv {
+    width: 60%;
+      float: right;
+  }
+
+}
+/*For Tablets */
+
+@media (max-width: 960px) {
+}
+/*For Laptops/Desktop*/
+
+@media (min-width: 1025px) {
+}
+/*For Hi-Res Laptops*/
+
+@media (max-width: 1280px) {
 }

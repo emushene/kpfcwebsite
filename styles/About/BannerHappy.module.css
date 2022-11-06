@@ -1,5 +1,5 @@
 .lowerDiv{
-    margin-top: 35px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,3 +62,29 @@
 .div100000 h3{font-size: 2em; color:  rgb(5, 81, 196); font-weight: bold;  text-align: start;}
 .div100000 h5{font-size: 1em; color:  rgb(5, 81, 196);  text-align: start; }
 
+
+@media (max-width:480px){
+    .lowerDiv{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1rem;
+        font-size: 0.6rem;
+        min-height: max-content;
+     
+    }
+
+    .div10{width: 45%;}
+    .div40{width: 45%;}
+    .div100000{width: 45%;}
+    .div35000{width: 45%;}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

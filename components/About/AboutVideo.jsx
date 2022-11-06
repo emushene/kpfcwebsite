@@ -44,8 +44,6 @@ const AboutVideo = () => {
             achieve great things. The people of KPFC Builders achieve this every
             day by steadfastly adhering to our values and principles. <br /><br />
           
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore et at iure ratione,
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestiae et illo quasi nisi voluptates, delectus, nihil nam aperiam enim nobis quam earum impedit iste corrupti ipsa nostrum. Sapiente magnam similique suscipit esse! Aliquam quas, quidem asperiores blanditiis quibusdam fugit quia assumenda delectus praesentium eveniet consequuntur accusamus excepturi perferendis eaque, dolore deserunt in pariatur earum nostrum laudantium molestiae accusantium ea saepe. Deleniti consequuntur nesciunt nemo quod, voluptatum totam, fugit unde adipisci, beatae eveniet reprehenderit! Nesciunt dolorum neque alias ipsa, consequatur aperiam nulla repudiandae at facere facilis assumenda quibusdam sit minima tenetur commodi tempore. Suscipit ratione quos quis perferendis velit quod distinctio animi sapiente eius nesciunt amet et esse, ipsa dolorum consequuntur est, optio maiores. Quos laudantium molestias cum exercitationem sapiente voluptatem provident, ullam illum accusantium incidunt dicta eveniet numquam animi nobis quae similique tempora, tenetur minus? Aliquam, dignissimos quidem quaerat ipsa magnam repellat non sed. Consequatur sapiente dolore provident. Facilis! laboriosam impedit.0
           </p>
         </div>
       </div>
@@ -55,7 +53,11 @@ const AboutVideo = () => {
           <h6> ABOUT KPIPES & FITTING CENTER LTD</h6>
           <h3>10 Years Experience</h3>
           <div className={styles.addDiv}>
-          <Image src={drill} alt="KPFC-Builders-hardware-tools-spanners-accessories" layout="responsive" objectFit="cover"  />
+          <Image src={drill}
+           alt="KPFC-Builders-hardware-tools-spanners-accessories"
+            layout="responsive" 
+            objectFit="cover" 
+          />
         </div>
           
           <p>
@@ -72,9 +74,6 @@ const AboutVideo = () => {
             Ruaka, Kiserian, Nyeri, Molo, Rongai, Bomet, Thika, Ruthigiti,
             Muranga, Mai Mahiu, Ukunda, Mtwapa, Gataka, Kisii and more
           </p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum illo esse sint officiis nostrum accusamus
-           est tenetur dolore cumque facere optio repellat quae laboriosam hic ullam, tempora quod perferendis!
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe minima enim doloremque similique aliquid suscipit voluptatem expedita iure assumenda? Quisquam, velit corrupti ipsum quae tempore voluptatum rem exercitationem magni dolores.
         </div>
        
       </div>

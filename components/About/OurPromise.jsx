@@ -12,7 +12,10 @@ const OurPromise = () => {
             <p> We specializes in distributing home construction and renovation plumbing 
                 products, building materials, hardware, and tools
             </p>
+            <div className={styles.datslideDiv}>
             <DataSlider />
+            </div>
+           
             </div>
 
             </div>

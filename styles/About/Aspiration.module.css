@@ -34,3 +34,17 @@ margin-top: 1em;}
 .callText h6 {color: white;}
 .callText h2 { color: orange;}
 .callIcon {color: orange;}
+
+@media (max-width:480px){
+    .container{display: flex; flex-direction: column; margin: 1rem; font-size: 0.8rem;}
+    .aspiration{width: 100%; flex: 100%; padding-right: 0.8rem; margin-left: 1rem;}
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}

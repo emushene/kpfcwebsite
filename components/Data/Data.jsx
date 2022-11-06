@@ -62,7 +62,47 @@ import product19 from "../../public/Images/items/item19.png"
 
 export const prodItems = [
     {
+        id:2,
+        name:product12,
+        desc:`tangit-glue-kpfc-builders-hardware`,
+        price: `KSH.280`,
+        fulldescription: `TANGIT 100 ML`,
+        title:`TANGIT 100 ML`,
+    },
+    {
+        id:3,
+        name:product18,
+        desc:`electric-flood-light-led-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Flood Lights LED. 250Mhz. 250V/AC`,
+        title:`Flood Light`,
+    },
+    {
         id:1,
+        name:product17,
+        desc:`hose-pipe-plumbing-kpfc-builders-hardware`,
+        price: `KSH.1000`,
+        fulldescription: ` HOSE PIPE ZEBRA 60FT`,
+        title:` HOSE PIPE ZEBRA 60FT`,
+    },
+    {
+        id:14,
+        name:product14,
+        desc:`woodseal-finish-furnish-wood-kpfc-builders-hardware`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Wood Finish`,
+    },
+    {
+        id:15,
+        name:product15,
+        desc:`circuit-breaker-electric-kpfc-builders-hardware.png`,
+        price: `KSH.600`,
+        fulldescription: `Water Tanks that are not woring but working`,
+        title:`Circuit Breaker`,
+    },
+    {
+        id:17,
         name:product1,
         desc:`kpfc-builders-hardware-electrical-change-over-switch-3-phase`,
         price: `KSH.600`,
@@ -70,7 +110,7 @@ export const prodItems = [
         title:`Electrical Stuff`,
     },
     {
-        id:2,
+        id:12,
         name:product2,
         desc: `kpfc-builders-hardware-electrical-volt-shield-surge-protector`,
         price: `KSH.600`,
@@ -78,7 +118,7 @@ export const prodItems = [
         title:`Surge Protector`,
     },
     {
-        id:3,
+        id:18,
         name:product3,
         desc:`kpfc-builders-hardware-gate-valve-plumbing-water`,
         price: `KSH.600`,
@@ -149,14 +189,7 @@ export const prodItems = [
         fulldescription: `PPR ELBOW  20`,
         title:`PPR ELBOW  20`,
     },
-    {
-        id:12,
-        name:product12,
-        desc:`tangit-glue-kpfc-builders-hardware`,
-        price: `KSH.280`,
-        fulldescription: `TANGIT 100 ML`,
-        title:`TANGIT 100 ML`,
-    },
+
     {
         id:13,
         name:product13,
@@ -165,22 +198,7 @@ export const prodItems = [
         fulldescription: `D 017 GI ELBOW 1/2`,
         title:`D 017 GI ELBOW 1/2`,
     },
-    {
-        id:14,
-        name:product14,
-        desc:`woodseal-finish-furnish-wood-kpfc-builders-hardware`,
-        price: `KSH.600`,
-        fulldescription: `Water Tanks that are not woring but working`,
-        title:`Wood Finish`,
-    },
-    {
-        id:15,
-        name:product15,
-        desc:`circuit-breaker-electric-kpfc-builders-hardware.png`,
-        price: `KSH.600`,
-        fulldescription: `Water Tanks that are not woring but working`,
-        title:`Circuit Breaker`,
-    },
+  
     {
         id:16,
         name:product16,
@@ -189,22 +207,8 @@ export const prodItems = [
         fulldescription: `Water Tanks that are not woring but working`,
         title:`Crown paint - Super Gloss`,
     },
-    {
-        id:17,
-        name:product17,
-        desc:`hose-pipe-plumbing-kpfc-builders-hardware`,
-        price: `KSH.1000`,
-        fulldescription: ` HOSE PIPE ZEBRA 60FT`,
-        title:` HOSE PIPE ZEBRA 60FT`,
-    },
-    {
-        id:18,
-        name:product18,
-        desc:`electric-flood-light-led-kpfc-builders-hardware`,
-        price: `KSH.600`,
-        fulldescription: `Water Tanks that are not woring but working`,
-        title:`Flood Light`,
-    },
+
+
     {
         id:19,
         name:product19,

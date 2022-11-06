@@ -19,3 +19,27 @@
 .promise {margin-top: 1em; width: 80%; padding: 1em;}
 
 .promise p { text-align: justify;}
+
+@media (max-width:480px){
+.container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 6rem;
+    font-size: 0.8rem;
+}
+
+.dataSlider {
+    width: 100%;
+
+}
+
+}
+/*For Tablets */
+
+@media (max-width:960px){}
+/*For Laptops/Desktop*/
+
+@media (min-width:1025px){}
+/*For Hi-Res Laptops*/
+
+@media (max-width:1280px){}
