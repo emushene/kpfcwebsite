@@ -73,7 +73,7 @@ export const prodItems = [
         id:3,
         name:product18,
         desc:`electric-flood-light-led-kpfc-builders-hardware`,
-        price: `KSH.600`,
+        price: `KSH.1600`,
         fulldescription: `Flood Lights LED. 250Mhz. 250V/AC`,
         title:`Flood Light`,
     },
@@ -253,7 +253,7 @@ export const productsData = [
     {
         id: 4,
         title: `Iron Sheets`,
-        price: `Call tpo inquire`,
+        price: `Call to inquire`,
         category: `Hardware Materials`,
         linkImg: iron
 
@@ -262,7 +262,7 @@ export const productsData = [
     {
         id: 5,
         title: `Electrical Materials`,
-        price: `Call tpo inquire`,
+        price: `Call to inquire`,
         category: `Electrical Accessories`,
         linkImg: lighting
 
