@@ -11,8 +11,9 @@
   flex-direction: column;
   
 }
+.phead { text-align: left; ;}
 .topDiv h2 {
-  font-size: 25px;
+  font-size: 2em;
   text-align: center;
   color:  rgb(5, 81, 196);
   

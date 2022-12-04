@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
             <div className={styles.centerLeftText}>
               <h4>Best in the Industry</h4>
               <p>
-                : We are the leading building & plumbing hardware Wholesale &
+                We are the leading building & plumbing hardware Wholesale &
                 Retail Company in Kenya, supplying both construction & plumbing
                 hardware materials to commercial and residential property
                 owners.
@@ -32,8 +32,8 @@ const WhyChooseUs = () => {
             <div className={styles.centerLeftText}>
               <h4>Award Winning</h4>
               <p>
-                Lorem ipsum dolor sit, amet consectetur <br />
-                adipisicing elit. Incidunt, hic? Soluta, eius unde?
+              We pride ourselves in an award-winning Customer 
+              Support ecosystem that enables our clients to achieve their needs
               </p>
             </div>
           </div>
@@ -81,8 +81,8 @@ const WhyChooseUs = () => {
             <div className={styles.centerRightText}>
               <h4>Quality Assuarance</h4>
               <p>
-                Lorem ipsum dolor sit, amet consectetur <br />
-                adipisicing elit. Incidunt, hic? Soluta, eius unde?
+              The core values of our Business is delivering quality 
+              products and services to our clients who remains our top priority
               </p>
             </div>
             <div className={styles.centerRightBox}></div>

@@ -7,10 +7,11 @@ const TopServices = () => {
       <div className={styles.wrapper}>
       <div className={styles.topDiv}>
       
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-          alias sit sunt, cumque vitae ullam vel expedita, ut omnis aliquid
-          accusamus quaerat officiis quidem molestias nulla ipsa pariatur
-          aperiam perferendis?</p>
+        <p className={styles.phead}>Whether you’re starting up a small hardware Business, 
+          building momentum or building a home, <br />our Services will 
+          free you up to do what you do best.  KPFC Builders hardware will 
+          take your Products requirements and delivery to the next level,
+           and put you back in business fast.</p>
         
         <h2> OUR TOP SERVICES</h2>
         <hr />
@@ -53,10 +54,10 @@ const TopServices = () => {
         </div>
         <div className={styles.topServ}>
           <div className={styles.card}>
-          <h2>INDUSTRY CONSULTING SERVICES</h2>
-          <p>   Our experience with building materials across global markets allows
-            us to provide expert decision analysis, proven expertise, and
-            innovative thinking.</p>
+          <h2>BULK PURCHASING</h2>
+          <p>Bulk purchasing from our suppliers 
+            of much larger quantities of materials than the usual, enables KPFC Builders Hardware to
+           lower our prices.</p>
           </div>
           <div className={styles.getQuote}>
             <h5>GET A QUOTE</h5>
