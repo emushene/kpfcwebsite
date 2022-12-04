@@ -16,7 +16,7 @@ import partner3 from "../../public/Images/partners/kpfc-partner-3.png"
 import partner4 from "../../public/Images/partners/kpfc-partner-4.png"
 import partner5 from "../../public/Images/partners/kpfc-partner-5.png"
 import partner6 from "../../public/Images/partners/kpfc-parner-6.png"
-F
+
 // Product Items
 import product1 from "../../public/Images/items/item1.webp"
 import product2 from "../../public/Images/items/item2.webp"
