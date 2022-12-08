@@ -131,7 +131,7 @@ export const prodItems = [
         desc: `kpfc-builders-hardware-kitchen-sink`,
         price: `KSH.600`,
         fulldescription: `Water Tanks that are not woring but working`,
-        title:`Kitchen Sink`,
+        title:`Square Bowl Sink`,
     },
     {
         id:5,
@@ -139,7 +139,7 @@ export const prodItems = [
         desc:'kpfc-builders-hardware-kitchen-sink',
         price: `KSH.600`,
         fulldescription: `Water Tanks that are not woring but working`,
-        title:`Kitchen Sink`,
+        title:`Single Bowl Single Tray Heavy Sink`,
     },
     {
         id:6,
@@ -147,7 +147,7 @@ export const prodItems = [
         desc:`kpfc-builders-hardware-plumbing-steel-joint`,
         price: `KSH.600`,
         fulldescription: `Water Tanks that are not woring but working`,
-        title:`Steel Thing`,
+        title:`Long Nipple`,
     },
     {
         id:7,
@@ -155,7 +155,7 @@ export const prodItems = [
         desc:`kpfc-builders-hardware-ppr-joint-elbow`,
         price: `KSH.600`,
         fulldescription: `Water Tanks that are not woring but working`,
-        title:`Elbow`,
+        title:`Male Elbow`,
     },
     {
         id:8,
@@ -163,7 +163,7 @@ export const prodItems = [
         desc:`kpfc-builders-hardware-ppr-pvc-pipe-all`,
         price: `KSH.600`,
         fulldescription: `Water Tanks that are not woring but working`,
-        title:`PVC Pipe`,
+        title:`PPR Pipe`,
     },
     {
         id:9,

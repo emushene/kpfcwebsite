@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const ProductCategory = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 3,
@@ -28,7 +28,7 @@ const ProductCategory = () => {
           slidesToShow: 4,
           slidesToScroll: 4,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {

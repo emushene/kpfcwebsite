@@ -21,7 +21,8 @@ const Contact = () => {
                   
 
                 <div className={styles.contDiv}>  <h3>Telephone</h3> 
-                  <p>+254 724 002238</p>
+                  <p>+254 708 883057</p>
+                  <p>+254 716 070628</p>
                   <h4>Email</h4>
                   <p>info@kpfcbuilders.co.ke</p>
                   </div>

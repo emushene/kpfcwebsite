@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const ShopCarousel = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 5,
@@ -24,7 +24,7 @@ const ShopCarousel = () => {
           slidesToShow: 4,
           slidesToScroll: 4,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {

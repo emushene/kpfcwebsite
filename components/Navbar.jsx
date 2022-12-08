@@ -29,14 +29,14 @@ const Navbar = () => {
           <Phone sx={{ fontSize: 30 }}/>
             <div>
               <div style={{fontWeight: '900'}}> Call Us</div>
-              <div className={styles.text} style={{fontWeight: '100'}}> <h4>+254 791281423</h4></div>
+              <div className={styles.text} style={{fontWeight: '100'}}> <h4>+254 708 883057</h4></div>
             </div>
           </div>
           <div className={styles.emailus}>
           <ContactMail sx={{ fontSize: 30 }}/>
             <div>
               <div style={{fontWeight: '900'}}> Email Us</div>
-              <div className={styles.emailadd} style={{fontWeight: '400'}}> sales@kpipes@kpipes.co.ke</div>
+              <div className={styles.emailadd} style={{fontWeight: '400'}}> sales@kpfcbuilders.co.ke</div>
             </div>
           </div>
         </div>

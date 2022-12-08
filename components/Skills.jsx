@@ -51,8 +51,8 @@ const Skills = () => {
               <ContactPhoneIcon />
             </div>
             <div className={styles.textDiv}>
-              <p>Call to Ask a Question</p>
-              <h3>0725 468 228</h3>
+              <p>Call us Today</p>
+              <h3>+254 708 883057</h3>
             </div>
           </div>
         </div>
