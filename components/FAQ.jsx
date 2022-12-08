@@ -56,9 +56,8 @@ const FAQ = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Donec placerat, lectus sed mattis semper, neque lectus feugiat
-                lectus, varius pulvinar diam eros in elit. Pellentesque
-                convallis laoreet laoreet.
+                All KPFC Builders Hardware stores have delivery Vehicles. Kindly speak to the onsite manager
+                to organise delivery of your order.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -73,14 +72,13 @@ const FAQ = () => {
             >
               
               <Typography sx={{ color: "text.secondary" }}>
-                Does kpipes and Fitting Center offer Plumbing Services?
+                Does KPFC Builders Hardware offer Plumbing Services?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+              KPFC Builders Hardware does not offer Plumbing Services, we offer Plumbing materials 
+              at retail and wholesale prices.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -95,14 +93,13 @@ const FAQ = () => {
             >
               
               <Typography sx={{ color: "text.secondary" }}>
-                Does kpipes and Fitting Center offer Plumbing Services?
+              Can I get a catalog?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+              Our catalog is online, we also have a printed catalogue at all of our
+              outlets country wide.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -117,15 +114,12 @@ const FAQ = () => {
             >
               
               <Typography sx={{ color: "text.secondary" }}>
-                Does kpipes and Fitting Center offer Plumbing Services?
+              What forms of payment do you accept?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
-              </Typography>
+              We accept M-Pesa, Cash, Paybill, Cheques, and direct transfer of cash to our account.              </Typography>
             </AccordionDetails>
           </Accordion>
           <Accordion
@@ -137,15 +131,14 @@ const FAQ = () => {
               aria-controls="panel4bh-content"
               id="panel4bh-header"
             >          <Typography sx={{ color: "text.secondary" }}>
-            Does kpipes and Fitting Center offer Plumbing Services?
+            What is the status of my order?
           </Typography>
            
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{backgroundColor: 'orange', padding: '15px'}}>
-                Nunc vitae orci ultricies, auctor nunc in, volutpat nisl.
-                Integer sit amet egestas eros, vitae egestas augue. Duis vel est
-                augue.
+              We usually ship most orders within the same day.
+               If we encounter any issue with your order, we will notify you by telephone as soon as possible.
               </Typography>
             </AccordionDetails>
           </Accordion>
